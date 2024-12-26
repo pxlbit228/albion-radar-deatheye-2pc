@@ -1,0 +1,256 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:v="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Main window -->
+    <v:String x:Key="Save">Save</v:String>
+    
+    <v:String x:Key="Meny_lb1">Radar</v:String>
+    
+    <v:String x:Key="Meny_bt1">Players</v:String>
+    <v:String x:Key="Meny_bt2">Resources</v:String>
+    <v:String x:Key="Meny_bt3">Mobs (no test)</v:String>
+    <v:String x:Key="Meny_bt4">Dungeons</v:String>
+    <v:String x:Key="Meny_bt5">Overlay</v:String>
+
+    <v:String x:Key="Meny_lb2">Addon's</v:String>
+
+    <v:String x:Key="Meny_bt6">Sonar Hack</v:String>
+    <v:String x:Key="Meny_bt7">Enviroment Map</v:String>
+    <v:String x:Key="Meny_bt8">Player Items</v:String>
+    <v:String x:Key="Meny_bt9">Top DUDE</v:String>
+
+    <v:String x:Key="Meny_lb3">Miscellenius</v:String>
+
+    <v:String x:Key="Meny_bt10">Main</v:String>
+    <v:String x:Key="Meny_bt11">Support</v:String>
+    <v:String x:Key="Meny_bt12">Configs</v:String>
+
+    <!-- ALL Pages -->
+    <v:String x:Key="Enabled">Enabled</v:String>
+
+    <!-- DOT Design -->
+    <v:String x:Key="DotSize">Dot Size</v:String>
+    <v:String x:Key="Corner">Corner</v:String>
+
+    <!-- Players Page -->
+    <v:String x:Key="EspLabel">Player ESP</v:String>
+
+    <v:String x:Key="TTNoPVP">A group of players WITHOUT a PVP flag. Displayed in blue in the game.</v:String>
+    <v:String x:Key="TTPVP">A group of players With a PVP flag. Displayed in red in the game.</v:String>
+    <v:String x:Key="TTFaction">A group of players with a Faction flag. Near the nickname, the flag of the faction in the game is displayed.</v:String>
+    <v:String x:Key="TTFFaction">Works when the "Faction Battle" function is enabled and you have a faction on you. Allows you to customize the players of your faction.</v:String>
+    <v:String x:Key="TTEFaction">Works when the "Faction Battle" function is enabled and you have a faction on you. Allows you to customize players of other factions.</v:String>
+
+    <v:String x:Key="FriendlyMPList">A group of friendly players. Add the NIСKNAME of the player to the list for customization.</v:String>
+    <v:String x:Key="FriendlyMGList">A group of friendly guilds (your Guild is already taken into account). Add the player's GUILD to the customization list.</v:String>
+    <v:String x:Key="FriendlyMAList">A group of friendly alliances (your Alliance is already taken into account). Add the player's ALLIANCE to the customization list.</v:String>
+
+    <v:String x:Key="EnemyMPList">A group of enemy players. Add the NIKNAME of the player to the list for customization.</v:String>
+    <v:String x:Key="EnemyMGList">A group of enemy guilds. Add the player's GUILD to the customization list.</v:String>
+    <v:String x:Key="EnemyMAList">A group of enemy alliances. Add the player's ALLIANCE to the customization list.</v:String>
+
+    <!-- LEFT -->
+    
+    <v:String x:Key="ExtendedESP">Extended ESP</v:String>
+    <v:String x:Key="FactionWar">Faction War</v:String>
+    <v:String x:Key="FriendlyPGAList">Friendly P/G/A lists</v:String>
+    <v:String x:Key="EnemyPGAList">Enemy P/G/A lists</v:String>
+
+    <!-- Custom List -->
+    <v:String x:Key="CutomListLb">Custom List</v:String>
+    <v:String x:Key="EmptyList">EMPTY LIST</v:String>
+    <v:String x:Key="InputText">Input text . . .</v:String>
+
+    <!-- RIGHT -->
+    <v:String x:Key="DotStyle">Dot Style</v:String>
+
+    <!-- Dot Style -->
+    <v:String x:Key="Flat">Flat</v:String>
+    <v:String x:Key="Star">Star</v:String>
+    <v:String x:Key="Flag">Flag</v:String>
+    <v:String x:Key="Skull">Skull</v:String>
+    <v:String x:Key="Heart">Heart</v:String>
+    <v:String x:Key="XMark">X - Mark</v:String>
+
+
+    <v:String x:Key="DotColors">Dot Colors</v:String>
+    <v:String x:Key="Size">Size</v:String>
+
+    <v:String x:Key="DetectionSound">Detection Sound</v:String>
+
+    <!-- Detection Sound -->
+    <v:String x:Key="Off">Off</v:String>
+    <v:String x:Key="Beep">Beep</v:String>
+    <v:String x:Key="SonarHack">Sonar Hack</v:String>
+
+    <v:String x:Key="ShowItems">Show Items</v:String>
+    <v:String x:Key="ShowNick">Show Nick</v:String>
+    <v:String x:Key="ShowAlliance">Show Alliance</v:String>
+    <v:String x:Key="ShowDistance">Show Distance</v:String>
+    <v:String x:Key="MountedStatus">Mounted Status</v:String>
+    <v:String x:Key="VisibleContact">Visible Contact</v:String>
+    
+    <v:String x:Key="HealthIndicator">Health Indicator</v:String>
+
+    <!-- Health Indicator -->
+    <v:String x:Key="Icon">Icon</v:String>
+    <v:String x:Key="Percent">Percent</v:String>
+    <v:String x:Key="Value">HP Value</v:String>
+
+    <v:String x:Key="FocusLine">Focus Line</v:String>
+
+
+    <!-- Harvestable Page -->
+    <v:String x:Key="ResLabel">Resources</v:String>
+    <v:String x:Key="ResMobsLabel">Resources Mobs</v:String>
+    <v:String x:Key="DotDesignLabel">Dot Design</v:String>
+
+    <v:String x:Key="StackCount">Show Stacks</v:String>
+    <v:String x:Key="StackFilter">Stack Filter</v:String>
+
+    <v:String x:Key="OnlyAspected">Only Aspected</v:String>
+
+
+    <!-- Mobs Page -->
+    <v:String x:Key="WorldMobs">World Mobs</v:String>
+    <v:String x:Key="Drones">Treasure Drone</v:String>
+    <v:String x:Key="FishNodes">Fish Nodes</v:String>
+    
+
+
+    <v:String x:Key="OnlyProcked">Only Procked</v:String>
+
+    <v:String x:Key="MistWisps">Mist Wisps</v:String>
+    <v:String x:Key="PortalWisps">Portal Wisps</v:String>
+    <v:String x:Key="WispsInGate">Wisps in Box</v:String>
+    
+    <v:String x:Key="MistBosses">Mist Bosses</v:String>
+
+    <v:String x:Key="Treasures">Treasures</v:String>
+    <v:String x:Key="TreasureToy">Treasure with Toys</v:String>
+    <v:String x:Key="WorldChest">World Chest</v:String>
+    
+    <v:String x:Key="EventMobs">Event Mobs</v:String>
+
+    <v:String x:Key="CorruptedMobs">Mobs in Corrupts (dont work)</v:String>
+    
+    <v:String x:Key="Hooker">Hooker</v:String>
+    <v:String x:Key="SilenceBat">Silence Bat</v:String>
+    <v:String x:Key="KnokBackBat">Knockback Bat</v:String>
+    <v:String x:Key="LavaBat">Lava Bat</v:String>
+    <v:String x:Key="GlueBat">Glue Bat</v:String>
+
+    <v:String x:Key="CorruptedTraps">Traps in Corrupts (dont work)</v:String>
+    
+    <v:String x:Key="Spikes">Spikes</v:String>
+    <v:String x:Key="FlameSpinner">Flamespinner</v:String>
+    <v:String x:Key="LavaThrower">Lava Thrower</v:String>
+    <v:String x:Key="BombThrower">Bomb Thrower</v:String>
+
+
+    <!-- Dungeons Page -->
+    <v:String x:Key="DungeonsLabel">Dungeons (+ chests)</v:String>
+    <v:String x:Key="ShowSolo">Solo</v:String>
+    <v:String x:Key="ShowCorrupted">Corrupted</v:String>
+    <v:String x:Key="ShowGroup">Group</v:String>
+    <v:String x:Key="ShowHellgate">Hellgate</v:String>
+
+
+    <!-- STYLE Page -->
+    <v:String x:Key="Style">Style</v:String>
+    <v:String x:Key="Thikness">Thikness</v:String>
+    <v:String x:Key="Scale">Scale</v:String>
+
+    <!-- LEFT -->
+    <v:String x:Key="Centering">Centering</v:String>
+    <v:String x:Key="CenteringUnder">Radar centering settings</v:String>
+    <v:String x:Key="CrossLines">Crossline's</v:String>
+    <v:String x:Key="Ralfigura">Ralfigura</v:String>
+
+    <v:String x:Key="FOV">FOV</v:String>
+    <v:String x:Key="FOVUnder">Custom field of view shapes</v:String>
+    <v:String x:Key="Layer">Layer</v:String>
+    <v:String x:Key="First">First</v:String>
+    <v:String x:Key="Second">Second</v:String>
+    <v:String x:Key="Third">Third</v:String>
+
+    <v:String x:Key="Figure">Figure</v:String>
+
+    <v:String x:Key="Circle">Circle</v:String>
+    <v:String x:Key="Rectangle">Rectangle</v:String>
+    <v:String x:Key="FillCircle">Filled Circle</v:String>
+    <v:String x:Key="FillRectangle">Filled Rectangle</v:String>
+
+    <v:String x:Key="Outline">Outline</v:String>
+    <v:String x:Key="OutlineUnder">Radar outline settings</v:String>
+
+    <v:String x:Key="Grid">Grid</v:String>
+    <v:String x:Key="GridUnder">Setting the grid under the radar</v:String>
+
+    <v:String x:Key="Background">Background</v:String>
+    <v:String x:Key="BackgroundUnder">Change background color</v:String>
+
+
+    <!-- RIGHT -->
+    <v:String x:Key="Height">Height</v:String>
+    <v:String x:Key="Width">Width</v:String>
+    <v:String x:Key="SyncHaW">Sync Height &amp; Width</v:String>
+    <v:String x:Key="X">X offset</v:String>
+    <v:String x:Key="Y">Y offset</v:String>
+
+    <!-- SONAR HACK -->
+    <v:String x:Key="OnlyOnEnemy">Only on Enemy</v:String>
+    <v:String x:Key="IncludeMounted">Include Mounted Status</v:String>
+
+    <v:String x:Key="EnemyTargets">Enemy Targets</v:String>
+    <v:String x:Key="FriendlyTargets">Friendly Targets</v:String>
+
+    <v:String x:Key="NoPVP">NoPVP</v:String>
+    <v:String x:Key="PVP">PVP</v:String>
+    <v:String x:Key="Faction">Faction</v:String>
+    <v:String x:Key="Bounty">Bounty</v:String>
+    <v:String x:Key="Players">Players</v:String>
+    <v:String x:Key="Guilds">Guilds</v:String>
+    <v:String x:Key="Alliances">Alliances</v:String>
+
+    <!-- MAP -->
+    <v:String x:Key="Map">Map</v:String>
+    <v:String x:Key="Opacity">Opacity</v:String>
+
+    <!-- MAIN PAGE -->
+    <v:String x:Key="Language">Language (use english)</v:String>
+    <v:String x:Key="ChooseLang">Choose Language</v:String>
+
+    <v:String x:Key="Binds">Binds</v:String>
+    <v:String x:Key="ShowHideMenu">Show / Hide Menu</v:String>
+    <v:String x:Key="ShowHideRadar">Show / Hide Radar</v:String>
+    <v:String x:Key="Close Radar">Close Radar</v:String>
+
+    <!-- SUPPORT PAGE -->
+    <v:String x:Key="Links">Links</v:String>
+    <v:String x:Key="Discord">Discord</v:String>
+    <v:String x:Key="Github">Github</v:String>
+    <v:String x:Key="Telegram">Telegram</v:String>
+    <v:String x:Key="YouTube">YouTube</v:String>
+
+    <v:String x:Key="Join">Join</v:String>
+    <v:String x:Key="Open">Open</v:String>
+
+    <!-- CONFIG PAGE -->
+    <v:String x:Key="ConfigList">Config List</v:String>
+    <v:String x:Key="ActiveConfig">Active Config</v:String>
+
+    <v:String x:Key="Rename">Rename</v:String>
+    <v:String x:Key="Copy">Copy</v:String>
+    <v:String x:Key="Delete">Delete</v:String>
+    <v:String x:Key="Export">Export</v:String>
+
+    <v:String x:Key="Import">Import</v:String>
+    <v:String x:Key="PasteImportKey">Paste Import Key</v:String>
+
+    <v:String x:Key="CreateNewConfig">Create new Config</v:String>
+    <v:String x:Key="NewConfigName">New config name</v:String>
+    <v:String x:Key="Create">Create</v:String>
+
+</ResourceDictionary>

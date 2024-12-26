@@ -1,0 +1,123 @@
+﻿<Page x:Class="X975.Pages.DungeonsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d" 
+      d:DesignHeight="591"
+      d:DesignWidth="590">
+
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Width="290">
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource DungeonsLabel}" FontSize="16"/>
+                    </Border>
+                    
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource ShowSolo}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="SoloSwitch" HorizontalAlignment="Right" Checked="SoloSwitchVoid" Unchecked="SoloSwitchVoid"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource ShowCorrupted}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="CorruptSwitch" HorizontalAlignment="Right" Checked="CorruptSwitchVoid" Unchecked="CorruptSwitchVoid"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource ShowGroup}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="GroupSwitch" HorizontalAlignment="Right" Checked="GroupSwitchVoid" Unchecked="GroupSwitchVoid"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource ShowHellgate}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="HellSwitch" HorizontalAlignment="Right" Checked="HellSwitchVoid" Unchecked="HellSwitchVoid"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource DotSize}" FontSize="16"/>
+                            <Slider x:Name="DungeonsSizeSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="4" Maximum="16" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="DungeonsSizeSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=DungeonsSizeSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+
+        <StackPanel Width="290" Margin="10 0 0 0">
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 0 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource CorruptedTraps}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource FlameSpinner}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="FlameSpinnerSwitch" HorizontalAlignment="Right" Checked="FlameSpinnerSwitch_Checked" Unchecked="FlameSpinnerSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource LavaThrower}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="LavaThrowerSwitch" HorizontalAlignment="Right" Checked="LavaThrowerSwitch_Checked" Unchecked="LavaThrowerSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource BombThrower}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="BombThrowerSwitch" HorizontalAlignment="Right" Checked="BombThrowerSwitch_Checked" Unchecked="BombThrowerSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource Spikes}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="SpikesSwitch" HorizontalAlignment="Right" Checked="SpikesSwitch_Checked" Unchecked="SpikesSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource DotSize}" FontSize="16"/>
+                            <Slider x:Name="CorruptedTrapsSizeSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="4" Maximum="16" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="CorruptedTrapsSizeSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=CorruptedTrapsSizeSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource CorruptedMobs}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource Hooker}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="HookerSwitch" HorizontalAlignment="Right" Checked="HookerSwitch_Checked" Unchecked="HookerSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource LavaBat}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="LavaBatSwitch" HorizontalAlignment="Right" Checked="LavaBatSwitch_Checked" Unchecked="LavaBatSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource SilenceBat}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="SilenceBatSwitch" HorizontalAlignment="Right" Checked="SilenceBatSwitch_Checked" Unchecked="SilenceBatSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource GlueBat}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="GlueBatSwitch" HorizontalAlignment="Right" Checked="GlueBatSwitch_Checked" Unchecked="GlueBatSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource KnokBackBat}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="KnockBackBatSwitch" HorizontalAlignment="Right" Checked="KnockBackBatSwitch_Checked" Unchecked="KnockBackBatSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource DotSize}" FontSize="16"/>
+                            <Slider x:Name="CorruptedSizeSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="4" Maximum="16" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="CorruptedSizeSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=CorruptedSizeSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </StackPanel>
+</Page>

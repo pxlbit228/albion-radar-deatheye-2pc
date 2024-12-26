@@ -1,0 +1,70 @@
+﻿<Page x:Class="X975.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d" 
+      d:DesignHeight="591"
+      d:DesignWidth="590">
+
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Width="290">
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource Language}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource ChooseLang}" FontSize="16" />
+                            <ComboBox
+                                    x:Name="Lang_CB"
+                                    MinWidth="73"
+                                    HorizontalAlignment="Right"
+                                    Padding="10 0 0 0"
+                                    SelectedIndex="0"
+                                    SelectionChanged="Lang_CB_SelectionChanged">
+                                <ComboBoxItem Content="EN" />
+                                <ComboBoxItem Content="RU"/>
+                            </ComboBox>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <StackPanel Width="290" Margin="10 0 0 0">
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource Binds}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource ShowHideMenu}" FontSize="16" VerticalAlignment="Center"/>
+                            <Button Height="28" Padding="0" Width="80" HorizontalAlignment="Right" Focusable="False" Click="Button_Click">
+                                <TextBlock x:Name="ToggleMenyText" Text="INSERT" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{DynamicResource ThirdColor}"/>
+                            </Button>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource ShowHideRadar}" FontSize="16" VerticalAlignment="Center"/>
+                            <Button Height="28" Padding="0" Width="80" HorizontalAlignment="Right" Focusable="False" Click="Button_Click_1">
+                                <TextBlock x:Name="ToggleMenyRadar" Text="END" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{DynamicResource ThirdColor}"/>
+                            </Button>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource Close Radar}" FontSize="16" VerticalAlignment="Center"/>
+                            <Button Height="28" Padding="0" Width="80" HorizontalAlignment="Right" Focusable="False" Click="Button_Click_2">
+                                <TextBlock x:Name="CloseRadarText" Text="HOME" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{DynamicResource ThirdColor}"/>
+                            </Button>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+    </StackPanel>
+</Page>

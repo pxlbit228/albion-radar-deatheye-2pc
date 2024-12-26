@@ -1,0 +1,51 @@
+﻿<Page x:Class="X975.Pages.MistsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d" 
+      d:DesignHeight="591"
+      d:DesignWidth="590">
+
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Width="290">
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 0 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="Overlay" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource Enabled}" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="EnabledSwitch" HorizontalAlignment="Right" Checked="EnabledSwitch_Checked" Unchecked="EnabledSwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Grid.Row="0" Margin="0 8 0 0">
+                            <TextBlock Text="{DynamicResource X}" FontSize="16"  Foreground="White"/>
+                            <Slider x:Name="XSlider" Margin="70 0 0 0" Width="160" Value="0" HorizontalAlignment="Left" Minimum="-4000" Maximum="4000" TickFrequency="50" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="XSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=XSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+
+                        <Grid Grid.Row="0" Margin="0 8 0 0">
+                            <TextBlock Text="{DynamicResource Y}" FontSize="16"  Foreground="White"/>
+                            <Slider x:Name="YSlider" Margin="70 0 0 0" Width="160" Value="0" HorizontalAlignment="Left" Minimum="-4000" Maximum="4000" TickFrequency="50" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="YSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=YSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+
+        <StackPanel Width="290" Margin="10 0 0 0">
+
+        </StackPanel>
+    </StackPanel>
+</Page>

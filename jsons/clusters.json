@@ -1,0 +1,5762 @@
+{
+  "0004": {
+    "Id": "0004",
+    "ClusterColor": 0,
+    "DisplayName": "Swamp Cross"
+  },
+  "4206": {
+    "Id": "4206",
+    "ClusterColor": 1,
+    "DisplayName": "Tharcal Fissure"
+  },
+  "4209": {
+    "Id": "4209",
+    "ClusterColor": 1,
+    "DisplayName": "Cairn Darg"
+  },
+  "4210": {
+    "Id": "4210",
+    "ClusterColor": 1,
+    "DisplayName": "Gwan Gorge"
+  },
+  "4215": {
+    "Id": "4215",
+    "ClusterColor": 1,
+    "DisplayName": "Malag Crevasse"
+  },
+  "4216": {
+    "Id": "4216",
+    "ClusterColor": 1,
+    "DisplayName": "Creag Morr"
+  },
+  "4213": {
+    "Id": "4213",
+    "ClusterColor": 1,
+    "DisplayName": "Cairn Camain"
+  },
+  "4212": {
+    "Id": "4212",
+    "ClusterColor": 1,
+    "DisplayName": "Cairn Glascore"
+  },
+  "4207": {
+    "Id": "4207",
+    "ClusterColor": 1,
+    "DisplayName": "Pen Gent"
+  },
+  "4201": {
+    "Id": "4201",
+    "ClusterColor": 1,
+    "DisplayName": "Pen Garn"
+  },
+  "4203": {
+    "Id": "4203",
+    "ClusterColor": 1,
+    "DisplayName": "Crose Gorge"
+  },
+  "3201": {
+    "Id": "3201",
+    "ClusterColor": 1,
+    "DisplayName": "Birken Fell"
+  },
+  "3204": {
+    "Id": "3204",
+    "ClusterColor": 1,
+    "DisplayName": "Eldon Hill"
+  },
+  "3203": {
+    "Id": "3203",
+    "ClusterColor": 1,
+    "DisplayName": "Lewsdon Hill"
+  },
+  "3207": {
+    "Id": "3207",
+    "ClusterColor": 1,
+    "DisplayName": "Blackthorn Quarry"
+  },
+  "3206": {
+    "Id": "3206",
+    "ClusterColor": 1,
+    "DisplayName": "Haytor"
+  },
+  "3209": {
+    "Id": "3209",
+    "ClusterColor": 1,
+    "DisplayName": "Brent Knoll"
+  },
+  "3210": {
+    "Id": "3210",
+    "ClusterColor": 1,
+    "DisplayName": "Mase Knoll"
+  },
+  "3212": {
+    "Id": "3212",
+    "ClusterColor": 1,
+    "DisplayName": "Croker Hill"
+  },
+  "3215": {
+    "Id": "3215",
+    "ClusterColor": 1,
+    "DisplayName": "Goffers Knoll"
+  },
+  "3213": {
+    "Id": "3213",
+    "ClusterColor": 1,
+    "DisplayName": "Vixen Tor"
+  },
+  "2215": {
+    "Id": "2215",
+    "ClusterColor": 1,
+    "DisplayName": "Prospector's Hope"
+  },
+  "2213": {
+    "Id": "2213",
+    "ClusterColor": 1,
+    "DisplayName": "Steelhide Meadow"
+  },
+  "2212": {
+    "Id": "2212",
+    "ClusterColor": 1,
+    "DisplayName": "Longmarch Meadow"
+  },
+  "2209": {
+    "Id": "2209",
+    "ClusterColor": 1,
+    "DisplayName": "Lazygrass Plain"
+  },
+  "2210": {
+    "Id": "2210",
+    "ClusterColor": 1,
+    "DisplayName": "Snapshaft Trough"
+  },
+  "2207": {
+    "Id": "2207",
+    "ClusterColor": 1,
+    "DisplayName": "Drywater Meadow"
+  },
+  "2206": {
+    "Id": "2206",
+    "ClusterColor": 1,
+    "DisplayName": "Parchthroat Plain"
+  },
+  "2204": {
+    "Id": "2204",
+    "ClusterColor": 1,
+    "DisplayName": "Deadvein Gully"
+  },
+  "2203": {
+    "Id": "2203",
+    "ClusterColor": 1,
+    "DisplayName": "Roastcorpse Steppe"
+  },
+  "2201": {
+    "Id": "2201",
+    "ClusterColor": 1,
+    "DisplayName": "Kindlegrass Steppe"
+  },
+  "1215": {
+    "Id": "1215",
+    "ClusterColor": 1,
+    "DisplayName": "Ferndell"
+  },
+  "1213": {
+    "Id": "1213",
+    "ClusterColor": 1,
+    "DisplayName": "Wyre Forest"
+  },
+  "1212": {
+    "Id": "1212",
+    "ClusterColor": 1,
+    "DisplayName": "Stagbourne"
+  },
+  "1210": {
+    "Id": "1210",
+    "ClusterColor": 1,
+    "DisplayName": "Murkweald"
+  },
+  "1209": {
+    "Id": "1209",
+    "ClusterColor": 1,
+    "DisplayName": "Longtimber Glen"
+  },
+  "1207": {
+    "Id": "1207",
+    "ClusterColor": 1,
+    "DisplayName": "Birchcopse"
+  },
+  "1206": {
+    "Id": "1206",
+    "ClusterColor": 1,
+    "DisplayName": "Willow Wood"
+  },
+  "1204": {
+    "Id": "1204",
+    "ClusterColor": 1,
+    "DisplayName": "Oakcopse"
+  },
+  "1203": {
+    "Id": "1203",
+    "ClusterColor": 1,
+    "DisplayName": "Rowanwood"
+  },
+  "1201": {
+    "Id": "1201",
+    "ClusterColor": 1,
+    "DisplayName": "Larchroad"
+  },
+  "4204": {
+    "Id": "4204",
+    "ClusterColor": 1,
+    "DisplayName": "Pen Kerrig"
+  },
+  "0214": {
+    "Id": "0214",
+    "ClusterColor": 1,
+    "DisplayName": "Slimehag"
+  },
+  "0212": {
+    "Id": "0212",
+    "ClusterColor": 1,
+    "DisplayName": "Bonepool Marsh"
+  },
+  "0211": {
+    "Id": "0211",
+    "ClusterColor": 1,
+    "DisplayName": "Spectral Sump"
+  },
+  "0203": {
+    "Id": "0203",
+    "ClusterColor": 1,
+    "DisplayName": "Willowsigh Marsh"
+  },
+  "0208": {
+    "Id": "0208",
+    "ClusterColor": 1,
+    "DisplayName": "Stumprot Swamp"
+  },
+  "0206": {
+    "Id": "0206",
+    "ClusterColor": 1,
+    "DisplayName": "Dusklight Fen"
+  },
+  "0209": {
+    "Id": "0209",
+    "ClusterColor": 1,
+    "DisplayName": "Dewleaf Fen"
+  },
+  "0205": {
+    "Id": "0205",
+    "ClusterColor": 1,
+    "DisplayName": "Stinkhag"
+  },
+  "0202": {
+    "Id": "0202",
+    "ClusterColor": 1,
+    "DisplayName": "Chillhag"
+  },
+  "2208": {
+    "Id": "2208",
+    "ClusterColor": 1,
+    "DisplayName": "Slowtree Plain"
+  },
+  "2211": {
+    "Id": "2211",
+    "ClusterColor": 1,
+    "DisplayName": "Smoothfloor Cleft"
+  },
+  "3205": {
+    "Id": "3205",
+    "ClusterColor": 1,
+    "DisplayName": "Gutras Hill"
+  },
+  "3202": {
+    "Id": "3202",
+    "ClusterColor": 1,
+    "DisplayName": "Mardale"
+  },
+  "0210": {
+    "Id": "0210",
+    "ClusterColor": 1,
+    "DisplayName": "Wispwhisper Marsh"
+  },
+  "0213": {
+    "Id": "0213",
+    "ClusterColor": 1,
+    "DisplayName": "Curlew Fen"
+  },
+  "3211": {
+    "Id": "3211",
+    "ClusterColor": 1,
+    "DisplayName": "Saddle Tor"
+  },
+  "0204": {
+    "Id": "0204",
+    "ClusterColor": 1,
+    "DisplayName": "Windripple Fen"
+  },
+  "4208": {
+    "Id": "4208",
+    "ClusterColor": 1,
+    "DisplayName": "Mawar Gorge"
+  },
+  "1202": {
+    "Id": "1202",
+    "ClusterColor": 1,
+    "DisplayName": "Russerdell"
+  },
+  "4202": {
+    "Id": "4202",
+    "ClusterColor": 1,
+    "DisplayName": "Bryn Gorge"
+  },
+  "4205": {
+    "Id": "4205",
+    "ClusterColor": 1,
+    "DisplayName": "Cairn Gorm"
+  },
+  "3208": {
+    "Id": "3208",
+    "ClusterColor": 1,
+    "DisplayName": "Bowscale Fell"
+  },
+  "4214": {
+    "Id": "4214",
+    "ClusterColor": 1,
+    "DisplayName": "Cairn Fidair"
+  },
+  "4211": {
+    "Id": "4211",
+    "ClusterColor": 1,
+    "DisplayName": "Creag Garr"
+  },
+  "0207": {
+    "Id": "0207",
+    "ClusterColor": 1,
+    "DisplayName": "Nightcreak Marsh"
+  },
+  "2214": {
+    "Id": "2214",
+    "ClusterColor": 1,
+    "DisplayName": "Fractured Ground"
+  },
+  "2202": {
+    "Id": "2202",
+    "ClusterColor": 1,
+    "DisplayName": "Cracked Earth"
+  },
+  "1208": {
+    "Id": "1208",
+    "ClusterColor": 1,
+    "DisplayName": "Redlake"
+  },
+  "1211": {
+    "Id": "1211",
+    "ClusterColor": 1,
+    "DisplayName": "Yew Wood"
+  },
+  "1205": {
+    "Id": "1205",
+    "ClusterColor": 1,
+    "DisplayName": "Highbole Glen"
+  },
+  "1214": {
+    "Id": "1214",
+    "ClusterColor": 1,
+    "DisplayName": "Hornbeam Wood"
+  },
+  "2002": {
+    "Id": "2002",
+    "ClusterColor": 0,
+    "DisplayName": "Steppe Cross"
+  },
+  "3002": {
+    "Id": "3002",
+    "ClusterColor": 0,
+    "DisplayName": "Highland Cross"
+  },
+  "3214": {
+    "Id": "3214",
+    "ClusterColor": 1,
+    "DisplayName": "Haldon Tor"
+  },
+  "3004": {
+    "Id": "3004",
+    "ClusterColor": 0,
+    "DisplayName": "Martlock"
+  },
+  "4000": {
+    "Id": "4000",
+    "ClusterColor": 0,
+    "DisplayName": "Fort Sterling"
+  },
+  "1006": {
+    "Id": "1006",
+    "ClusterColor": 0,
+    "DisplayName": "Forest Cross"
+  },
+  "4006": {
+    "Id": "4006",
+    "ClusterColor": 0,
+    "DisplayName": "Mountain Cross"
+  },
+  "0000": {
+    "Id": "0000",
+    "ClusterColor": 0,
+    "DisplayName": "Thetford"
+  },
+  "0201": {
+    "Id": "0201",
+    "ClusterColor": 1,
+    "DisplayName": "Sleetwater Basin"
+  },
+  "1000": {
+    "Id": "1000",
+    "ClusterColor": 0,
+    "DisplayName": "Lymhurst"
+  },
+  "0005": {
+    "Id": "0005",
+    "ClusterColor": 1,
+    "DisplayName": "Camlann"
+  },
+  "2009": {
+    "Id": "2009",
+    "ClusterColor": 1,
+    "DisplayName": "Astolat"
+  },
+  "2000": {
+    "Id": "2000",
+    "ClusterColor": 0,
+    "DisplayName": "Bridgewatch"
+  },
+  "PSG-0003": {
+    "Id": "PSG-0003",
+    "ClusterColor": 1,
+    "DisplayName": "Rock Adit"
+  },
+  "PSG-0004": {
+    "Id": "PSG-0004",
+    "ClusterColor": 1,
+    "DisplayName": "Sabertooth Den"
+  },
+  "PSG-0005": {
+    "Id": "PSG-0005",
+    "ClusterColor": 1,
+    "DisplayName": "Swamp Burrow"
+  },
+  "PSG-0006": {
+    "Id": "PSG-0006",
+    "ClusterColor": 1,
+    "DisplayName": "Ore Adit"
+  },
+  "PSG-0007": {
+    "Id": "PSG-0007",
+    "ClusterColor": 1,
+    "DisplayName": "Forest Burrow"
+  },
+  "CenterCity-DNG-01": {
+    "Id": "CenterCity-DNG-01",
+    "ClusterColor": 1,
+    "DisplayName": "The Underway"
+  },
+  "3003": {
+    "Id": "3003",
+    "ClusterColor": 0,
+    "DisplayName": "Caerleon"
+  },
+  "3245": {
+    "Id": "3245",
+    "ClusterColor": 1,
+    "DisplayName": "Runnel Sink"
+  },
+  "1007": {
+    "Id": "1007",
+    "ClusterColor": 1,
+    "DisplayName": "Inis Mon"
+  },
+  "1246": {
+    "Id": "1246",
+    "ClusterColor": 1,
+    "DisplayName": "Cedarcopse"
+  },
+  "3249": {
+    "Id": "3249",
+    "ClusterColor": 1,
+    "DisplayName": "Bellever Tor"
+  },
+  "4249": {
+    "Id": "4249",
+    "ClusterColor": 1,
+    "DisplayName": "Pen Uchaf"
+  },
+  "2205": {
+    "Id": "2205",
+    "ClusterColor": 1,
+    "DisplayName": "Shiftshadow Expanse"
+  },
+  "3005": {
+    "Id": "3005",
+    "ClusterColor": 0,
+    "DisplayName": "Caerleon Market"
+  },
+  "3006": {
+    "Id": "3006",
+    "ClusterColor": 0,
+    "DisplayName": "Bank of Caerleon"
+  },
+  "ARENA-01": {
+    "Id": "ARENA-01",
+    "ClusterColor": 2,
+    "DisplayName": "Arena1"
+  },
+  "ARENA-01#1": {
+    "Id": "ARENA-01#1",
+    "ClusterColor": 2,
+    "DisplayName": "Arena2"
+  },
+  "ARENA-STANDARD": {
+    "Id": "ARENA-STANDARD",
+    "ClusterColor": 2,
+    "DisplayName": "The Arena"
+  },
+  "0006": {
+    "Id": "0006",
+    "ClusterColor": 0,
+    "DisplayName": "Bank of Thetford"
+  },
+  "0007": {
+    "Id": "0007",
+    "ClusterColor": 0,
+    "DisplayName": "Thetford Market"
+  },
+  "1001": {
+    "Id": "1001",
+    "ClusterColor": 0,
+    "DisplayName": "Bank of Lymhurst"
+  },
+  "1002": {
+    "Id": "1002",
+    "ClusterColor": 0,
+    "DisplayName": "Lymhurst Market"
+  },
+  "2003": {
+    "Id": "2003",
+    "ClusterColor": 0,
+    "DisplayName": "Bank of Bridgewatch"
+  },
+  "2004": {
+    "Id": "2004",
+    "ClusterColor": 0,
+    "DisplayName": "Bridgewatch Market"
+  },
+  "3007": {
+    "Id": "3007",
+    "ClusterColor": 0,
+    "DisplayName": "Bank of Martlock"
+  },
+  "3008": {
+    "Id": "3008",
+    "ClusterColor": 0,
+    "DisplayName": "Martlock Market"
+  },
+  "4001": {
+    "Id": "4001",
+    "ClusterColor": 0,
+    "DisplayName": "Bank of Fort Sterling"
+  },
+  "4002": {
+    "Id": "4002",
+    "ClusterColor": 0,
+    "DisplayName": "Fort Sterling Market"
+  },
+  "ARENA-FarmLand": {
+    "Id": "ARENA-FarmLand",
+    "ClusterColor": 2,
+    "DisplayName": "Farmland Skirmish"
+  },
+  "ARENA-HomeTerritory": {
+    "Id": "ARENA-HomeTerritory",
+    "ClusterColor": 2,
+    "DisplayName": "HomeTerritory Skirmish"
+  },
+  "ARENA-Resources": {
+    "Id": "ARENA-Resources",
+    "ClusterColor": 2,
+    "DisplayName": "Resource Skirmish"
+  },
+  "ARENA-Resources1": {
+    "Id": "ARENA-Resources1",
+    "ClusterColor": 2,
+    "DisplayName": "Resource Skirmish"
+  },
+  "ARENA-Resources2": {
+    "Id": "ARENA-Resources2",
+    "ClusterColor": 2,
+    "DisplayName": "Resource Skirmish 2"
+  },
+  "CrystalRealm": {
+    "Id": "CrystalRealm",
+    "ClusterColor": 2,
+    "DisplayName": "Crystal Realm"
+  },
+  "CrystalRealm-CrystalLeague-NonLethal": {
+    "Id": "CrystalRealm-CrystalLeague-NonLethal",
+    "ClusterColor": 2,
+    "DisplayName": "Crystal Realm"
+  },
+  "1008": {
+    "Id": "1008",
+    "ClusterColor": 1,
+    "DisplayName": "The Lighthouse"
+  },
+  "1009": {
+    "Id": "1009",
+    "ClusterColor": 1,
+    "DisplayName": "Forgotten Woods"
+  },
+  "1010": {
+    "Id": "1010",
+    "ClusterColor": 1,
+    "DisplayName": "Mountain Fort"
+  },
+  "1011": {
+    "Id": "1011",
+    "ClusterColor": 1,
+    "DisplayName": "The Cove"
+  },
+  "3013-Auction2": {
+    "Id": "3013-Auction2",
+    "ClusterColor": 0,
+    "DisplayName": "Caerleon Market"
+  },
+  "ARENA-City": {
+    "Id": "ARENA-City",
+    "ClusterColor": 2,
+    "DisplayName": "ARENA-City"
+  },
+  "HIDEOUT-0001a": {
+    "Id": "HIDEOUT-0001a",
+    "ClusterColor": 0,
+    "DisplayName": "HIDEOUT"
+  },
+  "HIDEOUT-0001b": {
+    "Id": "HIDEOUT-0001b",
+    "ClusterColor": 0,
+    "DisplayName": "HIDEOUT"
+  },
+  "HIDEOUT-0001c": {
+    "Id": "HIDEOUT-0001c",
+    "ClusterColor": 0,
+    "DisplayName": "HIDEOUT"
+  },
+  "2305": {
+    "Id": "2305",
+    "ClusterColor": 2,
+    "DisplayName": "Northstrand Dunes"
+  },
+  "2326": {
+    "Id": "2326",
+    "ClusterColor": 2,
+    "DisplayName": "Northstrand Beach"
+  },
+  "0324": {
+    "Id": "0324",
+    "ClusterColor": 2,
+    "DisplayName": "Scuttlesink Mouth"
+  },
+  "1306": {
+    "Id": "1306",
+    "ClusterColor": 2,
+    "DisplayName": "Deepwood Dell"
+  },
+  "4308": {
+    "Id": "4308",
+    "ClusterColor": 2,
+    "DisplayName": "Whitebank Stream"
+  },
+  "4309": {
+    "Id": "4309",
+    "ClusterColor": 2,
+    "DisplayName": "Whitebank Shore"
+  },
+  "4311": {
+    "Id": "4311",
+    "ClusterColor": 2,
+    "DisplayName": "Whitebank Cross"
+  },
+  "4326": {
+    "Id": "4326",
+    "ClusterColor": 2,
+    "DisplayName": "Whitebank Wall"
+  },
+  "0307": {
+    "Id": "0307",
+    "ClusterColor": 2,
+    "DisplayName": "Meltwater Bog"
+  },
+  "4305": {
+    "Id": "4305",
+    "ClusterColor": 2,
+    "DisplayName": "Whitebank Descent"
+  },
+  "4338": {
+    "Id": "4338",
+    "ClusterColor": 2,
+    "DisplayName": "Whitebank Ridge"
+  },
+  "1326": {
+    "Id": "1326",
+    "ClusterColor": 2,
+    "DisplayName": "Timberslope Dell"
+  },
+  "1340": {
+    "Id": "1340",
+    "ClusterColor": 2,
+    "DisplayName": "Deepwood Pines"
+  },
+  "4306": {
+    "Id": "4306",
+    "ClusterColor": 2,
+    "DisplayName": "Frostpeak Vista"
+  },
+  "4324": {
+    "Id": "4324",
+    "ClusterColor": 2,
+    "DisplayName": "Frostpeak Ascent"
+  },
+  "4327": {
+    "Id": "4327",
+    "ClusterColor": 2,
+    "DisplayName": "Floatshoal Fissure"
+  },
+  "4339": {
+    "Id": "4339",
+    "ClusterColor": 2,
+    "DisplayName": "Floatshoal Bight"
+  },
+  "PSG-0039#2": {
+    "Id": "PSG-0039#2",
+    "ClusterColor": 2,
+    "DisplayName": "Darkseep Core"
+  },
+  "0325": {
+    "Id": "0325",
+    "ClusterColor": 2,
+    "DisplayName": "Meltwater Delta"
+  },
+  "0338": {
+    "Id": "0338",
+    "ClusterColor": 2,
+    "DisplayName": "Meltwater Sump"
+  },
+  "2307": {
+    "Id": "2307",
+    "ClusterColor": 2,
+    "DisplayName": "Skysand Plateau"
+  },
+  "4307": {
+    "Id": "4307",
+    "ClusterColor": 2,
+    "DisplayName": "Everwinter Crossing"
+  },
+  "4323": {
+    "Id": "4323",
+    "ClusterColor": 2,
+    "DisplayName": "Everwinter Plain"
+  },
+  "4325": {
+    "Id": "4325",
+    "ClusterColor": 2,
+    "DisplayName": "Everwinter Gorge"
+  },
+  "0353": {
+    "Id": "0353",
+    "ClusterColor": 2,
+    "DisplayName": "Scuttlesink Marsh"
+  },
+  "1305": {
+    "Id": "1305",
+    "ClusterColor": 2,
+    "DisplayName": "Brambleshore Hinterlands"
+  },
+  "3338": {
+    "Id": "3338",
+    "ClusterColor": 2,
+    "DisplayName": "Shaleheath Steep"
+  },
+  "4321": {
+    "Id": "4321",
+    "ClusterColor": 2,
+    "DisplayName": "Everwinter Reach"
+  },
+  "4322": {
+    "Id": "4322",
+    "ClusterColor": 2,
+    "DisplayName": "Everwinter Peak"
+  },
+  "4337": {
+    "Id": "4337",
+    "ClusterColor": 2,
+    "DisplayName": "Everwinter Passage"
+  },
+  "4340": {
+    "Id": "4340",
+    "ClusterColor": 2,
+    "DisplayName": "Everwinter Expanse"
+  },
+  "4353": {
+    "Id": "4353",
+    "ClusterColor": 2,
+    "DisplayName": "Everwinter Incline"
+  },
+  "PSG-0042#1": {
+    "Id": "PSG-0042#1",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneslip Passage"
+  },
+  "PSG-0049#1": {
+    "Id": "PSG-0049#1",
+    "ClusterColor": 2,
+    "DisplayName": "Whitecap Cave"
+  },
+  "0306": {
+    "Id": "0306",
+    "ClusterColor": 2,
+    "DisplayName": "Scuttlesink Pools"
+  },
+  "1325": {
+    "Id": "1325",
+    "ClusterColor": 2,
+    "DisplayName": "Timbertop Dale"
+  },
+  "1338": {
+    "Id": "1338",
+    "ClusterColor": 2,
+    "DisplayName": "Timbertop Wood"
+  },
+  "1353": {
+    "Id": "1353",
+    "ClusterColor": 2,
+    "DisplayName": "Timbertop Escarp"
+  },
+  "3326": {
+    "Id": "3326",
+    "ClusterColor": 2,
+    "DisplayName": "Shaleheath Hills"
+  },
+  "4310": {
+    "Id": "4310",
+    "ClusterColor": 2,
+    "DisplayName": "Everwinter Shores"
+  },
+  "0305": {
+    "Id": "0305",
+    "ClusterColor": 2,
+    "DisplayName": "Wetgrave Bog"
+  },
+  "0339": {
+    "Id": "0339",
+    "ClusterColor": 2,
+    "DisplayName": "Wetgrave Swale"
+  },
+  "0342": {
+    "Id": "0342",
+    "ClusterColor": 2,
+    "DisplayName": "Wetgrave Marsh"
+  },
+  "1339": {
+    "Id": "1339",
+    "ClusterColor": 2,
+    "DisplayName": "Timberslope Grove"
+  },
+  "1354": {
+    "Id": "1354",
+    "ClusterColor": 2,
+    "DisplayName": "Timberslope Bridge"
+  },
+  "2306": {
+    "Id": "2306",
+    "ClusterColor": 2,
+    "DisplayName": "Swiftsands Plain"
+  },
+  "2308": {
+    "Id": "2308",
+    "ClusterColor": 2,
+    "DisplayName": "Drybasin Riverbed"
+  },
+  "2339": {
+    "Id": "2339",
+    "ClusterColor": 2,
+    "DisplayName": "Swiftsands Basin"
+  },
+  "2354": {
+    "Id": "2354",
+    "ClusterColor": 2,
+    "DisplayName": "Swiftsands Chaparral"
+  },
+  "3327": {
+    "Id": "3327",
+    "ClusterColor": 2,
+    "DisplayName": "Skylake Bridge"
+  },
+  "1355": {
+    "Id": "1355",
+    "ClusterColor": 2,
+    "DisplayName": "Greenshore Bay"
+  },
+  "3305": {
+    "Id": "3305",
+    "ClusterColor": 2,
+    "DisplayName": "Flatrock Cliffs"
+  },
+  "0315": {
+    "Id": "0315",
+    "ClusterColor": 2,
+    "DisplayName": "Skullmarsh Lower"
+  },
+  "0343": {
+    "Id": "0343",
+    "ClusterColor": 2,
+    "DisplayName": "Skullmarsh Upper"
+  },
+  "1307": {
+    "Id": "1307",
+    "ClusterColor": 2,
+    "DisplayName": "Greenshore Peninsula"
+  },
+  "1308": {
+    "Id": "1308",
+    "ClusterColor": 2,
+    "DisplayName": "Giantweald Dale"
+  },
+  "1311": {
+    "Id": "1311",
+    "ClusterColor": 2,
+    "DisplayName": "Watchwood Precipice"
+  },
+  "1315": {
+    "Id": "1315",
+    "ClusterColor": 2,
+    "DisplayName": "Watchwood Grove"
+  },
+  "1328": {
+    "Id": "1328",
+    "ClusterColor": 2,
+    "DisplayName": "Giantweald Woods"
+  },
+  "1329": {
+    "Id": "1329",
+    "ClusterColor": 2,
+    "DisplayName": "Watchwood Lakeside"
+  },
+  "1330": {
+    "Id": "1330",
+    "ClusterColor": 2,
+    "DisplayName": "Watchwood Bluffs"
+  },
+  "1341": {
+    "Id": "1341",
+    "ClusterColor": 2,
+    "DisplayName": "Giantweald Edge"
+  },
+  "2309": {
+    "Id": "2309",
+    "ClusterColor": 2,
+    "DisplayName": "Slakesands Canyon"
+  },
+  "2341": {
+    "Id": "2341",
+    "ClusterColor": 2,
+    "DisplayName": "Drybasin Oasis"
+  },
+  "2342": {
+    "Id": "2342",
+    "ClusterColor": 2,
+    "DisplayName": "Slakesands Mesa"
+  },
+  "3328": {
+    "Id": "3328",
+    "ClusterColor": 2,
+    "DisplayName": "Flatrock Plateau"
+  },
+  "4315": {
+    "Id": "4315",
+    "ClusterColor": 2,
+    "DisplayName": "Munten Rise"
+  },
+  "4331": {
+    "Id": "4331",
+    "ClusterColor": 2,
+    "DisplayName": "Munten Tundra"
+  },
+  "4345": {
+    "Id": "4345",
+    "ClusterColor": 2,
+    "DisplayName": "Munten Fell"
+  },
+  "1313": {
+    "Id": "1313",
+    "ClusterColor": 2,
+    "DisplayName": "Hightree Steep"
+  },
+  "1316": {
+    "Id": "1316",
+    "ClusterColor": 2,
+    "DisplayName": "Hightree Lake"
+  },
+  "1317": {
+    "Id": "1317",
+    "ClusterColor": 2,
+    "DisplayName": "Hightree Dale"
+  },
+  "1319": {
+    "Id": "1319",
+    "ClusterColor": 2,
+    "DisplayName": "Hightree Strand"
+  },
+  "1320": {
+    "Id": "1320",
+    "ClusterColor": 2,
+    "DisplayName": "Hightree Glade"
+  },
+  "1322": {
+    "Id": "1322",
+    "ClusterColor": 2,
+    "DisplayName": "Hightree Enclave"
+  },
+  "1332": {
+    "Id": "1332",
+    "ClusterColor": 2,
+    "DisplayName": "Hightree Pass"
+  },
+  "1335": {
+    "Id": "1335",
+    "ClusterColor": 2,
+    "DisplayName": "Hightree Levee"
+  },
+  "1336": {
+    "Id": "1336",
+    "ClusterColor": 2,
+    "DisplayName": "Hightree Cliffs"
+  },
+  "1345": {
+    "Id": "1345",
+    "ClusterColor": 2,
+    "DisplayName": "Hightree Isle"
+  },
+  "1347": {
+    "Id": "1347",
+    "ClusterColor": 2,
+    "DisplayName": "Hightree Hillock"
+  },
+  "4332": {
+    "Id": "4332",
+    "ClusterColor": 2,
+    "DisplayName": "Glacierbreak Summit"
+  },
+  "0308": {
+    "Id": "0308",
+    "ClusterColor": 2,
+    "DisplayName": "Drownfield Course"
+  },
+  "0309": {
+    "Id": "0309",
+    "ClusterColor": 2,
+    "DisplayName": "Widemoor Shore"
+  },
+  "0312": {
+    "Id": "0312",
+    "ClusterColor": 2,
+    "DisplayName": "Widemoor Pool"
+  },
+  "0314": {
+    "Id": "0314",
+    "ClusterColor": 2,
+    "DisplayName": "Willowshade Wetlands"
+  },
+  "0316": {
+    "Id": "0316",
+    "ClusterColor": 2,
+    "DisplayName": "Widemoor Estuary"
+  },
+  "0327": {
+    "Id": "0327",
+    "ClusterColor": 2,
+    "DisplayName": "Widemoor Hills"
+  },
+  "0328": {
+    "Id": "0328",
+    "ClusterColor": 2,
+    "DisplayName": "Drownfield Wetland"
+  },
+  "0330": {
+    "Id": "0330",
+    "ClusterColor": 2,
+    "DisplayName": "Widemoor End"
+  },
+  "0331": {
+    "Id": "0331",
+    "ClusterColor": 2,
+    "DisplayName": "Willowshade Pools"
+  },
+  "0333": {
+    "Id": "0333",
+    "ClusterColor": 2,
+    "DisplayName": "Widemoor Woods"
+  },
+  "0344": {
+    "Id": "0344",
+    "ClusterColor": 2,
+    "DisplayName": "Willowshade Hills"
+  },
+  "1309": {
+    "Id": "1309",
+    "ClusterColor": 2,
+    "DisplayName": "Timberscar Dell"
+  },
+  "1342": {
+    "Id": "1342",
+    "ClusterColor": 2,
+    "DisplayName": "Timberscar Copse"
+  },
+  "2327": {
+    "Id": "2327",
+    "ClusterColor": 2,
+    "DisplayName": "Drytop Riverbed"
+  },
+  "2328": {
+    "Id": "2328",
+    "ClusterColor": 2,
+    "DisplayName": "Drytop Pillars"
+  },
+  "PSG-0044#1": {
+    "Id": "PSG-0044#1",
+    "ClusterColor": 2,
+    "DisplayName": "Stalagmite Adit"
+  },
+  "0310": {
+    "Id": "0310",
+    "ClusterColor": 2,
+    "DisplayName": "Drownfield Mire"
+  },
+  "0313": {
+    "Id": "0313",
+    "ClusterColor": 2,
+    "DisplayName": "Drownfield Fen"
+  },
+  "0329": {
+    "Id": "0329",
+    "ClusterColor": 2,
+    "DisplayName": "Drownfield Slough"
+  },
+  "0332": {
+    "Id": "0332",
+    "ClusterColor": 2,
+    "DisplayName": "Drownfield Rut"
+  },
+  "0340": {
+    "Id": "0340",
+    "ClusterColor": 2,
+    "DisplayName": "Drownfield Quag"
+  },
+  "0354": {
+    "Id": "0354",
+    "ClusterColor": 2,
+    "DisplayName": "Meltwater Channel"
+  },
+  "0355": {
+    "Id": "0355",
+    "ClusterColor": 2,
+    "DisplayName": "Drownfield Sink"
+  },
+  "1312": {
+    "Id": "1312",
+    "ClusterColor": 2,
+    "DisplayName": "Deadpine Forest"
+  },
+  "2340": {
+    "Id": "2340",
+    "ClusterColor": 2,
+    "DisplayName": "Skysand Ridge"
+  },
+  "2355": {
+    "Id": "2355",
+    "ClusterColor": 2,
+    "DisplayName": "Citadel of Ash"
+  },
+  "4312": {
+    "Id": "4312",
+    "ClusterColor": 2,
+    "DisplayName": "Glacierfall Passage"
+  },
+  "4317": {
+    "Id": "4317",
+    "ClusterColor": 2,
+    "DisplayName": "Whitepeak Ascent"
+  },
+  "4329": {
+    "Id": "4329",
+    "ClusterColor": 2,
+    "DisplayName": "Glacierfall Canyon"
+  },
+  "4341": {
+    "Id": "4341",
+    "ClusterColor": 2,
+    "DisplayName": "Everwinter Gap"
+  },
+  "4343": {
+    "Id": "4343",
+    "ClusterColor": 2,
+    "DisplayName": "Glacierfall Cross"
+  },
+  "4344": {
+    "Id": "4344",
+    "ClusterColor": 2,
+    "DisplayName": "Glacierfall Valley"
+  },
+  "4348": {
+    "Id": "4348",
+    "ClusterColor": 2,
+    "DisplayName": "Whitepeak Spring"
+  },
+  "4355": {
+    "Id": "4355",
+    "ClusterColor": 2,
+    "DisplayName": "Glacierfall Pass"
+  },
+  "4357": {
+    "Id": "4357",
+    "ClusterColor": 2,
+    "DisplayName": "Whitepeak Tundra"
+  },
+  "0321": {
+    "Id": "0321",
+    "ClusterColor": 2,
+    "DisplayName": "Springsump Basin"
+  },
+  "0335": {
+    "Id": "0335",
+    "ClusterColor": 2,
+    "DisplayName": "Springsump Wetland"
+  },
+  "0351": {
+    "Id": "0351",
+    "ClusterColor": 2,
+    "DisplayName": "Springsump Melt"
+  },
+  "1314": {
+    "Id": "1314",
+    "ClusterColor": 2,
+    "DisplayName": "Southgrove Escarp"
+  },
+  "1337": {
+    "Id": "1337",
+    "ClusterColor": 2,
+    "DisplayName": "Southgrove Copse"
+  },
+  "1350": {
+    "Id": "1350",
+    "ClusterColor": 2,
+    "DisplayName": "Southgrove Thicket"
+  },
+  "2315": {
+    "Id": "2315",
+    "ClusterColor": 2,
+    "DisplayName": "Dryvein Cross"
+  },
+  "2316": {
+    "Id": "2316",
+    "ClusterColor": 2,
+    "DisplayName": "Sunstrand Shoal"
+  },
+  "2317": {
+    "Id": "2317",
+    "ClusterColor": 2,
+    "DisplayName": "Sunstrand Delta"
+  },
+  "2319": {
+    "Id": "2319",
+    "ClusterColor": 2,
+    "DisplayName": "Dryvein Plain"
+  },
+  "2320": {
+    "Id": "2320",
+    "ClusterColor": 2,
+    "DisplayName": "Farshore Esker"
+  },
+  "2334": {
+    "Id": "2334",
+    "ClusterColor": 2,
+    "DisplayName": "Dryvein Oasis"
+  },
+  "2335": {
+    "Id": "2335",
+    "ClusterColor": 2,
+    "DisplayName": "Sunstrand Dunes"
+  },
+  "2336": {
+    "Id": "2336",
+    "ClusterColor": 2,
+    "DisplayName": "Farshore Heath"
+  },
+  "2348": {
+    "Id": "2348",
+    "ClusterColor": 2,
+    "DisplayName": "Sunstrand Quicksands"
+  },
+  "3317": {
+    "Id": "3317",
+    "ClusterColor": 2,
+    "DisplayName": "Battlebrae Peaks"
+  },
+  "3325": {
+    "Id": "3325",
+    "ClusterColor": 2,
+    "DisplayName": "Stonelake Fields"
+  },
+  "3336": {
+    "Id": "3336",
+    "ClusterColor": 2,
+    "DisplayName": "Stonelake Hillock"
+  },
+  "3358": {
+    "Id": "3358",
+    "ClusterColor": 2,
+    "DisplayName": "Stonemouth Southbluff"
+  },
+  "4336": {
+    "Id": "4336",
+    "ClusterColor": 2,
+    "DisplayName": "Frostspring Passage"
+  },
+  "4351": {
+    "Id": "4351",
+    "ClusterColor": 2,
+    "DisplayName": "Frostspring Volcano"
+  },
+  "4352": {
+    "Id": "4352",
+    "ClusterColor": 2,
+    "DisplayName": "Whitewall Ridge"
+  },
+  "4359": {
+    "Id": "4359",
+    "ClusterColor": 2,
+    "DisplayName": "Whitewall Pass"
+  },
+  "0311": {
+    "Id": "0311",
+    "ClusterColor": 2,
+    "DisplayName": "Runnelvein Slough"
+  },
+  "0326": {
+    "Id": "0326",
+    "ClusterColor": 2,
+    "DisplayName": "Runnelvein Bog"
+  },
+  "0341": {
+    "Id": "0341",
+    "ClusterColor": 2,
+    "DisplayName": "Runnelvein Sink"
+  },
+  "1310": {
+    "Id": "1310",
+    "ClusterColor": 2,
+    "DisplayName": "Giantweald Copse"
+  },
+  "1327": {
+    "Id": "1327",
+    "ClusterColor": 2,
+    "DisplayName": "Deepwood Gorge"
+  },
+  "1331": {
+    "Id": "1331",
+    "ClusterColor": 2,
+    "DisplayName": "Giantweald Roots"
+  },
+  "1343": {
+    "Id": "1343",
+    "ClusterColor": 2,
+    "DisplayName": "Deepwood Copse"
+  },
+  "1344": {
+    "Id": "1344",
+    "ClusterColor": 2,
+    "DisplayName": "Giantweald Glade"
+  },
+  "1356": {
+    "Id": "1356",
+    "ClusterColor": 2,
+    "DisplayName": "Eye of the Forest"
+  },
+  "1357": {
+    "Id": "1357",
+    "ClusterColor": 2,
+    "DisplayName": "Eldersleep"
+  },
+  "3339": {
+    "Id": "3339",
+    "ClusterColor": 2,
+    "DisplayName": "Skylake Hinterlands"
+  },
+  "3353": {
+    "Id": "3353",
+    "ClusterColor": 2,
+    "DisplayName": "Thunderrock Draw"
+  },
+  "4313": {
+    "Id": "4313",
+    "ClusterColor": 2,
+    "DisplayName": "Floatshoal Floe"
+  },
+  "4318": {
+    "Id": "4318",
+    "ClusterColor": 2,
+    "DisplayName": "Iceburn Firth"
+  },
+  "4319": {
+    "Id": "4319",
+    "ClusterColor": 2,
+    "DisplayName": "Flammog Fork"
+  },
+  "4328": {
+    "Id": "4328",
+    "ClusterColor": 2,
+    "DisplayName": "Iceburn Peaks"
+  },
+  "4330": {
+    "Id": "4330",
+    "ClusterColor": 2,
+    "DisplayName": "Flammog Valley"
+  },
+  "4342": {
+    "Id": "4342",
+    "ClusterColor": 2,
+    "DisplayName": "Iceburn Cliffs"
+  },
+  "4346": {
+    "Id": "4346",
+    "ClusterColor": 2,
+    "DisplayName": "Iceburn Tundra"
+  },
+  "4354": {
+    "Id": "4354",
+    "ClusterColor": 2,
+    "DisplayName": "Flammog Desolation"
+  },
+  "4356": {
+    "Id": "4356",
+    "ClusterColor": 2,
+    "DisplayName": "Glacierfall Fissure"
+  },
+  "PSG-0053#1": {
+    "Id": "PSG-0053#1",
+    "ClusterColor": 2,
+    "DisplayName": "Driprock Tunnel"
+  },
+  "PSG-0051#1": {
+    "Id": "PSG-0051#1",
+    "ClusterColor": 2,
+    "DisplayName": "Shale Underway"
+  },
+  "PSG-0052#1": {
+    "Id": "PSG-0052#1",
+    "ClusterColor": 2,
+    "DisplayName": "Smuggler's Rut"
+  },
+  "PSG-0038#2": {
+    "Id": "PSG-0038#2",
+    "ClusterColor": 2,
+    "DisplayName": "Crosscut Skip"
+  },
+  "0317": {
+    "Id": "0317",
+    "ClusterColor": 2,
+    "DisplayName": "Widemoor Delta"
+  },
+  "0318": {
+    "Id": "0318",
+    "ClusterColor": 2,
+    "DisplayName": "Willowshade Mire"
+  },
+  "0319": {
+    "Id": "0319",
+    "ClusterColor": 2,
+    "DisplayName": "Willowshade Lake"
+  },
+  "0320": {
+    "Id": "0320",
+    "ClusterColor": 2,
+    "DisplayName": "Willowshade Icemarsh"
+  },
+  "0334": {
+    "Id": "0334",
+    "ClusterColor": 2,
+    "DisplayName": "Widemoor Flats"
+  },
+  "0345": {
+    "Id": "0345",
+    "ClusterColor": 2,
+    "DisplayName": "Willowshade Sink"
+  },
+  "0348": {
+    "Id": "0348",
+    "ClusterColor": 2,
+    "DisplayName": "Widemoor Fen"
+  },
+  "0350": {
+    "Id": "0350",
+    "ClusterColor": 2,
+    "DisplayName": "Twinchannel Narrows"
+  },
+  "0357": {
+    "Id": "0357",
+    "ClusterColor": 2,
+    "DisplayName": "Unhallowed Cloister"
+  },
+  "1323": {
+    "Id": "1323",
+    "ClusterColor": 2,
+    "DisplayName": "Westweald Thicket"
+  },
+  "1334": {
+    "Id": "1334",
+    "ClusterColor": 2,
+    "DisplayName": "Driftwood Glen"
+  },
+  "1351": {
+    "Id": "1351",
+    "ClusterColor": 2,
+    "DisplayName": "Westweald Shore"
+  },
+  "2312": {
+    "Id": "2312",
+    "ClusterColor": 2,
+    "DisplayName": "Sandmount Strand"
+  },
+  "2314": {
+    "Id": "2314",
+    "ClusterColor": 2,
+    "DisplayName": "Bleachskull Steppe"
+  },
+  "2318": {
+    "Id": "2318",
+    "ClusterColor": 2,
+    "DisplayName": "Sandmount Esker"
+  },
+  "2321": {
+    "Id": "2321",
+    "ClusterColor": 2,
+    "DisplayName": "Sandrift Steppe"
+  },
+  "2322": {
+    "Id": "2322",
+    "ClusterColor": 2,
+    "DisplayName": "Sandrift Prairie"
+  },
+  "2323": {
+    "Id": "2323",
+    "ClusterColor": 2,
+    "DisplayName": "Sandrift Coast"
+  },
+  "2324": {
+    "Id": "2324",
+    "ClusterColor": 2,
+    "DisplayName": "Sandrift Shore"
+  },
+  "2325": {
+    "Id": "2325",
+    "ClusterColor": 2,
+    "DisplayName": "Farshore Bay"
+  },
+  "2333": {
+    "Id": "2333",
+    "ClusterColor": 2,
+    "DisplayName": "Bleachskull Desert"
+  },
+  "2337": {
+    "Id": "2337",
+    "ClusterColor": 2,
+    "DisplayName": "Sandrift Expanse"
+  },
+  "2338": {
+    "Id": "2338",
+    "ClusterColor": 2,
+    "DisplayName": "Farshore Lagoon"
+  },
+  "2349": {
+    "Id": "2349",
+    "ClusterColor": 2,
+    "DisplayName": "Sandmount Desert"
+  },
+  "2350": {
+    "Id": "2350",
+    "ClusterColor": 2,
+    "DisplayName": "Sandrift Dunes"
+  },
+  "2351": {
+    "Id": "2351",
+    "ClusterColor": 2,
+    "DisplayName": "Farshore Drylands"
+  },
+  "2352": {
+    "Id": "2352",
+    "ClusterColor": 2,
+    "DisplayName": "Sandrift Fringe"
+  },
+  "2353": {
+    "Id": "2353",
+    "ClusterColor": 2,
+    "DisplayName": "Farshore Cape"
+  },
+  "2358": {
+    "Id": "2358",
+    "ClusterColor": 2,
+    "DisplayName": "Sandmount Ascent"
+  },
+  "3309": {
+    "Id": "3309",
+    "ClusterColor": 2,
+    "DisplayName": "Braemore Upland"
+  },
+  "3318": {
+    "Id": "3318",
+    "ClusterColor": 2,
+    "DisplayName": "Windgrass Border"
+  },
+  "3320": {
+    "Id": "3320",
+    "ClusterColor": 2,
+    "DisplayName": "Windgrass Gully"
+  },
+  "3321": {
+    "Id": "3321",
+    "ClusterColor": 2,
+    "DisplayName": "Windgrass Rill"
+  },
+  "3322": {
+    "Id": "3322",
+    "ClusterColor": 2,
+    "DisplayName": "Windgrass Precipice"
+  },
+  "3331": {
+    "Id": "3331",
+    "ClusterColor": 2,
+    "DisplayName": "Braemore Lowland"
+  },
+  "3333": {
+    "Id": "3333",
+    "ClusterColor": 2,
+    "DisplayName": "Windgrass Fields"
+  },
+  "3334": {
+    "Id": "3334",
+    "ClusterColor": 2,
+    "DisplayName": "Windgrass Coast"
+  },
+  "3346": {
+    "Id": "3346",
+    "ClusterColor": 2,
+    "DisplayName": "Highstone Mound"
+  },
+  "4314": {
+    "Id": "4314",
+    "ClusterColor": 2,
+    "DisplayName": "Avalanche Ravine"
+  },
+  "4316": {
+    "Id": "4316",
+    "ClusterColor": 2,
+    "DisplayName": "Frostbite Chasm"
+  },
+  "4320": {
+    "Id": "4320",
+    "ClusterColor": 2,
+    "DisplayName": "Frostseep Ravine"
+  },
+  "4335": {
+    "Id": "4335",
+    "ClusterColor": 2,
+    "DisplayName": "Frostbite Mountain"
+  },
+  "4347": {
+    "Id": "4347",
+    "ClusterColor": 2,
+    "DisplayName": "Frostseep Crevasse"
+  },
+  "0322": {
+    "Id": "0322",
+    "ClusterColor": 2,
+    "DisplayName": "Longfen Marsh"
+  },
+  "0323": {
+    "Id": "0323",
+    "ClusterColor": 2,
+    "DisplayName": "Mudfoot Sump"
+  },
+  "0337": {
+    "Id": "0337",
+    "ClusterColor": 2,
+    "DisplayName": "Mudfoot Mounds"
+  },
+  "0352": {
+    "Id": "0352",
+    "ClusterColor": 2,
+    "DisplayName": "Longfen Veins"
+  },
+  "0359": {
+    "Id": "0359",
+    "ClusterColor": 2,
+    "DisplayName": "Deathreach Priory"
+  },
+  "1324": {
+    "Id": "1324",
+    "ClusterColor": 2,
+    "DisplayName": "Greenhollow Vale"
+  },
+  "1352": {
+    "Id": "1352",
+    "ClusterColor": 2,
+    "DisplayName": "Greenhollow Copse"
+  },
+  "3315": {
+    "Id": "3315",
+    "ClusterColor": 2,
+    "DisplayName": "Highstone Plains"
+  },
+  "3316": {
+    "Id": "3316",
+    "ClusterColor": 2,
+    "DisplayName": "Battlebrae Flatland"
+  },
+  "3319": {
+    "Id": "3319",
+    "ClusterColor": 2,
+    "DisplayName": "Highstone Grassland"
+  },
+  "3323": {
+    "Id": "3323",
+    "ClusterColor": 2,
+    "DisplayName": "Gravemound Brim"
+  },
+  "3324": {
+    "Id": "3324",
+    "ClusterColor": 2,
+    "DisplayName": "Gravemound Hills"
+  },
+  "3337": {
+    "Id": "3337",
+    "ClusterColor": 2,
+    "DisplayName": "Gravemound Slope"
+  },
+  "3349": {
+    "Id": "3349",
+    "ClusterColor": 2,
+    "DisplayName": "Battlebrae Meadow"
+  },
+  "3350": {
+    "Id": "3350",
+    "ClusterColor": 2,
+    "DisplayName": "Windgrass Terrace"
+  },
+  "3351": {
+    "Id": "3351",
+    "ClusterColor": 2,
+    "DisplayName": "Gravemound Knoll"
+  },
+  "3352": {
+    "Id": "3352",
+    "ClusterColor": 2,
+    "DisplayName": "Gravemound Cliffs"
+  },
+  "3357": {
+    "Id": "3357",
+    "ClusterColor": 2,
+    "DisplayName": "Highstone Loch"
+  },
+  "3359": {
+    "Id": "3359",
+    "ClusterColor": 2,
+    "DisplayName": "Redtree Enclave"
+  },
+  "PSG-0052#2": {
+    "Id": "PSG-0052#2",
+    "ClusterColor": 2,
+    "DisplayName": "Deathcap Channel"
+  },
+  "PSG-0052#3": {
+    "Id": "PSG-0052#3",
+    "ClusterColor": 2,
+    "DisplayName": "Glowmire Grotto"
+  },
+  "PSG-0051#2": {
+    "Id": "PSG-0051#2",
+    "ClusterColor": 2,
+    "DisplayName": "Lurkers' Hollow"
+  },
+  "PSG-0050#1": {
+    "Id": "PSG-0050#1",
+    "ClusterColor": 2,
+    "DisplayName": "Middlemurk Path"
+  },
+  "PSG-0048#1": {
+    "Id": "PSG-0048#1",
+    "ClusterColor": 2,
+    "DisplayName": "Craglight Cavern"
+  },
+  "0346": {
+    "Id": "0346",
+    "ClusterColor": 2,
+    "DisplayName": "Deathwisp Sink"
+  },
+  "0347": {
+    "Id": "0347",
+    "ClusterColor": 2,
+    "DisplayName": "Deathwisp Bog"
+  },
+  "0349": {
+    "Id": "0349",
+    "ClusterColor": 2,
+    "DisplayName": "Sunkenbough Woods"
+  },
+  "0356": {
+    "Id": "0356",
+    "ClusterColor": 2,
+    "DisplayName": "Black Monastery"
+  },
+  "0358": {
+    "Id": "0358",
+    "ClusterColor": 2,
+    "DisplayName": "Sunkenbough Spring"
+  },
+  "1318": {
+    "Id": "1318",
+    "ClusterColor": 2,
+    "DisplayName": "Rivercopse Crossing"
+  },
+  "1321": {
+    "Id": "1321",
+    "ClusterColor": 2,
+    "DisplayName": "Driftwood Vale"
+  },
+  "1333": {
+    "Id": "1333",
+    "ClusterColor": 2,
+    "DisplayName": "Hightree Borderlands"
+  },
+  "1346": {
+    "Id": "1346",
+    "ClusterColor": 2,
+    "DisplayName": "Rivercopse Curve"
+  },
+  "1348": {
+    "Id": "1348",
+    "ClusterColor": 2,
+    "DisplayName": "Driftwood Hollow"
+  },
+  "1349": {
+    "Id": "1349",
+    "ClusterColor": 2,
+    "DisplayName": "Rivercopse Path"
+  },
+  "1358": {
+    "Id": "1358",
+    "ClusterColor": 2,
+    "DisplayName": "Darkbough Snag"
+  },
+  "1359": {
+    "Id": "1359",
+    "ClusterColor": 2,
+    "DisplayName": "Rivercopse Fount"
+  },
+  "2310": {
+    "Id": "2310",
+    "ClusterColor": 2,
+    "DisplayName": "Sunfang Ravine"
+  },
+  "2330": {
+    "Id": "2330",
+    "ClusterColor": 2,
+    "DisplayName": "Sunfang Approach"
+  },
+  "2331": {
+    "Id": "2331",
+    "ClusterColor": 2,
+    "DisplayName": "Parchsand Cliffs"
+  },
+  "2343": {
+    "Id": "2343",
+    "ClusterColor": 2,
+    "DisplayName": "Sunfang Cliffs"
+  },
+  "2344": {
+    "Id": "2344",
+    "ClusterColor": 2,
+    "DisplayName": "Sunfang Wasteland"
+  },
+  "2356": {
+    "Id": "2356",
+    "ClusterColor": 2,
+    "DisplayName": "Wailing Bulwark"
+  },
+  "2357": {
+    "Id": "2357",
+    "ClusterColor": 2,
+    "DisplayName": "Sunfang Dawn"
+  },
+  "2359": {
+    "Id": "2359",
+    "ClusterColor": 2,
+    "DisplayName": "Parchsand Drought"
+  },
+  "3306": {
+    "Id": "3306",
+    "ClusterColor": 2,
+    "DisplayName": "Murdergulch Cross"
+  },
+  "3307": {
+    "Id": "3307",
+    "ClusterColor": 2,
+    "DisplayName": "Murdergulch Gap"
+  },
+  "3308": {
+    "Id": "3308",
+    "ClusterColor": 2,
+    "DisplayName": "Razorrock Passage"
+  },
+  "3310": {
+    "Id": "3310",
+    "ClusterColor": 2,
+    "DisplayName": "Razorrock Valley"
+  },
+  "3311": {
+    "Id": "3311",
+    "ClusterColor": 2,
+    "DisplayName": "Highstone Meadow"
+  },
+  "3312": {
+    "Id": "3312",
+    "ClusterColor": 2,
+    "DisplayName": "Battlebrae Plain"
+  },
+  "3313": {
+    "Id": "3313",
+    "ClusterColor": 2,
+    "DisplayName": "Battlebrae Lake"
+  },
+  "3314": {
+    "Id": "3314",
+    "ClusterColor": 2,
+    "DisplayName": "Stonemouth Northbluff"
+  },
+  "3329": {
+    "Id": "3329",
+    "ClusterColor": 2,
+    "DisplayName": "Thunderrock Rapids"
+  },
+  "3330": {
+    "Id": "3330",
+    "ClusterColor": 2,
+    "DisplayName": "Razorrock Ravine"
+  },
+  "3332": {
+    "Id": "3332",
+    "ClusterColor": 2,
+    "DisplayName": "Razorrock Edge"
+  },
+  "3335": {
+    "Id": "3335",
+    "ClusterColor": 2,
+    "DisplayName": "Stonemouth Bay"
+  },
+  "3340": {
+    "Id": "3340",
+    "ClusterColor": 2,
+    "DisplayName": "Thunderrock Ascent"
+  },
+  "3341": {
+    "Id": "3341",
+    "ClusterColor": 2,
+    "DisplayName": "Thunderrock Upland"
+  },
+  "3342": {
+    "Id": "3342",
+    "ClusterColor": 2,
+    "DisplayName": "Murdergulch Trail"
+  },
+  "3343": {
+    "Id": "3343",
+    "ClusterColor": 2,
+    "DisplayName": "Razorrock Chasm"
+  },
+  "3344": {
+    "Id": "3344",
+    "ClusterColor": 2,
+    "DisplayName": "Razorrock Verge"
+  },
+  "3345": {
+    "Id": "3345",
+    "ClusterColor": 2,
+    "DisplayName": "Razorrock Bank"
+  },
+  "3347": {
+    "Id": "3347",
+    "ClusterColor": 2,
+    "DisplayName": "Highstone Plateau"
+  },
+  "3348": {
+    "Id": "3348",
+    "ClusterColor": 2,
+    "DisplayName": "Battlebrae Grassland"
+  },
+  "3354": {
+    "Id": "3354",
+    "ClusterColor": 2,
+    "DisplayName": "Murdergulch Divide"
+  },
+  "3355": {
+    "Id": "3355",
+    "ClusterColor": 2,
+    "DisplayName": "Murdergulch Ravine"
+  },
+  "3356": {
+    "Id": "3356",
+    "ClusterColor": 2,
+    "DisplayName": "Razorrock Gulch"
+  },
+  "4333": {
+    "Id": "4333",
+    "ClusterColor": 2,
+    "DisplayName": "Firesink Caldera"
+  },
+  "4334": {
+    "Id": "4334",
+    "ClusterColor": 2,
+    "DisplayName": "Whitecliff Peak"
+  },
+  "4349": {
+    "Id": "4349",
+    "ClusterColor": 2,
+    "DisplayName": "Firesink Trench"
+  },
+  "4350": {
+    "Id": "4350",
+    "ClusterColor": 2,
+    "DisplayName": "Whitecliff Expanse"
+  },
+  "4358": {
+    "Id": "4358",
+    "ClusterColor": 2,
+    "DisplayName": "Avalanche Incline"
+  },
+  "PSG-0051#3": {
+    "Id": "PSG-0051#3",
+    "ClusterColor": 2,
+    "DisplayName": "Bedrock Passage"
+  },
+  "PSG-0051#4": {
+    "Id": "PSG-0051#4",
+    "ClusterColor": 2,
+    "DisplayName": "Everglow Deep"
+  },
+  "0336": {
+    "Id": "0336",
+    "ClusterColor": 2,
+    "DisplayName": "Longfen Arms"
+  },
+  "2311": {
+    "Id": "2311",
+    "ClusterColor": 2,
+    "DisplayName": "Thirstwater Steppe"
+  },
+  "2313": {
+    "Id": "2313",
+    "ClusterColor": 2,
+    "DisplayName": "Dryvein Riverbed"
+  },
+  "2329": {
+    "Id": "2329",
+    "ClusterColor": 2,
+    "DisplayName": "Thirstwater Waste"
+  },
+  "2332": {
+    "Id": "2332",
+    "ClusterColor": 2,
+    "DisplayName": "Dryvein Steppe"
+  },
+  "2345": {
+    "Id": "2345",
+    "ClusterColor": 2,
+    "DisplayName": "Dryvein End"
+  },
+  "2346": {
+    "Id": "2346",
+    "ClusterColor": 2,
+    "DisplayName": "Thirstwater Gully"
+  },
+  "2347": {
+    "Id": "2347",
+    "ClusterColor": 2,
+    "DisplayName": "Dryvein Confluence"
+  },
+  "2360": {
+    "Id": "2360",
+    "ClusterColor": 2,
+    "DisplayName": "Daemonium Keep"
+  },
+  "PSG-0004#1": {
+    "Id": "PSG-0004#1",
+    "ClusterColor": 2,
+    "DisplayName": "Nightbloom Track"
+  },
+  "PSG-0045#1": {
+    "Id": "PSG-0045#1",
+    "ClusterColor": 2,
+    "DisplayName": "Mudrock Burrow"
+  },
+  "PSG-0053#2": {
+    "Id": "PSG-0053#2",
+    "ClusterColor": 2,
+    "DisplayName": "Deathcreep Adit"
+  },
+  "4300": {
+    "Id": "4300",
+    "ClusterColor": 0,
+    "DisplayName": "Arthur's Rest"
+  },
+  "1012": {
+    "Id": "1012",
+    "ClusterColor": 0,
+    "DisplayName": "Merlyn's Rest"
+  },
+  "0360-HALL-01": {
+    "Id": "0360-HALL-01",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 1"
+  },
+  "0361-HALL-02": {
+    "Id": "0361-HALL-02",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 2"
+  },
+  "1013-HALL-01": {
+    "Id": "1013-HALL-01",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 1"
+  },
+  "1014-HALL-02": {
+    "Id": "1014-HALL-02",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 2"
+  },
+  "2010-HALL-01": {
+    "Id": "2010-HALL-01",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 1"
+  },
+  "2011-HALL-02": {
+    "Id": "2011-HALL-02",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 2"
+  },
+  "3014-HALL-01": {
+    "Id": "3014-HALL-01",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 1"
+  },
+  "3015-HALL-02": {
+    "Id": "3015-HALL-02",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 2"
+  },
+  "4007-HALL-01": {
+    "Id": "4007-HALL-01",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 1"
+  },
+  "4008-HALL-02": {
+    "Id": "4008-HALL-02",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 2"
+  },
+  "0008": {
+    "Id": "0008",
+    "ClusterColor": 0,
+    "DisplayName": "Morgana's Rest"
+  },
+  "TNL-001": {
+    "Id": "TNL-001",
+    "ClusterColor": 2,
+    "DisplayName": "Ouyos-Aoeuam"
+  },
+  "TNL-002": {
+    "Id": "TNL-002",
+    "ClusterColor": 2,
+    "DisplayName": "Coues-Exakrom"
+  },
+  "TNL-003": {
+    "Id": "TNL-003",
+    "ClusterColor": 2,
+    "DisplayName": "Puros-Amayam"
+  },
+  "TNL-004": {
+    "Id": "TNL-004",
+    "ClusterColor": 2,
+    "DisplayName": "Pures-Ouozlum"
+  },
+  "TNL-005": {
+    "Id": "TNL-005",
+    "ClusterColor": 2,
+    "DisplayName": "Soros-Axaesum"
+  },
+  "TNL-006": {
+    "Id": "TNL-006",
+    "ClusterColor": 2,
+    "DisplayName": "Huyos-Uxeulum"
+  },
+  "TNL-007": {
+    "Id": "TNL-007",
+    "ClusterColor": 2,
+    "DisplayName": "Ceres-Iooinum"
+  },
+  "TNL-008": {
+    "Id": "TNL-008",
+    "ClusterColor": 2,
+    "DisplayName": "Cetos-Obaelos"
+  },
+  "TNL-009": {
+    "Id": "TNL-009",
+    "ClusterColor": 2,
+    "DisplayName": "Oieos-Umiutum"
+  },
+  "TNL-010": {
+    "Id": "TNL-010",
+    "ClusterColor": 2,
+    "DisplayName": "Sebos-Avoirom"
+  },
+  "TNL-011": {
+    "Id": "TNL-011",
+    "ClusterColor": 2,
+    "DisplayName": "Teros-Auiusum"
+  },
+  "TNL-012": {
+    "Id": "TNL-012",
+    "ClusterColor": 2,
+    "DisplayName": "Oebos-Ixakaum"
+  },
+  "TNL-013": {
+    "Id": "TNL-013",
+    "ClusterColor": 2,
+    "DisplayName": "Touos-Uoemtum"
+  },
+  "TNL-014": {
+    "Id": "TNL-014",
+    "ClusterColor": 2,
+    "DisplayName": "Xasos-Aeoilos"
+  },
+  "TNL-015": {
+    "Id": "TNL-015",
+    "ClusterColor": 2,
+    "DisplayName": "Xuros-Eyoztum"
+  },
+  "TNL-016": {
+    "Id": "TNL-016",
+    "ClusterColor": 2,
+    "DisplayName": "Pasos-Avosam"
+  },
+  "TNL-017": {
+    "Id": "TNL-017",
+    "ClusterColor": 2,
+    "DisplayName": "Oasos-Uromlum"
+  },
+  "TNL-018": {
+    "Id": "TNL-018",
+    "ClusterColor": 2,
+    "DisplayName": "Casos-Uruxtum"
+  },
+  "TNL-019": {
+    "Id": "TNL-019",
+    "ClusterColor": 2,
+    "DisplayName": "Ceros-Aeaylum"
+  },
+  "TNL-020": {
+    "Id": "TNL-020",
+    "ClusterColor": 2,
+    "DisplayName": "Xouos-Aioblos"
+  },
+  "TNL-021": {
+    "Id": "TNL-021",
+    "ClusterColor": 2,
+    "DisplayName": "Oasos-Eraerom"
+  },
+  "TNL-022": {
+    "Id": "TNL-022",
+    "ClusterColor": 2,
+    "DisplayName": "Tetos-Igaelum"
+  },
+  "TNL-023": {
+    "Id": "TNL-023",
+    "ClusterColor": 2,
+    "DisplayName": "Hynos-Oiaelos"
+  },
+  "TNL-024": {
+    "Id": "TNL-024",
+    "ClusterColor": 2,
+    "DisplayName": "Hebos-Ulamsum"
+  },
+  "TNL-025": {
+    "Id": "TNL-025",
+    "ClusterColor": 2,
+    "DisplayName": "Hiros-Iuaerom"
+  },
+  "TNL-026": {
+    "Id": "TNL-026",
+    "ClusterColor": 2,
+    "DisplayName": "Cynos-Avixnum"
+  },
+  "TNL-027": {
+    "Id": "TNL-027",
+    "ClusterColor": 2,
+    "DisplayName": "Conos-Avaelum"
+  },
+  "TNL-028": {
+    "Id": "TNL-028",
+    "ClusterColor": 2,
+    "DisplayName": "Tetos-Ulaurom"
+  },
+  "TNL-029": {
+    "Id": "TNL-029",
+    "ClusterColor": 2,
+    "DisplayName": "Oures-Araosum"
+  },
+  "TNL-030": {
+    "Id": "TNL-030",
+    "ClusterColor": 2,
+    "DisplayName": "Hures-Ugumtum"
+  },
+  "TNL-031": {
+    "Id": "TNL-031",
+    "ClusterColor": 2,
+    "DisplayName": "Hasos-Iuimaum"
+  },
+  "TNL-032": {
+    "Id": "TNL-032",
+    "ClusterColor": 2,
+    "DisplayName": "Foros-Egoisum"
+  },
+  "TNL-033": {
+    "Id": "TNL-033",
+    "ClusterColor": 2,
+    "DisplayName": "Hasos-Agoitum"
+  },
+  "TNL-034": {
+    "Id": "TNL-034",
+    "ClusterColor": 2,
+    "DisplayName": "Setos-Avamsum"
+  },
+  "TNL-035": {
+    "Id": "TNL-035",
+    "ClusterColor": 2,
+    "DisplayName": "Tonos-Obayam"
+  },
+  "TNL-036": {
+    "Id": "TNL-036",
+    "ClusterColor": 2,
+    "DisplayName": "Honos-Umayaum"
+  },
+  "TNL-037": {
+    "Id": "TNL-037",
+    "ClusterColor": 2,
+    "DisplayName": "Huyes-Ogozlum"
+  },
+  "TNL-038": {
+    "Id": "TNL-038",
+    "ClusterColor": 2,
+    "DisplayName": "Curos-Avulsum"
+  },
+  "TNL-039": {
+    "Id": "TNL-039",
+    "ClusterColor": 2,
+    "DisplayName": "Cebos-Avemlum"
+  },
+  "TNL-040": {
+    "Id": "TNL-040",
+    "ClusterColor": 2,
+    "DisplayName": "Hasos-Inayaum"
+  },
+  "TNL-041": {
+    "Id": "TNL-041",
+    "ClusterColor": 2,
+    "DisplayName": "Sasos-Egeylos"
+  },
+  "TNL-042": {
+    "Id": "TNL-042",
+    "ClusterColor": 2,
+    "DisplayName": "Coros-Aiayrom"
+  },
+  "TNL-043": {
+    "Id": "TNL-043",
+    "ClusterColor": 2,
+    "DisplayName": "Hiros-Exozlos"
+  },
+  "TNL-044": {
+    "Id": "TNL-044",
+    "ClusterColor": 2,
+    "DisplayName": "Tiros-Ouultum"
+  },
+  "TNL-045": {
+    "Id": "TNL-045",
+    "ClusterColor": 2,
+    "DisplayName": "Cases-Ugumlos"
+  },
+  "TNL-046": {
+    "Id": "TNL-046",
+    "ClusterColor": 2,
+    "DisplayName": "Fynes-Unavtum"
+  },
+  "TNL-047": {
+    "Id": "TNL-047",
+    "ClusterColor": 2,
+    "DisplayName": "Fetos-Aiaylos"
+  },
+  "TNL-048": {
+    "Id": "TNL-048",
+    "ClusterColor": 2,
+    "DisplayName": "Fouos-Agosaum"
+  },
+  "TNL-049": {
+    "Id": "TNL-049",
+    "ClusterColor": 2,
+    "DisplayName": "Huyos-Eyoztum"
+  },
+  "TNL-050": {
+    "Id": "TNL-050",
+    "ClusterColor": 2,
+    "DisplayName": "Poues-Unatam"
+  },
+  "TNL-051": {
+    "Id": "TNL-051",
+    "ClusterColor": 2,
+    "DisplayName": "Fouos-Amaurom"
+  },
+  "TNL-052": {
+    "Id": "TNL-052",
+    "ClusterColor": 2,
+    "DisplayName": "Suyos-Onaytum"
+  },
+  "TNL-053": {
+    "Id": "TNL-053",
+    "ClusterColor": 2,
+    "DisplayName": "Xasos-Oneulum"
+  },
+  "TNL-054": {
+    "Id": "TNL-054",
+    "ClusterColor": 2,
+    "DisplayName": "Oynos-Oyozam"
+  },
+  "TNL-055": {
+    "Id": "TNL-055",
+    "ClusterColor": 2,
+    "DisplayName": "Coros-Atinaum"
+  },
+  "TNL-056": {
+    "Id": "TNL-056",
+    "ClusterColor": 2,
+    "DisplayName": "Sasos-Oiozlum"
+  },
+  "TNL-057": {
+    "Id": "TNL-057",
+    "ClusterColor": 2,
+    "DisplayName": "Xynos-Oyogam"
+  },
+  "TNL-058": {
+    "Id": "TNL-058",
+    "ClusterColor": 2,
+    "DisplayName": "Cynos-Oxaeaum"
+  },
+  "TNL-059": {
+    "Id": "TNL-059",
+    "ClusterColor": 2,
+    "DisplayName": "Tynos-Atatlos"
+  },
+  "TNL-060": {
+    "Id": "TNL-060",
+    "ClusterColor": 2,
+    "DisplayName": "Firos-Enomaum"
+  },
+  "TNL-061": {
+    "Id": "TNL-061",
+    "ClusterColor": 2,
+    "DisplayName": "Hynes-Exemrom"
+  },
+  "TNL-062": {
+    "Id": "TNL-062",
+    "ClusterColor": 2,
+    "DisplayName": "Hebes-Ouaylos"
+  },
+  "TNL-063": {
+    "Id": "TNL-063",
+    "ClusterColor": 2,
+    "DisplayName": "Foues-Aeaosum"
+  },
+  "TNL-064": {
+    "Id": "TNL-064",
+    "ClusterColor": 2,
+    "DisplayName": "Xilos-Osayam"
+  },
+  "TNL-065": {
+    "Id": "TNL-065",
+    "ClusterColor": 2,
+    "DisplayName": "Casos-Ayosrom"
+  },
+  "TNL-066": {
+    "Id": "TNL-066",
+    "ClusterColor": 2,
+    "DisplayName": "Souos-Ososlos"
+  },
+  "TNL-067": {
+    "Id": "TNL-067",
+    "ClusterColor": 2,
+    "DisplayName": "Xebos-Emimsum"
+  },
+  "TNL-068": {
+    "Id": "TNL-068",
+    "ClusterColor": 2,
+    "DisplayName": "Oetos-Oyexlos"
+  },
+  "TNL-069": {
+    "Id": "TNL-069",
+    "ClusterColor": 2,
+    "DisplayName": "Xebos-Exostum"
+  },
+  "TNL-070": {
+    "Id": "TNL-070",
+    "ClusterColor": 2,
+    "DisplayName": "Tynos-Eyexrom"
+  },
+  "TNL-071": {
+    "Id": "TNL-071",
+    "ClusterColor": 2,
+    "DisplayName": "Casos-Aximam"
+  },
+  "TNL-072": {
+    "Id": "TNL-072",
+    "ClusterColor": 2,
+    "DisplayName": "Hasos-Ayousum"
+  },
+  "TNL-073": {
+    "Id": "TNL-073",
+    "ClusterColor": 2,
+    "DisplayName": "Fasos-Ayiotum"
+  },
+  "TNL-074": {
+    "Id": "TNL-074",
+    "ClusterColor": 2,
+    "DisplayName": "Pebos-Avosrom"
+  },
+  "TNL-075": {
+    "Id": "TNL-075",
+    "ClusterColor": 2,
+    "DisplayName": "Sases-Avuotum"
+  },
+  "TNL-076": {
+    "Id": "TNL-076",
+    "ClusterColor": 2,
+    "DisplayName": "Xases-Oxoulum"
+  },
+  "TNL-077": {
+    "Id": "TNL-077",
+    "ClusterColor": 2,
+    "DisplayName": "Hieos-Avaolum"
+  },
+  "TNL-078": {
+    "Id": "TNL-078",
+    "ClusterColor": 2,
+    "DisplayName": "Xasos-Aoemaum"
+  },
+  "TNL-079": {
+    "Id": "TNL-079",
+    "ClusterColor": 2,
+    "DisplayName": "Hasos-Osuorom"
+  },
+  "TNL-080": {
+    "Id": "TNL-080",
+    "ClusterColor": 2,
+    "DisplayName": "Oynos-Eramtum"
+  },
+  "TNL-081": {
+    "Id": "TNL-081",
+    "ClusterColor": 2,
+    "DisplayName": "Couos-Ayayaum"
+  },
+  "TNL-082": {
+    "Id": "TNL-082",
+    "ClusterColor": 2,
+    "DisplayName": "Siros-Obobrom"
+  },
+  "TNL-083": {
+    "Id": "TNL-083",
+    "ClusterColor": 2,
+    "DisplayName": "Souos-Umogaum"
+  },
+  "TNL-084": {
+    "Id": "TNL-084",
+    "ClusterColor": 2,
+    "DisplayName": "Cilos-Avioaum"
+  },
+  "TNL-085": {
+    "Id": "TNL-085",
+    "ClusterColor": 2,
+    "DisplayName": "Fonos-Aiugsum"
+  },
+  "TNL-086": {
+    "Id": "TNL-086",
+    "ClusterColor": 2,
+    "DisplayName": "Synos-Ayailos"
+  },
+  "TNL-087": {
+    "Id": "TNL-087",
+    "ClusterColor": 2,
+    "DisplayName": "Xiles-Aiavlum"
+  },
+  "TNL-088": {
+    "Id": "TNL-088",
+    "ClusterColor": 2,
+    "DisplayName": "Sases-Aoarsum"
+  },
+  "TNL-089": {
+    "Id": "TNL-089",
+    "ClusterColor": 2,
+    "DisplayName": "Casos-Aiagsum"
+  },
+  "TNL-090": {
+    "Id": "TNL-090",
+    "ClusterColor": 2,
+    "DisplayName": "Tieos-Ayoslum"
+  },
+  "TNL-091": {
+    "Id": "TNL-091",
+    "ClusterColor": 2,
+    "DisplayName": "Hieos-Aiigaum"
+  },
+  "TNL-092": {
+    "Id": "TNL-092",
+    "ClusterColor": 2,
+    "DisplayName": "Poros-Aiayrom"
+  },
+  "TNL-093": {
+    "Id": "TNL-093",
+    "ClusterColor": 2,
+    "DisplayName": "Cilos-Ofailos"
+  },
+  "TNL-094": {
+    "Id": "TNL-094",
+    "ClusterColor": 2,
+    "DisplayName": "Silos-Apenlum"
+  },
+  "TNL-095": {
+    "Id": "TNL-095",
+    "ClusterColor": 2,
+    "DisplayName": "Fynos-Alodrom"
+  },
+  "TNL-096": {
+    "Id": "TNL-096",
+    "ClusterColor": 2,
+    "DisplayName": "Firos-Ezatam"
+  },
+  "TNL-097": {
+    "Id": "TNL-097",
+    "ClusterColor": 2,
+    "DisplayName": "Firos-Osinsum"
+  },
+  "TNL-098": {
+    "Id": "TNL-098",
+    "ClusterColor": 2,
+    "DisplayName": "Soues-Uzurtum"
+  },
+  "TNL-099": {
+    "Id": "TNL-099",
+    "ClusterColor": 2,
+    "DisplayName": "Ooros-Ataltum"
+  },
+  "TNL-100": {
+    "Id": "TNL-100",
+    "ClusterColor": 2,
+    "DisplayName": "Hynes-Ieatun"
+  },
+  "TNL-101": {
+    "Id": "TNL-101",
+    "ClusterColor": 2,
+    "DisplayName": "Fuyes-Izohun"
+  },
+  "TNL-102": {
+    "Id": "TNL-102",
+    "ClusterColor": 2,
+    "DisplayName": "Xetos-Obursum"
+  },
+  "TNL-103": {
+    "Id": "TNL-103",
+    "ClusterColor": 2,
+    "DisplayName": "Oetos-Ofailos"
+  },
+  "TNL-104": {
+    "Id": "TNL-104",
+    "ClusterColor": 2,
+    "DisplayName": "Tynos-Igurlum"
+  },
+  "TNL-105": {
+    "Id": "TNL-105",
+    "ClusterColor": 2,
+    "DisplayName": "Puros-Ofavam"
+  },
+  "TNL-106": {
+    "Id": "TNL-106",
+    "ClusterColor": 2,
+    "DisplayName": "Setos-Aiaitum"
+  },
+  "TNL-107": {
+    "Id": "TNL-107",
+    "ClusterColor": 2,
+    "DisplayName": "Tynos-Uxavrom"
+  },
+  "TNL-108": {
+    "Id": "TNL-108",
+    "ClusterColor": 2,
+    "DisplayName": "Souos-Availos"
+  },
+  "TNL-109": {
+    "Id": "TNL-109",
+    "ClusterColor": 2,
+    "DisplayName": "Sebos-Ugersum"
+  },
+  "TNL-110": {
+    "Id": "TNL-110",
+    "ClusterColor": 2,
+    "DisplayName": "Peros-Aiataum"
+  },
+  "TNL-111": {
+    "Id": "TNL-111",
+    "ClusterColor": 2,
+    "DisplayName": "Pieos-Ofairom"
+  },
+  "TNL-112": {
+    "Id": "TNL-112",
+    "ClusterColor": 2,
+    "DisplayName": "Sieos-Ofugtum"
+  },
+  "TNL-113": {
+    "Id": "TNL-113",
+    "ClusterColor": 2,
+    "DisplayName": "Tasos-Iriglos"
+  },
+  "TNL-114": {
+    "Id": "TNL-114",
+    "ClusterColor": 2,
+    "DisplayName": "Tiros-Odoxlum"
+  },
+  "TNL-115": {
+    "Id": "TNL-115",
+    "ClusterColor": 2,
+    "DisplayName": "Xases-Ataglos"
+  },
+  "TNL-116": {
+    "Id": "TNL-116",
+    "ClusterColor": 2,
+    "DisplayName": "Oires-Oloblum"
+  },
+  "TNL-117": {
+    "Id": "TNL-117",
+    "ClusterColor": 2,
+    "DisplayName": "Firos-Aiavam"
+  },
+  "TNL-118": {
+    "Id": "TNL-118",
+    "ClusterColor": 2,
+    "DisplayName": "Heros-Atoyam"
+  },
+  "TNL-119": {
+    "Id": "TNL-119",
+    "ClusterColor": 2,
+    "DisplayName": "Petos-Aietam"
+  },
+  "TNL-120": {
+    "Id": "TNL-120",
+    "ClusterColor": 2,
+    "DisplayName": "Touos-Ataglos"
+  },
+  "TNL-121": {
+    "Id": "TNL-121",
+    "ClusterColor": 2,
+    "DisplayName": "Poros-Oconun"
+  },
+  "TNL-122": {
+    "Id": "TNL-122",
+    "ClusterColor": 2,
+    "DisplayName": "Honos-Oyezam"
+  },
+  "TNL-123": {
+    "Id": "TNL-123",
+    "ClusterColor": 2,
+    "DisplayName": "Fieos-Atezsum"
+  },
+  "TNL-124": {
+    "Id": "TNL-124",
+    "ClusterColor": 2,
+    "DisplayName": "Ooros-Ecunsum"
+  },
+  "TNL-125": {
+    "Id": "TNL-125",
+    "ClusterColor": 2,
+    "DisplayName": "Coros-Alieam"
+  },
+  "TNL-126": {
+    "Id": "TNL-126",
+    "ClusterColor": 2,
+    "DisplayName": "Couos-Opodam"
+  },
+  "TNL-127": {
+    "Id": "TNL-127",
+    "ClusterColor": 2,
+    "DisplayName": "Horos-Ohenlum"
+  },
+  "TNL-128": {
+    "Id": "TNL-128",
+    "ClusterColor": 2,
+    "DisplayName": "Files-Azazsum"
+  },
+  "TNL-129": {
+    "Id": "TNL-129",
+    "ClusterColor": 2,
+    "DisplayName": "Sasos-Abizaum"
+  },
+  "TNL-130": {
+    "Id": "TNL-130",
+    "ClusterColor": 2,
+    "DisplayName": "Fones-Opavun"
+  },
+  "TNL-131": {
+    "Id": "TNL-131",
+    "ClusterColor": 2,
+    "DisplayName": "Fiees-Ohohtum"
+  },
+  "TNL-132": {
+    "Id": "TNL-132",
+    "ClusterColor": 2,
+    "DisplayName": "Siros-Ofurlos"
+  },
+  "TNL-133": {
+    "Id": "TNL-133",
+    "ClusterColor": 2,
+    "DisplayName": "Oiros-Alaiam"
+  },
+  "TNL-134": {
+    "Id": "TNL-134",
+    "ClusterColor": 2,
+    "DisplayName": "Xiros-Aiairom"
+  },
+  "TNL-135": {
+    "Id": "TNL-135",
+    "ClusterColor": 2,
+    "DisplayName": "Silos-Oyarlum"
+  },
+  "TNL-136": {
+    "Id": "TNL-136",
+    "ClusterColor": 2,
+    "DisplayName": "Fonos-Oleraum"
+  },
+  "TNL-137": {
+    "Id": "TNL-137",
+    "ClusterColor": 2,
+    "DisplayName": "Fieos-Aiuttum"
+  },
+  "TNL-138": {
+    "Id": "TNL-138",
+    "ClusterColor": 2,
+    "DisplayName": "Filos-Abalam"
+  },
+  "TNL-139": {
+    "Id": "TNL-139",
+    "ClusterColor": 2,
+    "DisplayName": "Synos-Oyarlos"
+  },
+  "TNL-140": {
+    "Id": "TNL-140",
+    "ClusterColor": 2,
+    "DisplayName": "Febos-Acalun"
+  },
+  "TNL-141": {
+    "Id": "TNL-141",
+    "ClusterColor": 2,
+    "DisplayName": "Pieos-Eterrom"
+  },
+  "TNL-142": {
+    "Id": "TNL-142",
+    "ClusterColor": 2,
+    "DisplayName": "Feros-Oyuctum"
+  },
+  "TNL-143": {
+    "Id": "TNL-143",
+    "ClusterColor": 2,
+    "DisplayName": "Pynos-Opabrom"
+  },
+  "TNL-144": {
+    "Id": "TNL-144",
+    "ClusterColor": 2,
+    "DisplayName": "Foros-Uzazlum"
+  },
+  "TNL-145": {
+    "Id": "TNL-145",
+    "ClusterColor": 2,
+    "DisplayName": "Cieos-Atatlum"
+  },
+  "TNL-146": {
+    "Id": "TNL-146",
+    "ClusterColor": 2,
+    "DisplayName": "Huros-Atontum"
+  },
+  "TNL-147": {
+    "Id": "TNL-147",
+    "ClusterColor": 2,
+    "DisplayName": "Tonos-Aboysum"
+  },
+  "TNL-148": {
+    "Id": "TNL-148",
+    "ClusterColor": 2,
+    "DisplayName": "Hiles-Izizaum"
+  },
+  "TNL-149": {
+    "Id": "TNL-149",
+    "ClusterColor": 2,
+    "DisplayName": "Sebos-Oyohun"
+  },
+  "TNL-150": {
+    "Id": "TNL-150",
+    "ClusterColor": 2,
+    "DisplayName": "Cilos-Otatrom"
+  },
+  "TNL-201": {
+    "Id": "TNL-201",
+    "ClusterColor": 2,
+    "DisplayName": "Oasitos-Aoeuam"
+  },
+  "TNL-202": {
+    "Id": "TNL-202",
+    "ClusterColor": 2,
+    "DisplayName": "Curites-Exakrom"
+  },
+  "TNL-203": {
+    "Id": "TNL-203",
+    "ClusterColor": 2,
+    "DisplayName": "Petitos-Amayam"
+  },
+  "TNL-204": {
+    "Id": "TNL-204",
+    "ClusterColor": 2,
+    "DisplayName": "Pynites-Ouozlum"
+  },
+  "TNL-205": {
+    "Id": "TNL-205",
+    "ClusterColor": 2,
+    "DisplayName": "Suyitos-Axaesum"
+  },
+  "TNL-206": {
+    "Id": "TNL-206",
+    "ClusterColor": 2,
+    "DisplayName": "Honitos-Uxeulum"
+  },
+  "TNL-207": {
+    "Id": "TNL-207",
+    "ClusterColor": 2,
+    "DisplayName": "Cuyites-Iooinum"
+  },
+  "TNL-208": {
+    "Id": "TNL-208",
+    "ClusterColor": 2,
+    "DisplayName": "Cieitos-Obaelos"
+  },
+  "TNL-209": {
+    "Id": "TNL-209",
+    "ClusterColor": 2,
+    "DisplayName": "Oonitos-Umiutum"
+  },
+  "TNL-210": {
+    "Id": "TNL-210",
+    "ClusterColor": 2,
+    "DisplayName": "Siritos-Avoirom"
+  },
+  "TNL-211": {
+    "Id": "TNL-211",
+    "ClusterColor": 2,
+    "DisplayName": "Tuyitos-Auiusum"
+  },
+  "TNL-212": {
+    "Id": "TNL-212",
+    "ClusterColor": 2,
+    "DisplayName": "Oieitos-Ixakaum"
+  },
+  "TNL-213": {
+    "Id": "TNL-213",
+    "ClusterColor": 2,
+    "DisplayName": "Turitos-Uoemtum"
+  },
+  "TNL-214": {
+    "Id": "TNL-214",
+    "ClusterColor": 2,
+    "DisplayName": "Xouitos-Aeoilos"
+  },
+  "TNL-215": {
+    "Id": "TNL-215",
+    "ClusterColor": 2,
+    "DisplayName": "Xouitos-Eyoztum"
+  },
+  "TNL-216": {
+    "Id": "TNL-216",
+    "ClusterColor": 2,
+    "DisplayName": "Peritos-Avosam"
+  },
+  "TNL-217": {
+    "Id": "TNL-217",
+    "ClusterColor": 2,
+    "DisplayName": "Oynitos-Uromlum"
+  },
+  "TNL-218": {
+    "Id": "TNL-218",
+    "ClusterColor": 2,
+    "DisplayName": "Conitos-Uruxtum"
+  },
+  "TNL-219": {
+    "Id": "TNL-219",
+    "ClusterColor": 2,
+    "DisplayName": "Cebitos-Aeaylum"
+  },
+  "TNL-220": {
+    "Id": "TNL-220",
+    "ClusterColor": 2,
+    "DisplayName": "Xuyitos-Aioblos"
+  },
+  "TNL-221": {
+    "Id": "TNL-221",
+    "ClusterColor": 2,
+    "DisplayName": "Oebitos-Eraerom"
+  },
+  "TNL-222": {
+    "Id": "TNL-222",
+    "ClusterColor": 2,
+    "DisplayName": "Tebitos-Igaelum"
+  },
+  "TNL-223": {
+    "Id": "TNL-223",
+    "ClusterColor": 2,
+    "DisplayName": "Huritos-Oiaelos"
+  },
+  "TNL-224": {
+    "Id": "TNL-224",
+    "ClusterColor": 2,
+    "DisplayName": "Hynitos-Ulamsum"
+  },
+  "TNL-225": {
+    "Id": "TNL-225",
+    "ClusterColor": 2,
+    "DisplayName": "Hetitos-Iuaerom"
+  },
+  "TNL-226": {
+    "Id": "TNL-226",
+    "ClusterColor": 2,
+    "DisplayName": "Cetitos-Avixnum"
+  },
+  "TNL-227": {
+    "Id": "TNL-227",
+    "ClusterColor": 2,
+    "DisplayName": "Casitos-Avaelum"
+  },
+  "TNL-228": {
+    "Id": "TNL-228",
+    "ClusterColor": 2,
+    "DisplayName": "Tasitos-Ulaurom"
+  },
+  "TNL-229": {
+    "Id": "TNL-229",
+    "ClusterColor": 2,
+    "DisplayName": "Oynites-Araosum"
+  },
+  "TNL-230": {
+    "Id": "TNL-230",
+    "ClusterColor": 2,
+    "DisplayName": "Hilites-Ugumtum"
+  },
+  "TNL-231": {
+    "Id": "TNL-231",
+    "ClusterColor": 2,
+    "DisplayName": "Huritos-Iuimaum"
+  },
+  "TNL-232": {
+    "Id": "TNL-232",
+    "ClusterColor": 2,
+    "DisplayName": "Fynitos-Egoisum"
+  },
+  "TNL-233": {
+    "Id": "TNL-233",
+    "ClusterColor": 2,
+    "DisplayName": "Huyitos-Agoitum"
+  },
+  "TNL-234": {
+    "Id": "TNL-234",
+    "ClusterColor": 2,
+    "DisplayName": "Soritos-Avamsum"
+  },
+  "TNL-235": {
+    "Id": "TNL-235",
+    "ClusterColor": 2,
+    "DisplayName": "Tasitos-Obayam"
+  },
+  "TNL-236": {
+    "Id": "TNL-236",
+    "ClusterColor": 2,
+    "DisplayName": "Hasitos-Umayaum"
+  },
+  "TNL-237": {
+    "Id": "TNL-237",
+    "ClusterColor": 2,
+    "DisplayName": "Hynites-Ogozlum"
+  },
+  "TNL-238": {
+    "Id": "TNL-238",
+    "ClusterColor": 2,
+    "DisplayName": "Ceritos-Avulsum"
+  },
+  "TNL-239": {
+    "Id": "TNL-239",
+    "ClusterColor": 2,
+    "DisplayName": "Coritos-Avemlum"
+  },
+  "TNL-240": {
+    "Id": "TNL-240",
+    "ClusterColor": 2,
+    "DisplayName": "Heritos-Inayaum"
+  },
+  "TNL-241": {
+    "Id": "TNL-241",
+    "ClusterColor": 2,
+    "DisplayName": "Seritos-Egeylos"
+  },
+  "TNL-242": {
+    "Id": "TNL-242",
+    "ClusterColor": 2,
+    "DisplayName": "Cetitos-Aiayrom"
+  },
+  "TNL-243": {
+    "Id": "TNL-243",
+    "ClusterColor": 2,
+    "DisplayName": "Heritos-Exozlos"
+  },
+  "TNL-244": {
+    "Id": "TNL-244",
+    "ClusterColor": 2,
+    "DisplayName": "Tieitos-Ouultum"
+  },
+  "TNL-245": {
+    "Id": "TNL-245",
+    "ClusterColor": 2,
+    "DisplayName": "Cieites-Ugumlos"
+  },
+  "TNL-246": {
+    "Id": "TNL-246",
+    "ClusterColor": 2,
+    "DisplayName": "Fieites-Unavtum"
+  },
+  "TNL-247": {
+    "Id": "TNL-247",
+    "ClusterColor": 2,
+    "DisplayName": "Foritos-Aiaylos"
+  },
+  "TNL-248": {
+    "Id": "TNL-248",
+    "ClusterColor": 2,
+    "DisplayName": "Fynitos-Agosaum"
+  },
+  "TNL-249": {
+    "Id": "TNL-249",
+    "ClusterColor": 2,
+    "DisplayName": "Heritos-Eyoztum"
+  },
+  "TNL-250": {
+    "Id": "TNL-250",
+    "ClusterColor": 2,
+    "DisplayName": "Pirites-Unatam"
+  },
+  "TNL-251": {
+    "Id": "TNL-251",
+    "ClusterColor": 2,
+    "DisplayName": "Fonitos-Amaurom"
+  },
+  "TNL-252": {
+    "Id": "TNL-252",
+    "ClusterColor": 2,
+    "DisplayName": "Seritos-Onaytum"
+  },
+  "TNL-253": {
+    "Id": "TNL-253",
+    "ClusterColor": 2,
+    "DisplayName": "Xetitos-Oneulum"
+  },
+  "TNL-254": {
+    "Id": "TNL-254",
+    "ClusterColor": 2,
+    "DisplayName": "Oebitos-Oyozam"
+  },
+  "TNL-255": {
+    "Id": "TNL-255",
+    "ClusterColor": 2,
+    "DisplayName": "Casitos-Atinaum"
+  },
+  "TNL-256": {
+    "Id": "TNL-256",
+    "ClusterColor": 2,
+    "DisplayName": "Souitos-Oiozlum"
+  },
+  "TNL-257": {
+    "Id": "TNL-257",
+    "ClusterColor": 2,
+    "DisplayName": "Xebitos-Oyogam"
+  },
+  "TNL-258": {
+    "Id": "TNL-258",
+    "ClusterColor": 2,
+    "DisplayName": "Conitos-Oxaeaum"
+  },
+  "TNL-259": {
+    "Id": "TNL-259",
+    "ClusterColor": 2,
+    "DisplayName": "Turitos-Atatlos"
+  },
+  "TNL-260": {
+    "Id": "TNL-260",
+    "ClusterColor": 2,
+    "DisplayName": "Feritos-Enomaum"
+  },
+  "TNL-261": {
+    "Id": "TNL-261",
+    "ClusterColor": 2,
+    "DisplayName": "Hebites-Exemrom"
+  },
+  "TNL-262": {
+    "Id": "TNL-262",
+    "ClusterColor": 2,
+    "DisplayName": "Hurites-Ouaylos"
+  },
+  "TNL-263": {
+    "Id": "TNL-263",
+    "ClusterColor": 2,
+    "DisplayName": "Fynites-Aeaosum"
+  },
+  "TNL-264": {
+    "Id": "TNL-264",
+    "ClusterColor": 2,
+    "DisplayName": "Xoritos-Osayam"
+  },
+  "TNL-265": {
+    "Id": "TNL-265",
+    "ClusterColor": 2,
+    "DisplayName": "Cieitos-Ayosrom"
+  },
+  "TNL-266": {
+    "Id": "TNL-266",
+    "ClusterColor": 2,
+    "DisplayName": "Synitos-Ososlos"
+  },
+  "TNL-267": {
+    "Id": "TNL-267",
+    "ClusterColor": 2,
+    "DisplayName": "Xetitos-Emimsum"
+  },
+  "TNL-268": {
+    "Id": "TNL-268",
+    "ClusterColor": 2,
+    "DisplayName": "Oeritos-Oyexlos"
+  },
+  "TNL-269": {
+    "Id": "TNL-269",
+    "ClusterColor": 2,
+    "DisplayName": "Xoritos-Exostum"
+  },
+  "TNL-270": {
+    "Id": "TNL-270",
+    "ClusterColor": 2,
+    "DisplayName": "Tieitos-Eyexrom"
+  },
+  "TNL-271": {
+    "Id": "TNL-271",
+    "ClusterColor": 2,
+    "DisplayName": "Cetitos-Aximam"
+  },
+  "TNL-272": {
+    "Id": "TNL-272",
+    "ClusterColor": 2,
+    "DisplayName": "Hynitos-Ayousum"
+  },
+  "TNL-273": {
+    "Id": "TNL-273",
+    "ClusterColor": 2,
+    "DisplayName": "Fuyitos-Ayiotum"
+  },
+  "TNL-274": {
+    "Id": "TNL-274",
+    "ClusterColor": 2,
+    "DisplayName": "Petitos-Avosrom"
+  },
+  "TNL-275": {
+    "Id": "TNL-275",
+    "ClusterColor": 2,
+    "DisplayName": "Suyites-Avuotum"
+  },
+  "TNL-276": {
+    "Id": "TNL-276",
+    "ClusterColor": 2,
+    "DisplayName": "Xerites-Oxoulum"
+  },
+  "TNL-277": {
+    "Id": "TNL-277",
+    "ClusterColor": 2,
+    "DisplayName": "Hasitos-Avaolum"
+  },
+  "TNL-278": {
+    "Id": "TNL-278",
+    "ClusterColor": 2,
+    "DisplayName": "Xilitos-Aoemaum"
+  },
+  "TNL-279": {
+    "Id": "TNL-279",
+    "ClusterColor": 2,
+    "DisplayName": "Hilitos-Osuorom"
+  },
+  "TNL-280": {
+    "Id": "TNL-280",
+    "ClusterColor": 2,
+    "DisplayName": "Oiritos-Eramtum"
+  },
+  "TNL-281": {
+    "Id": "TNL-281",
+    "ClusterColor": 2,
+    "DisplayName": "Curitos-Ayayaum"
+  },
+  "TNL-282": {
+    "Id": "TNL-282",
+    "ClusterColor": 2,
+    "DisplayName": "Setitos-Obobrom"
+  },
+  "TNL-283": {
+    "Id": "TNL-283",
+    "ClusterColor": 2,
+    "DisplayName": "Sasitos-Umogaum"
+  },
+  "TNL-284": {
+    "Id": "TNL-284",
+    "ClusterColor": 2,
+    "DisplayName": "Cieitos-Avioaum"
+  },
+  "TNL-285": {
+    "Id": "TNL-285",
+    "ClusterColor": 2,
+    "DisplayName": "Fynitos-Aiugsum"
+  },
+  "TNL-286": {
+    "Id": "TNL-286",
+    "ClusterColor": 2,
+    "DisplayName": "Sonitos-Ayailos"
+  },
+  "TNL-287": {
+    "Id": "TNL-287",
+    "ClusterColor": 2,
+    "DisplayName": "Xonites-Aiavlum"
+  },
+  "TNL-288": {
+    "Id": "TNL-288",
+    "ClusterColor": 2,
+    "DisplayName": "Synites-Aoarsum"
+  },
+  "TNL-289": {
+    "Id": "TNL-289",
+    "ClusterColor": 2,
+    "DisplayName": "Cynitos-Aiagsum"
+  },
+  "TNL-290": {
+    "Id": "TNL-290",
+    "ClusterColor": 2,
+    "DisplayName": "Tetitos-Ayoslum"
+  },
+  "TNL-291": {
+    "Id": "TNL-291",
+    "ClusterColor": 2,
+    "DisplayName": "Hilitos-Aiigaum"
+  },
+  "TNL-292": {
+    "Id": "TNL-292",
+    "ClusterColor": 2,
+    "DisplayName": "Ponitos-Aiayrom"
+  },
+  "TNL-293": {
+    "Id": "TNL-293",
+    "ClusterColor": 2,
+    "DisplayName": "Conitos-Ofailos"
+  },
+  "TNL-294": {
+    "Id": "TNL-294",
+    "ClusterColor": 2,
+    "DisplayName": "Soritos-Apenlum"
+  },
+  "TNL-295": {
+    "Id": "TNL-295",
+    "ClusterColor": 2,
+    "DisplayName": "Firitos-Alodrom"
+  },
+  "TNL-296": {
+    "Id": "TNL-296",
+    "ClusterColor": 2,
+    "DisplayName": "Fynitos-Ezatam"
+  },
+  "TNL-297": {
+    "Id": "TNL-297",
+    "ClusterColor": 2,
+    "DisplayName": "Feritos-Osinsum"
+  },
+  "TNL-298": {
+    "Id": "TNL-298",
+    "ClusterColor": 2,
+    "DisplayName": "Suyites-Uzurtum"
+  },
+  "TNL-299": {
+    "Id": "TNL-299",
+    "ClusterColor": 2,
+    "DisplayName": "Ouritos-Ataltum"
+  },
+  "TNL-300": {
+    "Id": "TNL-300",
+    "ClusterColor": 2,
+    "DisplayName": "Hurites-Ieatun"
+  },
+  "TNL-301": {
+    "Id": "TNL-301",
+    "ClusterColor": 2,
+    "DisplayName": "Filites-Izohun"
+  },
+  "TNL-302": {
+    "Id": "TNL-302",
+    "ClusterColor": 2,
+    "DisplayName": "Xynitos-Obursum"
+  },
+  "TNL-303": {
+    "Id": "TNL-303",
+    "ClusterColor": 2,
+    "DisplayName": "Ouritos-Ofailos"
+  },
+  "TNL-304": {
+    "Id": "TNL-304",
+    "ClusterColor": 2,
+    "DisplayName": "Tonitos-Igurlum"
+  },
+  "TNL-305": {
+    "Id": "TNL-305",
+    "ClusterColor": 2,
+    "DisplayName": "Piritos-Ofavam"
+  },
+  "TNL-306": {
+    "Id": "TNL-306",
+    "ClusterColor": 2,
+    "DisplayName": "Soritos-Aiaitum"
+  },
+  "TNL-307": {
+    "Id": "TNL-307",
+    "ClusterColor": 2,
+    "DisplayName": "Tonitos-Uxavrom"
+  },
+  "TNL-308": {
+    "Id": "TNL-308",
+    "ClusterColor": 2,
+    "DisplayName": "Synitos-Availos"
+  },
+  "TNL-309": {
+    "Id": "TNL-309",
+    "ClusterColor": 2,
+    "DisplayName": "Sasitos-Ugersum"
+  },
+  "TNL-310": {
+    "Id": "TNL-310",
+    "ClusterColor": 2,
+    "DisplayName": "Puyitos-Aiataum"
+  },
+  "TNL-311": {
+    "Id": "TNL-311",
+    "ClusterColor": 2,
+    "DisplayName": "Pouitos-Ofairom"
+  },
+  "TNL-312": {
+    "Id": "TNL-312",
+    "ClusterColor": 2,
+    "DisplayName": "Suyitos-Ofugtum"
+  },
+  "TNL-313": {
+    "Id": "TNL-313",
+    "ClusterColor": 2,
+    "DisplayName": "Toritos-Iriglos"
+  },
+  "TNL-314": {
+    "Id": "TNL-314",
+    "ClusterColor": 2,
+    "DisplayName": "Tebitos-Odoxlum"
+  },
+  "TNL-315": {
+    "Id": "TNL-315",
+    "ClusterColor": 2,
+    "DisplayName": "Xurites-Ataglos"
+  },
+  "TNL-316": {
+    "Id": "TNL-316",
+    "ClusterColor": 2,
+    "DisplayName": "Oynites-Oloblum"
+  },
+  "TNL-317": {
+    "Id": "TNL-317",
+    "ClusterColor": 2,
+    "DisplayName": "Furitos-Aiavam"
+  },
+  "TNL-318": {
+    "Id": "TNL-318",
+    "ClusterColor": 2,
+    "DisplayName": "Hynitos-Atoyam"
+  },
+  "TNL-319": {
+    "Id": "TNL-319",
+    "ClusterColor": 2,
+    "DisplayName": "Pynitos-Aietam"
+  },
+  "TNL-320": {
+    "Id": "TNL-320",
+    "ClusterColor": 2,
+    "DisplayName": "Tilitos-Ataglos"
+  },
+  "TNL-321": {
+    "Id": "TNL-321",
+    "ClusterColor": 2,
+    "DisplayName": "Peritos-Oconun"
+  },
+  "TNL-322": {
+    "Id": "TNL-322",
+    "ClusterColor": 2,
+    "DisplayName": "Hynitos-Oyezam"
+  },
+  "TNL-323": {
+    "Id": "TNL-323",
+    "ClusterColor": 2,
+    "DisplayName": "Fasitos-Atezsum"
+  },
+  "TNL-324": {
+    "Id": "TNL-324",
+    "ClusterColor": 2,
+    "DisplayName": "Oeritos-Ecunsum"
+  },
+  "TNL-325": {
+    "Id": "TNL-325",
+    "ClusterColor": 2,
+    "DisplayName": "Casitos-Alieam"
+  },
+  "TNL-326": {
+    "Id": "TNL-326",
+    "ClusterColor": 2,
+    "DisplayName": "Cilitos-Opodam"
+  },
+  "TNL-327": {
+    "Id": "TNL-327",
+    "ClusterColor": 2,
+    "DisplayName": "Huyitos-Ohenlum"
+  },
+  "TNL-328": {
+    "Id": "TNL-328",
+    "ClusterColor": 2,
+    "DisplayName": "Fasites-Azazsum"
+  },
+  "TNL-329": {
+    "Id": "TNL-329",
+    "ClusterColor": 2,
+    "DisplayName": "Silitos-Abizaum"
+  },
+  "TNL-330": {
+    "Id": "TNL-330",
+    "ClusterColor": 2,
+    "DisplayName": "Febites-Opavun"
+  },
+  "TNL-331": {
+    "Id": "TNL-331",
+    "ClusterColor": 2,
+    "DisplayName": "Ferites-Ohohtum"
+  },
+  "TNL-332": {
+    "Id": "TNL-332",
+    "ClusterColor": 2,
+    "DisplayName": "Synitos-Ofurlos"
+  },
+  "TNL-333": {
+    "Id": "TNL-333",
+    "ClusterColor": 2,
+    "DisplayName": "Oouitos-Alaiam"
+  },
+  "TNL-334": {
+    "Id": "TNL-334",
+    "ClusterColor": 2,
+    "DisplayName": "Xoritos-Aiairom"
+  },
+  "TNL-335": {
+    "Id": "TNL-335",
+    "ClusterColor": 2,
+    "DisplayName": "Sasitos-Oyarlum"
+  },
+  "TNL-336": {
+    "Id": "TNL-336",
+    "ClusterColor": 2,
+    "DisplayName": "Fasitos-Oleraum"
+  },
+  "TNL-337": {
+    "Id": "TNL-337",
+    "ClusterColor": 2,
+    "DisplayName": "Fouitos-Aiuttum"
+  },
+  "TNL-338": {
+    "Id": "TNL-338",
+    "ClusterColor": 2,
+    "DisplayName": "Fynitos-Abalam"
+  },
+  "TNL-339": {
+    "Id": "TNL-339",
+    "ClusterColor": 2,
+    "DisplayName": "Suyitos-Oyarlos"
+  },
+  "TNL-340": {
+    "Id": "TNL-340",
+    "ClusterColor": 2,
+    "DisplayName": "Fuyitos-Acalun"
+  },
+  "TNL-341": {
+    "Id": "TNL-341",
+    "ClusterColor": 2,
+    "DisplayName": "Pilitos-Eterrom"
+  },
+  "TNL-342": {
+    "Id": "TNL-342",
+    "ClusterColor": 2,
+    "DisplayName": "Fasitos-Oyuctum"
+  },
+  "TNL-343": {
+    "Id": "TNL-343",
+    "ClusterColor": 2,
+    "DisplayName": "Piritos-Opabrom"
+  },
+  "TNL-344": {
+    "Id": "TNL-344",
+    "ClusterColor": 2,
+    "DisplayName": "Filitos-Uzazlum"
+  },
+  "TNL-345": {
+    "Id": "TNL-345",
+    "ClusterColor": 2,
+    "DisplayName": "Cynitos-Atatlum"
+  },
+  "TNL-346": {
+    "Id": "TNL-346",
+    "ClusterColor": 2,
+    "DisplayName": "Hebitos-Atontum"
+  },
+  "TNL-347": {
+    "Id": "TNL-347",
+    "ClusterColor": 2,
+    "DisplayName": "Tuyitos-Aboysum"
+  },
+  "TNL-348": {
+    "Id": "TNL-348",
+    "ClusterColor": 2,
+    "DisplayName": "Honites-Izizaum"
+  },
+  "TNL-349": {
+    "Id": "TNL-349",
+    "ClusterColor": 2,
+    "DisplayName": "Siritos-Oyohun"
+  },
+  "TNL-350": {
+    "Id": "TNL-350",
+    "ClusterColor": 2,
+    "DisplayName": "Cieitos-Otatrom"
+  },
+  "CORRUPT-001": {
+    "Id": "CORRUPT-001",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-002": {
+    "Id": "CORRUPT-002",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-003": {
+    "Id": "CORRUPT-003",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-004": {
+    "Id": "CORRUPT-004",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-005": {
+    "Id": "CORRUPT-005",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-006": {
+    "Id": "CORRUPT-006",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-007": {
+    "Id": "CORRUPT-007",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "TNL-151": {
+    "Id": "TNL-151",
+    "ClusterColor": 2,
+    "DisplayName": "Quaent-Vynsum"
+  },
+  "TNL-351": {
+    "Id": "TNL-351",
+    "ClusterColor": 2,
+    "DisplayName": "Quaent-Al-Vynsum"
+  },
+  "TNL-152": {
+    "Id": "TNL-152",
+    "ClusterColor": 2,
+    "DisplayName": "Quaent-Tersis"
+  },
+  "TNL-352": {
+    "Id": "TNL-352",
+    "ClusterColor": 2,
+    "DisplayName": "Quaent-Al-Tersis"
+  },
+  "TNL-153": {
+    "Id": "TNL-153",
+    "ClusterColor": 2,
+    "DisplayName": "Quaent-Viesom"
+  },
+  "TNL-353": {
+    "Id": "TNL-353",
+    "ClusterColor": 2,
+    "DisplayName": "Quaent-Al-Viesom"
+  },
+  "TNL-154": {
+    "Id": "TNL-154",
+    "ClusterColor": 2,
+    "DisplayName": "Quatun-Nusas"
+  },
+  "TNL-354": {
+    "Id": "TNL-354",
+    "ClusterColor": 2,
+    "DisplayName": "Quatun-Et-Nusas"
+  },
+  "TNL-155": {
+    "Id": "TNL-155",
+    "ClusterColor": 2,
+    "DisplayName": "Quaent-Qintis"
+  },
+  "TNL-355": {
+    "Id": "TNL-355",
+    "ClusterColor": 2,
+    "DisplayName": "Quaent-Al-Qintis"
+  },
+  "TNL-156": {
+    "Id": "TNL-156",
+    "ClusterColor": 2,
+    "DisplayName": "Quatun-Odetum"
+  },
+  "TNL-356": {
+    "Id": "TNL-356",
+    "ClusterColor": 2,
+    "DisplayName": "Quatun-Et-Odetum"
+  },
+  "TNL-157": {
+    "Id": "TNL-157",
+    "ClusterColor": 2,
+    "DisplayName": "Quaent-Al-Odesum"
+  },
+  "TNL-357": {
+    "Id": "TNL-357",
+    "ClusterColor": 2,
+    "DisplayName": "Quaent-In-Odesum"
+  },
+  "TNL-158": {
+    "Id": "TNL-158",
+    "ClusterColor": 2,
+    "DisplayName": "Quaent-Al-Nusis"
+  },
+  "TNL-358": {
+    "Id": "TNL-358",
+    "ClusterColor": 2,
+    "DisplayName": "Quaent-In-Nusis"
+  },
+  "TNL-159": {
+    "Id": "TNL-159",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Tersom"
+  },
+  "TNL-359": {
+    "Id": "TNL-359",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-In-Tersom"
+  },
+  "TNL-160": {
+    "Id": "TNL-160",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Odesas"
+  },
+  "TNL-360": {
+    "Id": "TNL-360",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Qi-Odesas"
+  },
+  "TNL-161": {
+    "Id": "TNL-161",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Nutis"
+  },
+  "TNL-361": {
+    "Id": "TNL-361",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-In-Nutis"
+  },
+  "TNL-162": {
+    "Id": "TNL-162",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Vyntum"
+  },
+  "TNL-362": {
+    "Id": "TNL-362",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-In-Vyntum"
+  },
+  "TNL-163": {
+    "Id": "TNL-163",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Al-Odesum"
+  },
+  "TNL-363": {
+    "Id": "TNL-363",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Si-Odesum"
+  },
+  "TNL-164": {
+    "Id": "TNL-164",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Al-Vynsis"
+  },
+  "TNL-364": {
+    "Id": "TNL-364",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Qi-Vynsis"
+  },
+  "TNL-165": {
+    "Id": "TNL-165",
+    "ClusterColor": 2,
+    "DisplayName": "Qiitun-Et-Vynsom"
+  },
+  "TNL-365": {
+    "Id": "TNL-365",
+    "ClusterColor": 2,
+    "DisplayName": "Qiitun-Si-Vynsom"
+  },
+  "TNL-166": {
+    "Id": "TNL-166",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Al-Tersas"
+  },
+  "TNL-366": {
+    "Id": "TNL-366",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Qi-Tersas"
+  },
+  "TNL-167": {
+    "Id": "TNL-167",
+    "ClusterColor": 2,
+    "DisplayName": "Qiitun-Vietis"
+  },
+  "TNL-367": {
+    "Id": "TNL-367",
+    "ClusterColor": 2,
+    "DisplayName": "Qiitun-Et-Vietis"
+  },
+  "TNL-168": {
+    "Id": "TNL-168",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Et-Tertum"
+  },
+  "TNL-368": {
+    "Id": "TNL-368",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Si-Tertum"
+  },
+  "TNL-169": {
+    "Id": "TNL-169",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Qinsum"
+  },
+  "TNL-369": {
+    "Id": "TNL-369",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Et-Qinsum"
+  },
+  "TNL-170": {
+    "Id": "TNL-170",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Al-Viesis"
+  },
+  "TNL-370": {
+    "Id": "TNL-370",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-In-Viesis"
+  },
+  "TNL-171": {
+    "Id": "TNL-171",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Al-Nusom"
+  },
+  "TNL-371": {
+    "Id": "TNL-371",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Qi-Nusom"
+  },
+  "TNL-172": {
+    "Id": "TNL-172",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Et-Nusas"
+  },
+  "TNL-372": {
+    "Id": "TNL-372",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Si-Nusas"
+  },
+  "TNL-173": {
+    "Id": "TNL-173",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Et-Odetis"
+  },
+  "TNL-373": {
+    "Id": "TNL-373",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Sa-Odetis"
+  },
+  "TNL-174": {
+    "Id": "TNL-174",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-In-Odetum"
+  },
+  "TNL-374": {
+    "Id": "TNL-374",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Oc-Odetum"
+  },
+  "TNL-175": {
+    "Id": "TNL-175",
+    "ClusterColor": 2,
+    "DisplayName": "Qiitun-Duosum"
+  },
+  "TNL-375": {
+    "Id": "TNL-375",
+    "ClusterColor": 2,
+    "DisplayName": "Qiitun-Al-Duosum"
+  },
+  "TNL-176": {
+    "Id": "TNL-176",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-Al-Qinsis"
+  },
+  "TNL-376": {
+    "Id": "TNL-376",
+    "ClusterColor": 2,
+    "DisplayName": "Qiient-In-Qinsis"
+  },
+  "TNL-177": {
+    "Id": "TNL-177",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Odesom"
+  },
+  "TNL-377": {
+    "Id": "TNL-377",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Qi-Odesom"
+  },
+  "TNL-178": {
+    "Id": "TNL-178",
+    "ClusterColor": 2,
+    "DisplayName": "Sectun-Tersas"
+  },
+  "TNL-378": {
+    "Id": "TNL-378",
+    "ClusterColor": 2,
+    "DisplayName": "Sectun-Et-Tersas"
+  },
+  "TNL-179": {
+    "Id": "TNL-179",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Al-Odetis"
+  },
+  "TNL-379": {
+    "Id": "TNL-379",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Si-Odetis"
+  },
+  "TNL-180": {
+    "Id": "TNL-180",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Vyntum"
+  },
+  "TNL-380": {
+    "Id": "TNL-380",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Et-Vyntum"
+  },
+  "TNL-181": {
+    "Id": "TNL-181",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Viesum"
+  },
+  "TNL-381": {
+    "Id": "TNL-381",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Al-Viesum"
+  },
+  "TNL-182": {
+    "Id": "TNL-182",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Et-Odesis"
+  },
+  "TNL-382": {
+    "Id": "TNL-382",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Sa-Odesis"
+  },
+  "TNL-183": {
+    "Id": "TNL-183",
+    "ClusterColor": 2,
+    "DisplayName": "Sectun-Qinsom"
+  },
+  "TNL-383": {
+    "Id": "TNL-383",
+    "ClusterColor": 2,
+    "DisplayName": "Sectun-In-Qinsom"
+  },
+  "TNL-184": {
+    "Id": "TNL-184",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Al-Qinsom"
+  },
+  "TNL-384": {
+    "Id": "TNL-384",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Qi-Qinsom"
+  },
+  "TNL-185": {
+    "Id": "TNL-185",
+    "ClusterColor": 2,
+    "DisplayName": "Sectun-Al-Vyntis"
+  },
+  "TNL-385": {
+    "Id": "TNL-385",
+    "ClusterColor": 2,
+    "DisplayName": "Sectun-In-Vyntis"
+  },
+  "TNL-186": {
+    "Id": "TNL-186",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Nutum"
+  },
+  "TNL-386": {
+    "Id": "TNL-386",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Al-Nutum"
+  },
+  "TNL-187": {
+    "Id": "TNL-187",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Al-Tersum"
+  },
+  "TNL-387": {
+    "Id": "TNL-387",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-In-Tersum"
+  },
+  "TNL-188": {
+    "Id": "TNL-188",
+    "ClusterColor": 2,
+    "DisplayName": "Sectun-In-Odesis"
+  },
+  "TNL-388": {
+    "Id": "TNL-388",
+    "ClusterColor": 2,
+    "DisplayName": "Sectun-Oc-Odesis"
+  },
+  "TNL-189": {
+    "Id": "TNL-189",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Duosom"
+  },
+  "TNL-389": {
+    "Id": "TNL-389",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Al-Duosom"
+  },
+  "TNL-190": {
+    "Id": "TNL-190",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Et-Qinsas"
+  },
+  "TNL-390": {
+    "Id": "TNL-390",
+    "ClusterColor": 2,
+    "DisplayName": "Secent-Si-Qinsas"
+  },
+  "TNL-191": {
+    "Id": "TNL-191",
+    "ClusterColor": 2,
+    "DisplayName": "Setent-Vietis"
+  },
+  "TNL-391": {
+    "Id": "TNL-391",
+    "ClusterColor": 2,
+    "DisplayName": "Setent-Al-Vietis"
+  },
+  "TNL-192": {
+    "Id": "TNL-192",
+    "ClusterColor": 2,
+    "DisplayName": "Settun-Odetum"
+  },
+  "TNL-392": {
+    "Id": "TNL-392",
+    "ClusterColor": 2,
+    "DisplayName": "Settun-Et-Odetum"
+  },
+  "TNL-193": {
+    "Id": "TNL-193",
+    "ClusterColor": 2,
+    "DisplayName": "Setent-Nusum"
+  },
+  "TNL-393": {
+    "Id": "TNL-393",
+    "ClusterColor": 2,
+    "DisplayName": "Setent-Et-Nusum"
+  },
+  "TNL-194": {
+    "Id": "TNL-194",
+    "ClusterColor": 2,
+    "DisplayName": "Settun-Vynsis"
+  },
+  "TNL-394": {
+    "Id": "TNL-394",
+    "ClusterColor": 2,
+    "DisplayName": "Settun-Al-Vynsis"
+  },
+  "TNL-195": {
+    "Id": "TNL-195",
+    "ClusterColor": 2,
+    "DisplayName": "Settun-Tersom"
+  },
+  "TNL-395": {
+    "Id": "TNL-395",
+    "ClusterColor": 2,
+    "DisplayName": "Settun-Al-Tersom"
+  },
+  "TNL-196": {
+    "Id": "TNL-196",
+    "ClusterColor": 2,
+    "DisplayName": "Setent-Duosas"
+  },
+  "TNL-396": {
+    "Id": "TNL-396",
+    "ClusterColor": 2,
+    "DisplayName": "Setent-Al-Duosas"
+  },
+  "TNL-197": {
+    "Id": "TNL-197",
+    "ClusterColor": 2,
+    "DisplayName": "Setent-Qintis"
+  },
+  "TNL-397": {
+    "Id": "TNL-397",
+    "ClusterColor": 2,
+    "DisplayName": "Setent-Et-Qintis"
+  },
+  "TNL-198": {
+    "Id": "TNL-198",
+    "ClusterColor": 2,
+    "DisplayName": "Settun-Al-Odetum"
+  },
+  "TNL-398": {
+    "Id": "TNL-398",
+    "ClusterColor": 2,
+    "DisplayName": "Settun-In-Odetum"
+  },
+  "TNL-199": {
+    "Id": "TNL-199",
+    "ClusterColor": 2,
+    "DisplayName": "Setent-Al-Qinsum"
+  },
+  "TNL-399": {
+    "Id": "TNL-399",
+    "ClusterColor": 2,
+    "DisplayName": "Setent-In-Qinsum"
+  },
+  "TNL-200": {
+    "Id": "TNL-200",
+    "ClusterColor": 2,
+    "DisplayName": "Settun-Al-Nusis"
+  },
+  "TNL-400": {
+    "Id": "TNL-400",
+    "ClusterColor": 2,
+    "DisplayName": "Settun-In-Nusis"
+  },
+  "CORRUPT-008": {
+    "Id": "CORRUPT-008",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-009": {
+    "Id": "CORRUPT-009",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-010": {
+    "Id": "CORRUPT-010",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-011": {
+    "Id": "CORRUPT-011",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-012": {
+    "Id": "CORRUPT-012",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-013": {
+    "Id": "CORRUPT-013",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-014": {
+    "Id": "CORRUPT-014",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-015": {
+    "Id": "CORRUPT-015",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-016": {
+    "Id": "CORRUPT-016",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-017": {
+    "Id": "CORRUPT-017",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-018": {
+    "Id": "CORRUPT-018",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-019": {
+    "Id": "CORRUPT-019",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CORRUPT-020": {
+    "Id": "CORRUPT-020",
+    "ClusterColor": 2,
+    "DisplayName": "Corrupted Lair"
+  },
+  "CrystalRealmDebug": {
+    "Id": "CrystalRealmDebug",
+    "ClusterColor": 1,
+    "DisplayName": "CrystalRealmDebug"
+  },
+  "0362-HALL-1-4": {
+    "Id": "0362-HALL-1-4",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 3"
+  },
+  "1015-HALL-1-4": {
+    "Id": "1015-HALL-1-4",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 3"
+  },
+  "2012-HALL-1-4": {
+    "Id": "2012-HALL-1-4",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 3"
+  },
+  "3016-HALL-1-4-MART": {
+    "Id": "3016-HALL-1-4-MART",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 3"
+  },
+  "4009-HALL-1-4": {
+    "Id": "4009-HALL-1-4",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 3"
+  },
+  "ChampionsRealmLive": {
+    "Id": "ChampionsRealmLive",
+    "ClusterColor": 1,
+    "DisplayName": "Champions' Realm"
+  },
+  "CrystalRealm20v20": {
+    "Id": "CrystalRealm20v20",
+    "ClusterColor": 2,
+    "DisplayName": "Large Crystal Realm"
+  },
+  "HELLGATE-01-10v10-01": {
+    "Id": "HELLGATE-01-10v10-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Plains"
+  },
+  "HELLGATE-01-2v2-01": {
+    "Id": "HELLGATE-01-2v2-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Plains"
+  },
+  "HELLGATE-01-5v5-01": {
+    "Id": "HELLGATE-01-5v5-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Plains"
+  },
+  "HELLGATE-02-10v10-01": {
+    "Id": "HELLGATE-02-10v10-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Hill"
+  },
+  "HELLGATE-02-2v2-01": {
+    "Id": "HELLGATE-02-2v2-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Hill"
+  },
+  "HELLGATE-02-5v5-01": {
+    "Id": "HELLGATE-02-5v5-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Hill"
+  },
+  "HELLGATE-03-10v10-01": {
+    "Id": "HELLGATE-03-10v10-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Boneyard"
+  },
+  "HELLGATE-03-2v2-01": {
+    "Id": "HELLGATE-03-2v2-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Boneyard"
+  },
+  "HELLGATE-03-5v5-01": {
+    "Id": "HELLGATE-03-5v5-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Boneyard"
+  },
+  "HELLGATE-04-10v10-01": {
+    "Id": "HELLGATE-04-10v10-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Four Bridges"
+  },
+  "HELLGATE-04-2v2-01": {
+    "Id": "HELLGATE-04-2v2-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Four Bridges"
+  },
+  "HELLGATE-04-5v5-01": {
+    "Id": "HELLGATE-04-5v5-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Four Bridges"
+  },
+  "HELLGATE-05-10v10-01": {
+    "Id": "HELLGATE-05-10v10-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Traverse"
+  },
+  "HELLGATE-05-2v2-01": {
+    "Id": "HELLGATE-05-2v2-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Traverse"
+  },
+  "HELLGATE-05-5v5-01": {
+    "Id": "HELLGATE-05-5v5-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Traverse"
+  },
+  "HELLGATE-06-10v10-01": {
+    "Id": "HELLGATE-06-10v10-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Fortress"
+  },
+  "HELLGATE-06-2v2-01": {
+    "Id": "HELLGATE-06-2v2-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Fortress"
+  },
+  "HELLGATE-06-5v5-01": {
+    "Id": "HELLGATE-06-5v5-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Fortress"
+  },
+  "HELLGATE-07-10v10-01": {
+    "Id": "HELLGATE-07-10v10-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Pit"
+  },
+  "HELLGATE-07-2v2-01": {
+    "Id": "HELLGATE-07-2v2-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Pit"
+  },
+  "HELLGATE-07-5v5-01": {
+    "Id": "HELLGATE-07-5v5-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Pit"
+  },
+  "HELLGATE-08-10v10-01": {
+    "Id": "HELLGATE-08-10v10-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Courtyard"
+  },
+  "HELLGATE-08-2v2-01": {
+    "Id": "HELLGATE-08-2v2-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Courtyard"
+  },
+  "HELLGATE-08-5v5-01": {
+    "Id": "HELLGATE-08-5v5-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Courtyard"
+  },
+  "HELLGATE-09-10v10-01": {
+    "Id": "HELLGATE-09-10v10-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Tribunal"
+  },
+  "HELLGATE-09-2v2-01": {
+    "Id": "HELLGATE-09-2v2-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Tribunal"
+  },
+  "HELLGATE-09-5v5-01": {
+    "Id": "HELLGATE-09-5v5-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Tribunal"
+  },
+  "HELLGATE-10-10v10-01": {
+    "Id": "HELLGATE-10-10v10-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Citadel"
+  },
+  "HELLGATE-10-2v2-01": {
+    "Id": "HELLGATE-10-2v2-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Citadel"
+  },
+  "HELLGATE-10-5v5-01": {
+    "Id": "HELLGATE-10-5v5-01",
+    "ClusterColor": 2,
+    "DisplayName": "The Citadel"
+  },
+  "0215": {
+    "Id": "0215",
+    "ClusterColor": 1,
+    "DisplayName": "Murky Fen"
+  },
+  "0216": {
+    "Id": "0216",
+    "ClusterColor": 1,
+    "DisplayName": "Fog Fen"
+  },
+  "0217": {
+    "Id": "0217",
+    "ClusterColor": 1,
+    "DisplayName": "Drownhorse Basin"
+  },
+  "0218": {
+    "Id": "0218",
+    "ClusterColor": 1,
+    "DisplayName": "Slithertail Marsh"
+  },
+  "0219": {
+    "Id": "0219",
+    "ClusterColor": 1,
+    "DisplayName": "Wanderlure Basin"
+  },
+  "0220": {
+    "Id": "0220",
+    "ClusterColor": 1,
+    "DisplayName": "Falsestep Marsh"
+  },
+  "0221": {
+    "Id": "0221",
+    "ClusterColor": 1,
+    "DisplayName": "Darkground Swamp"
+  },
+  "0222": {
+    "Id": "0222",
+    "ClusterColor": 1,
+    "DisplayName": "Anklesnag Mire"
+  },
+  "0223": {
+    "Id": "0223",
+    "ClusterColor": 1,
+    "DisplayName": "Dusktree Swamp"
+  },
+  "1216": {
+    "Id": "1216",
+    "ClusterColor": 1,
+    "DisplayName": "Flynsdell"
+  },
+  "1217": {
+    "Id": "1217",
+    "ClusterColor": 1,
+    "DisplayName": "Pinecopse"
+  },
+  "1218": {
+    "Id": "1218",
+    "ClusterColor": 1,
+    "DisplayName": "Deeproot Wood"
+  },
+  "1220": {
+    "Id": "1220",
+    "ClusterColor": 1,
+    "DisplayName": "Aspenwood"
+  },
+  "1221": {
+    "Id": "1221",
+    "ClusterColor": 1,
+    "DisplayName": "Spindlewood"
+  },
+  "1222": {
+    "Id": "1222",
+    "ClusterColor": 1,
+    "DisplayName": "Owlsong Glen"
+  },
+  "1223": {
+    "Id": "1223",
+    "ClusterColor": 1,
+    "DisplayName": "Nightbloom Forest"
+  },
+  "2216": {
+    "Id": "2216",
+    "ClusterColor": 1,
+    "DisplayName": "Dryfield Meadow"
+  },
+  "2217": {
+    "Id": "2217",
+    "ClusterColor": 1,
+    "DisplayName": "Sandgust Cleft"
+  },
+  "2218": {
+    "Id": "2218",
+    "ClusterColor": 1,
+    "DisplayName": "Longshadow Plain"
+  },
+  "2219": {
+    "Id": "2219",
+    "ClusterColor": 1,
+    "DisplayName": "Flatriver Trough"
+  },
+  "2220": {
+    "Id": "2220",
+    "ClusterColor": 1,
+    "DisplayName": "Redstone Plain"
+  },
+  "2221": {
+    "Id": "2221",
+    "ClusterColor": 1,
+    "DisplayName": "Flimmerair Steppe"
+  },
+  "2222": {
+    "Id": "2222",
+    "ClusterColor": 1,
+    "DisplayName": "Goldshimmer Plain"
+  },
+  "3216": {
+    "Id": "3216",
+    "ClusterColor": 1,
+    "DisplayName": "Kilmar Tor"
+  },
+  "3217": {
+    "Id": "3217",
+    "ClusterColor": 1,
+    "DisplayName": "Carns Hill"
+  },
+  "3218": {
+    "Id": "3218",
+    "ClusterColor": 1,
+    "DisplayName": "Brons Hill"
+  },
+  "3219": {
+    "Id": "3219",
+    "ClusterColor": 1,
+    "DisplayName": "Felniks Hill"
+  },
+  "3220": {
+    "Id": "3220",
+    "ClusterColor": 1,
+    "DisplayName": "Adrens Hill"
+  },
+  "3221": {
+    "Id": "3221",
+    "ClusterColor": 1,
+    "DisplayName": "Garrow Fell"
+  },
+  "3222": {
+    "Id": "3222",
+    "ClusterColor": 1,
+    "DisplayName": "Broken Fell"
+  },
+  "4217": {
+    "Id": "4217",
+    "ClusterColor": 1,
+    "DisplayName": "Pen Fenair"
+  },
+  "4218": {
+    "Id": "4218",
+    "ClusterColor": 1,
+    "DisplayName": "Cairn Drain"
+  },
+  "4219": {
+    "Id": "4219",
+    "ClusterColor": 1,
+    "DisplayName": "Caulder Fissure"
+  },
+  "4220": {
+    "Id": "4220",
+    "ClusterColor": 1,
+    "DisplayName": "Cairn Cloch"
+  },
+  "4221": {
+    "Id": "4221",
+    "ClusterColor": 1,
+    "DisplayName": "Creag Dhor"
+  },
+  "4222": {
+    "Id": "4222",
+    "ClusterColor": 1,
+    "DisplayName": "Creag Meagir"
+  },
+  "4223": {
+    "Id": "4223",
+    "ClusterColor": 1,
+    "DisplayName": "Domhain Chasm"
+  },
+  "PSG-0006#1": {
+    "Id": "PSG-0006#1",
+    "ClusterColor": 1,
+    "DisplayName": "Creag's Way"
+  },
+  "PSG-0006#2": {
+    "Id": "PSG-0006#2",
+    "ClusterColor": 1,
+    "DisplayName": "Chasmlight Cave"
+  },
+  "PSG-H-0001#1": {
+    "Id": "PSG-H-0001#1",
+    "ClusterColor": 1,
+    "DisplayName": "Boulder Deep"
+  },
+  "PSG-H-0002#1": {
+    "Id": "PSG-H-0002#1",
+    "ClusterColor": 1,
+    "DisplayName": "Drystone Channel"
+  },
+  "HELLGATE-01-10v10-01-HRD": {
+    "Id": "HELLGATE-01-10v10-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Plains"
+  },
+  "HELLGATE-01-2v2-01-HRD": {
+    "Id": "HELLGATE-01-2v2-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Plains"
+  },
+  "HELLGATE-01-5v5-01-HRD": {
+    "Id": "HELLGATE-01-5v5-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Plains"
+  },
+  "HELLGATE-02-10v10-01-HRD": {
+    "Id": "HELLGATE-02-10v10-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Hill"
+  },
+  "HELLGATE-02-2v2-01-HRD": {
+    "Id": "HELLGATE-02-2v2-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Hill"
+  },
+  "HELLGATE-02-5v5-01-HRD": {
+    "Id": "HELLGATE-02-5v5-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Hill"
+  },
+  "HELLGATE-03-10v10-01-HRD": {
+    "Id": "HELLGATE-03-10v10-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Boneyard"
+  },
+  "HELLGATE-03-2v2-01-HRD": {
+    "Id": "HELLGATE-03-2v2-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Boneyard"
+  },
+  "HELLGATE-03-5v5-01-HRD": {
+    "Id": "HELLGATE-03-5v5-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Boneyard"
+  },
+  "HELLGATE-04-10v10-01-HRD": {
+    "Id": "HELLGATE-04-10v10-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Four Bridges"
+  },
+  "HELLGATE-04-2v2-01-HRD": {
+    "Id": "HELLGATE-04-2v2-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Four Bridges"
+  },
+  "HELLGATE-04-5v5-01-HRD": {
+    "Id": "HELLGATE-04-5v5-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Four Bridges"
+  },
+  "HELLGATE-05-10v10-01-HRD": {
+    "Id": "HELLGATE-05-10v10-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Traverse"
+  },
+  "HELLGATE-05-2v2-01-HRD": {
+    "Id": "HELLGATE-05-2v2-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Traverse"
+  },
+  "HELLGATE-05-5v5-01-HRD": {
+    "Id": "HELLGATE-05-5v5-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Traverse"
+  },
+  "HELLGATE-06-10v10-01-HRD": {
+    "Id": "HELLGATE-06-10v10-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Fortress"
+  },
+  "HELLGATE-06-2v2-01-HRD": {
+    "Id": "HELLGATE-06-2v2-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Fortress"
+  },
+  "HELLGATE-06-5v5-01-HRD": {
+    "Id": "HELLGATE-06-5v5-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Fortress"
+  },
+  "HELLGATE-07-10v10-01-HRD": {
+    "Id": "HELLGATE-07-10v10-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Pit"
+  },
+  "HELLGATE-07-2v2-01-HRD": {
+    "Id": "HELLGATE-07-2v2-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Pit"
+  },
+  "HELLGATE-07-5v5-01-HRD": {
+    "Id": "HELLGATE-07-5v5-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Pit"
+  },
+  "HELLGATE-08-10v10-01-HRD": {
+    "Id": "HELLGATE-08-10v10-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Courtyard"
+  },
+  "HELLGATE-08-2v2-01-HRD": {
+    "Id": "HELLGATE-08-2v2-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Courtyard"
+  },
+  "HELLGATE-08-5v5-01-HRD": {
+    "Id": "HELLGATE-08-5v5-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Courtyard"
+  },
+  "HELLGATE-09-10v10-01-HRD": {
+    "Id": "HELLGATE-09-10v10-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Tribunal"
+  },
+  "HELLGATE-09-2v2-01-HRD": {
+    "Id": "HELLGATE-09-2v2-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Tribunal"
+  },
+  "HELLGATE-09-5v5-01-HRD": {
+    "Id": "HELLGATE-09-5v5-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Tribunal"
+  },
+  "HELLGATE-10-10v10-01-HRD": {
+    "Id": "HELLGATE-10-10v10-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Citadel"
+  },
+  "HELLGATE-10-2v2-01-HRD": {
+    "Id": "HELLGATE-10-2v2-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Citadel"
+  },
+  "HELLGATE-10-5v5-01-HRD": {
+    "Id": "HELLGATE-10-5v5-01-HRD",
+    "ClusterColor": 2,
+    "DisplayName": "The Citadel"
+  },
+  "DNG-KPR-02-MAIN-010": {
+    "Id": "DNG-KPR-02-MAIN-010",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-011": {
+    "Id": "DNG-KPR-02-MAIN-011",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-012": {
+    "Id": "DNG-KPR-02-MAIN-012",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-013": {
+    "Id": "DNG-KPR-02-MAIN-013",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-014": {
+    "Id": "DNG-KPR-02-MAIN-014",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-015": {
+    "Id": "DNG-KPR-02-MAIN-015",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-016": {
+    "Id": "DNG-KPR-02-MAIN-016",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-018": {
+    "Id": "DNG-KPR-02-MAIN-018",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-019": {
+    "Id": "DNG-KPR-02-MAIN-019",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-01": {
+    "Id": "DNG-KPR-02-MAIN-01",
+    "ClusterColor": 1,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-020": {
+    "Id": "DNG-KPR-02-MAIN-020",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-021": {
+    "Id": "DNG-KPR-02-MAIN-021",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-022": {
+    "Id": "DNG-KPR-02-MAIN-022",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-023": {
+    "Id": "DNG-KPR-02-MAIN-023",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-024": {
+    "Id": "DNG-KPR-02-MAIN-024",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-025": {
+    "Id": "DNG-KPR-02-MAIN-025",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-026": {
+    "Id": "DNG-KPR-02-MAIN-026",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-027": {
+    "Id": "DNG-KPR-02-MAIN-027",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-04": {
+    "Id": "DNG-KPR-02-MAIN-04",
+    "ClusterColor": 1,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-08": {
+    "Id": "DNG-KPR-02-MAIN-08",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-KPR-02-MAIN-09": {
+    "Id": "DNG-KPR-02-MAIN-09",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-MOR-01-MAIN-001": {
+    "Id": "DNG-MOR-01-MAIN-001",
+    "ClusterColor": 1,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-002": {
+    "Id": "DNG-MOR-01-MAIN-002",
+    "ClusterColor": 1,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-003": {
+    "Id": "DNG-MOR-01-MAIN-003",
+    "ClusterColor": 1,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-010": {
+    "Id": "DNG-MOR-01-MAIN-010",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-011": {
+    "Id": "DNG-MOR-01-MAIN-011",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-012": {
+    "Id": "DNG-MOR-01-MAIN-012",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-017": {
+    "Id": "DNG-MOR-01-MAIN-017",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-018": {
+    "Id": "DNG-MOR-01-MAIN-018",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-019": {
+    "Id": "DNG-MOR-01-MAIN-019",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-01": {
+    "Id": "DNG-MOR-01-MAIN-01",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-020": {
+    "Id": "DNG-MOR-01-MAIN-020",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-021": {
+    "Id": "DNG-MOR-01-MAIN-021",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-022": {
+    "Id": "DNG-MOR-01-MAIN-022",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-023": {
+    "Id": "DNG-MOR-01-MAIN-023",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-024": {
+    "Id": "DNG-MOR-01-MAIN-024",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-025": {
+    "Id": "DNG-MOR-01-MAIN-025",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-027": {
+    "Id": "DNG-MOR-01-MAIN-027",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-02": {
+    "Id": "DNG-MOR-01-MAIN-02",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-03": {
+    "Id": "DNG-MOR-01-MAIN-03",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-04": {
+    "Id": "DNG-MOR-01-MAIN-04",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-05": {
+    "Id": "DNG-MOR-01-MAIN-05",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-06": {
+    "Id": "DNG-MOR-01-MAIN-06",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-07": {
+    "Id": "DNG-MOR-01-MAIN-07",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-08": {
+    "Id": "DNG-MOR-01-MAIN-08",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-MAIN-09": {
+    "Id": "DNG-MOR-01-MAIN-09",
+    "ClusterColor": 2,
+    "DisplayName": "Cathedral of Light"
+  },
+  "DNG-MOR-01-SUB-001": {
+    "Id": "DNG-MOR-01-SUB-001",
+    "ClusterColor": 1,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-002": {
+    "Id": "DNG-MOR-01-SUB-002",
+    "ClusterColor": 1,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-003": {
+    "Id": "DNG-MOR-01-SUB-003",
+    "ClusterColor": 1,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-010": {
+    "Id": "DNG-MOR-01-SUB-010",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-011": {
+    "Id": "DNG-MOR-01-SUB-011",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-012": {
+    "Id": "DNG-MOR-01-SUB-012",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-017": {
+    "Id": "DNG-MOR-01-SUB-017",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-018": {
+    "Id": "DNG-MOR-01-SUB-018",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-019": {
+    "Id": "DNG-MOR-01-SUB-019",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-01": {
+    "Id": "DNG-MOR-01-SUB-01",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-020": {
+    "Id": "DNG-MOR-01-SUB-020",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-021": {
+    "Id": "DNG-MOR-01-SUB-021",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-022": {
+    "Id": "DNG-MOR-01-SUB-022",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-023": {
+    "Id": "DNG-MOR-01-SUB-023",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-024": {
+    "Id": "DNG-MOR-01-SUB-024",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-025": {
+    "Id": "DNG-MOR-01-SUB-025",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-027": {
+    "Id": "DNG-MOR-01-SUB-027",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-02": {
+    "Id": "DNG-MOR-01-SUB-02",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-03": {
+    "Id": "DNG-MOR-01-SUB-03",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-04": {
+    "Id": "DNG-MOR-01-SUB-04",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-05": {
+    "Id": "DNG-MOR-01-SUB-05",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-06": {
+    "Id": "DNG-MOR-01-SUB-06",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-07": {
+    "Id": "DNG-MOR-01-SUB-07",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-08": {
+    "Id": "DNG-MOR-01-SUB-08",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-MOR-01-SUB-09": {
+    "Id": "DNG-MOR-01-SUB-09",
+    "ClusterColor": 2,
+    "DisplayName": "Chambers of Truth"
+  },
+  "DNG-UND-01-MAIN-002": {
+    "Id": "DNG-UND-01-MAIN-002",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Crypt"
+  },
+  "DNG-UND-01-MAIN-003": {
+    "Id": "DNG-UND-01-MAIN-003",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Crypt"
+  },
+  "DNG-UND-01-MAIN-004": {
+    "Id": "DNG-UND-01-MAIN-004",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Crypt"
+  },
+  "DNG-UND-01-MAIN-005": {
+    "Id": "DNG-UND-01-MAIN-005",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Crypt"
+  },
+  "DNG-UND-01-MAIN-006": {
+    "Id": "DNG-UND-01-MAIN-006",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Crypt"
+  },
+  "DNG-UND-01-MAIN-007": {
+    "Id": "DNG-UND-01-MAIN-007",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Crypt"
+  },
+  "DNG-UND-01-MAIN-008": {
+    "Id": "DNG-UND-01-MAIN-008",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Crypt"
+  },
+  "DNG-UND-01-MAIN-009": {
+    "Id": "DNG-UND-01-MAIN-009",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Crypt"
+  },
+  "DNG-UND-01-MAIN-010": {
+    "Id": "DNG-UND-01-MAIN-010",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-011": {
+    "Id": "DNG-UND-01-MAIN-011",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-012": {
+    "Id": "DNG-UND-01-MAIN-012",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-013": {
+    "Id": "DNG-UND-01-MAIN-013",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-014": {
+    "Id": "DNG-UND-01-MAIN-014",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-015": {
+    "Id": "DNG-UND-01-MAIN-015",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-016": {
+    "Id": "DNG-UND-01-MAIN-016",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-017": {
+    "Id": "DNG-UND-01-MAIN-017",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-018": {
+    "Id": "DNG-UND-01-MAIN-018",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-019": {
+    "Id": "DNG-UND-01-MAIN-019",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-01": {
+    "Id": "DNG-UND-01-MAIN-01",
+    "ClusterColor": 1,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-020": {
+    "Id": "DNG-UND-01-MAIN-020",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-021": {
+    "Id": "DNG-UND-01-MAIN-021",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-022": {
+    "Id": "DNG-UND-01-MAIN-022",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-023": {
+    "Id": "DNG-UND-01-MAIN-023",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-024": {
+    "Id": "DNG-UND-01-MAIN-024",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-025": {
+    "Id": "DNG-UND-01-MAIN-025",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-026": {
+    "Id": "DNG-UND-01-MAIN-026",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-027": {
+    "Id": "DNG-UND-01-MAIN-027",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-02": {
+    "Id": "DNG-UND-01-MAIN-02",
+    "ClusterColor": 1,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-03": {
+    "Id": "DNG-UND-01-MAIN-03",
+    "ClusterColor": 1,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-05": {
+    "Id": "DNG-UND-01-MAIN-05",
+    "ClusterColor": 1,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-07": {
+    "Id": "DNG-UND-01-MAIN-07",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-08": {
+    "Id": "DNG-UND-01-MAIN-08",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-MAIN-09": {
+    "Id": "DNG-UND-01-MAIN-09",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-SUB-002": {
+    "Id": "DNG-UND-01-SUB-002",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Undercrypt"
+  },
+  "DNG-UND-01-SUB-003": {
+    "Id": "DNG-UND-01-SUB-003",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Undercrypt"
+  },
+  "DNG-UND-01-SUB-004": {
+    "Id": "DNG-UND-01-SUB-004",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Undercrypt"
+  },
+  "DNG-UND-01-SUB-005": {
+    "Id": "DNG-UND-01-SUB-005",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Undercrypt"
+  },
+  "DNG-UND-01-SUB-006": {
+    "Id": "DNG-UND-01-SUB-006",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Undercrypt"
+  },
+  "DNG-UND-01-SUB-007": {
+    "Id": "DNG-UND-01-SUB-007",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Undercrypt"
+  },
+  "DNG-UND-01-SUB-008": {
+    "Id": "DNG-UND-01-SUB-008",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Undercrypt"
+  },
+  "DNG-UND-01-SUB-009": {
+    "Id": "DNG-UND-01-SUB-009",
+    "ClusterColor": 1,
+    "DisplayName": "Hallowed Undercrypt"
+  },
+  "DNG-UND-01-SUB-010": {
+    "Id": "DNG-UND-01-SUB-010",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-011": {
+    "Id": "DNG-UND-01-SUB-011",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-012": {
+    "Id": "DNG-UND-01-SUB-012",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-013": {
+    "Id": "DNG-UND-01-SUB-013",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-014": {
+    "Id": "DNG-UND-01-SUB-014",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-015": {
+    "Id": "DNG-UND-01-SUB-015",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-016": {
+    "Id": "DNG-UND-01-SUB-016",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-017": {
+    "Id": "DNG-UND-01-SUB-017",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-018": {
+    "Id": "DNG-UND-01-SUB-018",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-019": {
+    "Id": "DNG-UND-01-SUB-019",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-01": {
+    "Id": "DNG-UND-01-SUB-01",
+    "ClusterColor": 1,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-020": {
+    "Id": "DNG-UND-01-SUB-020",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-021": {
+    "Id": "DNG-UND-01-SUB-021",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-022": {
+    "Id": "DNG-UND-01-SUB-022",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-023": {
+    "Id": "DNG-UND-01-SUB-023",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-024": {
+    "Id": "DNG-UND-01-SUB-024",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-025": {
+    "Id": "DNG-UND-01-SUB-025",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-026": {
+    "Id": "DNG-UND-01-SUB-026",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-027": {
+    "Id": "DNG-UND-01-SUB-027",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-02": {
+    "Id": "DNG-UND-01-SUB-02",
+    "ClusterColor": 1,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-03": {
+    "Id": "DNG-UND-01-SUB-03",
+    "ClusterColor": 1,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-05": {
+    "Id": "DNG-UND-01-SUB-05",
+    "ClusterColor": 1,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-07": {
+    "Id": "DNG-UND-01-SUB-07",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-08": {
+    "Id": "DNG-UND-01-SUB-08",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-UND-01-SUB-09": {
+    "Id": "DNG-UND-01-SUB-09",
+    "ClusterColor": 2,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-KPR-01-MAIN-01": {
+    "Id": "DNG-KPR-01-MAIN-01",
+    "ClusterColor": 1,
+    "DisplayName": "Deepwood Enclave"
+  },
+  "DNG-KPR-01-MAIN-02": {
+    "Id": "DNG-KPR-01-MAIN-02",
+    "ClusterColor": 1,
+    "DisplayName": "Deepwood Enclave"
+  },
+  "DNG-KPR-01-MAIN-03": {
+    "Id": "DNG-KPR-01-MAIN-03",
+    "ClusterColor": 1,
+    "DisplayName": "Deepwood Enclave"
+  },
+  "DNG-KPR-02-MAIN-017": {
+    "Id": "DNG-KPR-02-MAIN-017",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-UND-02-MAIN-01": {
+    "Id": "DNG-UND-02-MAIN-01",
+    "ClusterColor": 1,
+    "DisplayName": "Trinity Hall"
+  },
+  "DNG-UND-02-MAIN-02": {
+    "Id": "DNG-UND-02-MAIN-02",
+    "ClusterColor": 1,
+    "DisplayName": "Trinity Hall"
+  },
+  "DNG-UND-02-MAIN-03": {
+    "Id": "DNG-UND-02-MAIN-03",
+    "ClusterColor": 1,
+    "DisplayName": "Trinity Hall"
+  },
+  "DNG-UND-02-MAIN-04": {
+    "Id": "DNG-UND-02-MAIN-04",
+    "ClusterColor": 1,
+    "DisplayName": "Trinity Hall"
+  },
+  "0363-HALL-04": {
+    "Id": "0363-HALL-04",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 4"
+  },
+  "1016-HALL-04": {
+    "Id": "1016-HALL-04",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 4"
+  },
+  "2013-HALL-04": {
+    "Id": "2013-HALL-04",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 4"
+  },
+  "3017-HALL-04-MART": {
+    "Id": "3017-HALL-04-MART",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 4"
+  },
+  "4010-HALL-04": {
+    "Id": "4010-HALL-04",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 4"
+  },
+  "DNG-KPR-02-MAIN-028": {
+    "Id": "DNG-KPR-02-MAIN-028",
+    "ClusterColor": 2,
+    "DisplayName": "Stoneroot Caverns"
+  },
+  "DNG-UND-01-MAIN-028": {
+    "Id": "DNG-UND-01-MAIN-028",
+    "ClusterColor": 1,
+    "DisplayName": "Exalted Crypt"
+  },
+  "DNG-UND-01-SUB-028": {
+    "Id": "DNG-UND-01-SUB-028",
+    "ClusterColor": 1,
+    "DisplayName": "Exalted Undercrypt"
+  },
+  "DNG-HER-01-MAIN-01": {
+    "Id": "DNG-HER-01-MAIN-01",
+    "ClusterColor": 1,
+    "DisplayName": "Heretic Cellar Network"
+  },
+  "0301": {
+    "Id": "0301",
+    "ClusterColor": 0,
+    "DisplayName": "Thetford Portal"
+  },
+  "1301": {
+    "Id": "1301",
+    "ClusterColor": 0,
+    "DisplayName": "Lymhurst Portal"
+  },
+  "2301": {
+    "Id": "2301",
+    "ClusterColor": 0,
+    "DisplayName": "Bridgewatch Portal"
+  },
+  "3301": {
+    "Id": "3301",
+    "ClusterColor": 0,
+    "DisplayName": "Martlock Portal"
+  },
+  "4301": {
+    "Id": "4301",
+    "ClusterColor": 0,
+    "DisplayName": "Fort Sterling Portal"
+  },
+  "CrystalRealm02": {
+    "Id": "CrystalRealm02",
+    "ClusterColor": 2,
+    "DisplayName": "Crystal Realm"
+  },
+  "CrystalRealm02-CrystalLeague-NonLethal": {
+    "Id": "CrystalRealm02-CrystalLeague-NonLethal",
+    "ClusterColor": 2,
+    "DisplayName": "Crystal Realm"
+  },
+  "DNG-HER-01-MAIN-02": {
+    "Id": "DNG-HER-01-MAIN-02",
+    "ClusterColor": 1,
+    "DisplayName": "Heretic Cellar Network"
+  },
+  "DNG-HER-01-MAIN-03": {
+    "Id": "DNG-HER-01-MAIN-03",
+    "ClusterColor": 1,
+    "DisplayName": "Heretic Cellar Network"
+  },
+  "DNG-HER-01-MAIN-04": {
+    "Id": "DNG-HER-01-MAIN-04",
+    "ClusterColor": 1,
+    "DisplayName": "Heretic Cellar Network"
+  },
+  "DNG-HER-01-MAIN-05": {
+    "Id": "DNG-HER-01-MAIN-05",
+    "ClusterColor": 1,
+    "DisplayName": "Heretic Cellar Network"
+  },
+  "CrystalRealm-Nonlethal": {
+    "Id": "CrystalRealm-Nonlethal",
+    "ClusterColor": 2,
+    "DisplayName": "Crystal Realm"
+  },
+  "CrystalRealm02-Nonlethal": {
+    "Id": "CrystalRealm02-Nonlethal",
+    "ClusterColor": 2,
+    "DisplayName": "Crystal Realm"
+  },
+  "5000": {
+    "Id": "5000",
+    "ClusterColor": 0,
+    "DisplayName": "Brecilien"
+  },
+  "5001": {
+    "Id": "5001",
+    "ClusterColor": 0,
+    "DisplayName": "Brecilien"
+  },
+  "5002": {
+    "Id": "5002",
+    "ClusterColor": 0,
+    "DisplayName": "Brecilien Bank"
+  },
+  "5003": {
+    "Id": "5003",
+    "ClusterColor": 0,
+    "DisplayName": "Brecilien Market"
+  },
+  "5100": {
+    "Id": "5100",
+    "ClusterColor": 1,
+    "DisplayName": "Brecilien Weald"
+  },
+  "5101": {
+    "Id": "5101",
+    "ClusterColor": 1,
+    "DisplayName": "Brecilien Copse"
+  },
+  "5102": {
+    "Id": "5102",
+    "ClusterColor": 1,
+    "DisplayName": "Brecilien Grove"
+  },
+  "5103": {
+    "Id": "5103",
+    "ClusterColor": 1,
+    "DisplayName": "Brecilien Thicket"
+  },
+  "DNG-MISTS-UND-WIP-01-01": {
+    "Id": "DNG-MISTS-UND-WIP-01-01",
+    "ClusterColor": 1,
+    "DisplayName": "Mists Dungeon"
+  },
+  "0364-HALL-05": {
+    "Id": "0364-HALL-05",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 5"
+  },
+  "1017-HALL-05": {
+    "Id": "1017-HALL-05",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 5"
+  },
+  "2014-HALL-05": {
+    "Id": "2014-HALL-05",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 5"
+  },
+  "3018-HALL-05": {
+    "Id": "3018-HALL-05",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 5"
+  },
+  "4011-HALL-05": {
+    "Id": "4011-HALL-05",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 5"
+  },
+  "0365-HALL-06": {
+    "Id": "0365-HALL-06",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 6"
+  },
+  "1018-HALL-06": {
+    "Id": "1018-HALL-06",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 6"
+  },
+  "2015-HALL-06": {
+    "Id": "2015-HALL-06",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 6"
+  },
+  "3019-HALL-06": {
+    "Id": "3019-HALL-06",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 6"
+  },
+  "4012-HALL-06": {
+    "Id": "4012-HALL-06",
+    "ClusterColor": 0,
+    "DisplayName": "Conquerors' Hall Lvl. 6"
+  }
+}

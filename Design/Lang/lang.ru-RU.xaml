@@ -1,0 +1,256 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:v="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Main window -->
+    <v:String x:Key="Save">Сохранить</v:String>
+
+    <v:String x:Key="Meny_lb1">Радар</v:String>
+
+    <v:String x:Key="Meny_bt1">Игроки</v:String>
+    <v:String x:Key="Meny_bt2">Ресурсы</v:String>
+    <v:String x:Key="Meny_bt3">Мобы</v:String>
+    <v:String x:Key="Meny_bt4">Данжи</v:String>
+    <v:String x:Key="Meny_bt5">Оверлэй</v:String>
+
+    <v:String x:Key="Meny_lb2">Аддоны</v:String>
+
+    <v:String x:Key="Meny_bt6">Сонар Хак</v:String>
+    <v:String x:Key="Meny_bt7">Карта местности</v:String>
+    <v:String x:Key="Meny_bt8">Предметы игрока</v:String>
+    <v:String x:Key="Meny_bt9">Top DUDE</v:String>
+
+    <v:String x:Key="Meny_lb3">Разное</v:String>
+
+    <v:String x:Key="Meny_bt10">Основные</v:String>
+    <v:String x:Key="Meny_bt11">Помощь</v:String>
+    <v:String x:Key="Meny_bt12">Конфиги</v:String>
+
+    <!-- ALL Pages -->
+    <v:String x:Key="Enabled">Включено</v:String>
+
+    <!-- DOT Design -->
+    <v:String x:Key="DotSize">Размер точки</v:String>
+    <v:String x:Key="Corner">Обводка</v:String>
+
+    <!-- Players Page -->
+    <v:String x:Key="EspLabel">ESP Игроки</v:String>
+
+    <v:String x:Key="TTNoPVP">Группа игроков БЕЗ ПВП флага. Отображаются синим цветом в игре.</v:String>
+    <v:String x:Key="TTPVP">Группа игроков С ПВП флагом. Отображаются красным цветом в игре.</v:String>
+    <v:String x:Key="TTFaction">Группа игроков с флагом Фракции. Возле ника отображается флаг фракции в игре.</v:String>
+    <v:String x:Key="TTFFaction">Работает при включённой функции "Битва Фракций" и наличии фракции на вас. Позволяет настроить игроков вашей фракции.</v:String>
+    <v:String x:Key="TTEFaction">Работает при включённой функции "Битва Фракций"и наличии фракции на вас. Позволяет настроить игроков других фракций.</v:String>
+
+    <v:String x:Key="FriendlyMPList">Группа дружественных игроков. Добавьте НИКНЕЙМ игрока в список для настройки.</v:String>
+    <v:String x:Key="FriendlyMGList">Группа дружественных гильдий (ваша Гильдия уже учтена). Добавьте ГИЛЬДИЮ игрока в список для настройки.</v:String>
+    <v:String x:Key="FriendlyMAList">Группа дружественных альянсов (ваш Альняс уже учтён). Добавьте АЛЬЯНС игрока в список для настройки.</v:String>
+
+    <v:String x:Key="EnemyMPList">Группа вражеских игроков. Добавьте НИКНЕЙМ игрока в список для настройки.</v:String>
+    <v:String x:Key="EnemyMGList">Группа вражеских гильдий. Добавьте ГИЛЬДИЮ игрока в список для настройки.</v:String>
+    <v:String x:Key="EnemyMAList">Группа вражеских альянсов. Добавьте АЛЬЯНС игрока в список для настройки.</v:String>
+
+
+    <!-- LEFT -->
+
+    <v:String x:Key="ExtendedESP">Расширенный ESP</v:String>
+    <v:String x:Key="FactionWar">Битва Фракций</v:String>
+    <v:String x:Key="FriendlyPGAList">Дружественные И/Г/А листы</v:String>
+    <v:String x:Key="EnemyPGAList">Вражеские И/Г/А листы</v:String>
+
+    <!-- Custom List -->
+    <v:String x:Key="CutomListLb">Кастомный Список</v:String>
+    <v:String x:Key="EmptyList">ПУСТОЙ СПИСОК</v:String>
+    <v:String x:Key="InputText">Введи текст . . .</v:String>
+    
+    <!-- RIGHT -->
+    <v:String x:Key="DotStyle">Стиль точки</v:String>
+
+    <!-- Dot Style -->
+    <v:String x:Key="Flat">Плоский</v:String>
+    <v:String x:Key="Star">Звезда</v:String>
+    <v:String x:Key="Flag">Флаг</v:String>
+    <v:String x:Key="Skull">Череп</v:String>
+    <v:String x:Key="Heart">Сердце</v:String>
+    <v:String x:Key="XMark">X - Метка</v:String>
+
+
+    <v:String x:Key="DotColors">Цвета точки</v:String>
+    <v:String x:Key="Size">Размер</v:String>
+
+    <v:String x:Key="DetectionSound">Звук обнаружения</v:String>
+
+    <!-- Detection Sound -->
+    <v:String x:Key="Off">Выкл</v:String>
+    <v:String x:Key="Beep">Бип</v:String>
+    <v:String x:Key="SonarHack">Сонар Хак</v:String>
+
+    <v:String x:Key="ShowItems">Отображать Предметы</v:String>
+    <v:String x:Key="ShowNick">Отображать Ник</v:String>
+    <v:String x:Key="ShowAlliance">Отображать Альянс</v:String>
+    <v:String x:Key="ShowDistance">Отображать Дистанцию</v:String>
+    <v:String x:Key="MountedStatus">Статус на Коне</v:String>
+    <v:String x:Key="VisibleContact">Визуальный контакт</v:String>
+    
+    <v:String x:Key="HealthIndicator">Индикатор ХП</v:String>
+
+    <!-- Health Indicator -->
+    <v:String x:Key="Icon">Иконка</v:String>
+    <v:String x:Key="Percent">Процент</v:String>
+    <v:String x:Key="Value">Цифры ХП</v:String>
+    
+    <v:String x:Key="FocusLine">Линия Фокуса</v:String>
+
+
+    <!-- Harvestable Page -->
+    <v:String x:Key="ResLabel">Ресурсы</v:String>
+    <v:String x:Key="ResMobsLabel">Ресурсные Мобы</v:String>
+    <v:String x:Key="DotDesignLabel">Дизайн Точки</v:String>
+
+    <v:String x:Key="StackCount">Отображение Стаков</v:String>
+    <v:String x:Key="StackFilter">Фильтр Стаков</v:String>
+
+    <v:String x:Key="OnlyAspected">Только Аспекты</v:String>
+
+
+    <!-- Mobs Page -->
+    <v:String x:Key="WorldMobs">Мобы в Мире</v:String>
+    <v:String x:Key="MistsMobs">Мобы Мглы</v:String>
+    <v:String x:Key="Drones">Дрон-кладоискатель</v:String>
+    <v:String x:Key="FishNodes">Рыбьи Ноды</v:String>
+
+    <v:String x:Key="CorruptedMobs">Мобы в Корраптах</v:String>
+
+    <v:String x:Key="Hooker">Хукер</v:String>
+    <v:String x:Key="SilenceBat">Сайленс Мышь</v:String>
+    <v:String x:Key="KnokBackBat">Откидывающая Мышь</v:String>
+    <v:String x:Key="LavaBat">Лавовая Мышь</v:String>
+    <v:String x:Key="GlueBat">Замедляющая Мышь</v:String>
+
+    <v:String x:Key="CorruptedTraps">Ловушки в Корраптах</v:String>
+
+    <v:String x:Key="Spikes">Шипы</v:String>
+    <v:String x:Key="FlameSpinner">Спиннеры огня</v:String>
+    <v:String x:Key="LavaThrower">Бросатель Лавы</v:String>
+    <v:String x:Key="BombThrower">Бросатель Бомб</v:String>
+    
+    <v:String x:Key="OnlyProcked">Только Прокнутые</v:String>
+    
+    <v:String x:Key="MistWisps">Виспы Мглы</v:String>
+    <v:String x:Key="PortalWisps">Портальные Виспы</v:String>
+    <v:String x:Key="WispsInGate">Виспы в Клетках</v:String>
+    
+    <v:String x:Key="MistBosses">Боссы Мглы</v:String>
+
+    <v:String x:Key="Treasures">Сокровищницы</v:String>
+    <v:String x:Key="TreasureToy">Сокровище с игрушками</v:String>
+    <v:String x:Key="WorldChest">Мировой Сундук</v:String>
+    
+    <v:String x:Key="EventMobs">Мобы Эвентов</v:String>
+
+    <!-- Dungeons Page -->
+    <v:String x:Key="DungeonsLabel">Данжи</v:String>
+    <v:String x:Key="ShowSolo">Соло</v:String>
+    <v:String x:Key="ShowCorrupted">Проклятые</v:String>
+    <v:String x:Key="ShowGroup">Групповые</v:String>
+    <v:String x:Key="ShowHellgate">Хеллгейты</v:String>
+
+    <!-- STYLE Page -->
+    <v:String x:Key="Style">Стиль</v:String>
+    <v:String x:Key="Thikness">Толщина</v:String>
+    <v:String x:Key="Scale">Масштаб</v:String>
+
+    <!-- LEFT -->
+    <v:String x:Key="Centering">Центровка</v:String>
+    <v:String x:Key="CenteringUnder">Настройка центровки радара</v:String>
+    <v:String x:Key="CrossLines">Перекрестие</v:String>
+    <v:String x:Key="Ralfigura">Ральфигура</v:String>
+
+    <v:String x:Key="FOV">ФОВ</v:String>
+    <v:String x:Key="FOVUnder">Кастомные фигуры поля зрения</v:String>
+    <v:String x:Key="Layer">Слой</v:String>
+    <v:String x:Key="First">Первый</v:String>
+    <v:String x:Key="Second">Второй</v:String>
+    <v:String x:Key="Third">Третий</v:String>
+
+    <v:String x:Key="Figure">Фигура</v:String>
+
+    <v:String x:Key="Circle">Круг</v:String>
+    <v:String x:Key="Rectangle">Квадрат</v:String>
+    <v:String x:Key="FillCircle">Залитый Круг</v:String>
+    <v:String x:Key="FillRectangle">Залитый Квадрат</v:String>
+
+    <v:String x:Key="Outline">Контур</v:String>
+    <v:String x:Key="OutlineUnder">Настройка контура радара</v:String>
+
+    <v:String x:Key="Grid">Сетка</v:String>
+    <v:String x:Key="GridUnder">Настройка сетки под радаром</v:String>
+
+    <v:String x:Key="Background">Задний Фон</v:String>
+    <v:String x:Key="BackgroundUnder">Изменить цвет фона</v:String>
+    
+
+    <!-- RIGHT -->
+    <v:String x:Key="Zoom">Зум</v:String>
+    <v:String x:Key="Height">Высота</v:String>
+    <v:String x:Key="Width">Ширина</v:String>
+    <v:String x:Key="SyncHaW">Синх. Высоты &amp; Ширины</v:String>
+    <v:String x:Key="X">X Смещ.</v:String>
+    <v:String x:Key="Y">Y Смещ.</v:String>
+
+    <!-- SONAR HACK -->
+    <v:String x:Key="OnlyOnEnemy">Только на Противников</v:String>
+    <v:String x:Key="IncludeMounted">Учитывать Статус на Коне</v:String>
+
+    <v:String x:Key="EnemyTargets">Вражеские Цели</v:String>
+    <v:String x:Key="FriendlyTargets">Дружественные Цели</v:String>
+
+    <v:String x:Key="NoPVP">Без ПВП</v:String>
+    <v:String x:Key="PVP">ПВП</v:String>
+    <v:String x:Key="Faction">Фракция</v:String>
+    <v:String x:Key="Bounty">Bounty</v:String>
+    
+    <v:String x:Key="Players">Игроки</v:String>
+    <v:String x:Key="Guilds">Гильдии</v:String>
+    <v:String x:Key="Alliances">Альянсы</v:String>
+
+
+    <!-- MAP -->
+    <v:String x:Key="Map">Карта</v:String>
+    <v:String x:Key="Opacity">Прозрачность</v:String>
+
+    <!-- MAIN PAGE -->
+    <v:String x:Key="Language">Язык (используй EN)</v:String>
+    <v:String x:Key="ChooseLang">Выбор Языка</v:String>
+
+    <v:String x:Key="Binds">Бинды</v:String>
+    <v:String x:Key="ShowHideMenu">Показ. / Скрыть Меню</v:String>
+    <v:String x:Key="ShowHideRadar">Показ. / Скрыть Радар</v:String>
+    <v:String x:Key="Close Radar">Закрыть Радар</v:String>
+
+    <!-- SUPPORT PAGE -->
+    <v:String x:Key="Links">Ссылки</v:String>
+    <v:String x:Key="Discord">Дискорд</v:String>
+    <v:String x:Key="Github">Сайт</v:String>
+    <v:String x:Key="Telegram">Телеграм</v:String>
+    <v:String x:Key="YouTube">Ютуб</v:String>
+
+    <v:String x:Key="Join">Присоединиться</v:String>
+    <v:String x:Key="Open">Открыть</v:String>
+
+    <!-- CONFIG PAGE -->
+    <v:String x:Key="ConfigList">Список Конфигов</v:String>
+    <v:String x:Key="ActiveConfig">Активный Конфиг</v:String>
+
+    <v:String x:Key="Rename">Ренэйм</v:String>
+    <v:String x:Key="Copy">Копия</v:String>
+    <v:String x:Key="Delete">Удалить</v:String>
+    <v:String x:Key="Export">Экспорт</v:String>
+
+    <v:String x:Key="Import">Импорт</v:String>
+    <v:String x:Key="PasteImportKey">Вставь Ключ Импорта</v:String>
+
+    <v:String x:Key="CreateNewConfig">Создать новый Конфиг</v:String>
+    <v:String x:Key="NewConfigName">Имя нового конфига</v:String>
+    <v:String x:Key="Create">Создать</v:String>
+</ResourceDictionary>

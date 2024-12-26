@@ -1,0 +1,175 @@
+﻿<Page x:Class="X975.Pages.MobsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d" 
+      d:DesignHeight="591"
+      d:DesignWidth="590">
+
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Width="290">
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource WorldMobs}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource Enabled}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="WorldMobsSwitch" HorizontalAlignment="Right" Checked="WorldMobsSwitch_Checked" Unchecked="WorldMobsSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource OnlyProcked}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="OnlyProckedSwitch" HorizontalAlignment="Right" Checked="OnlyProckedSwitch_Checked" Unchecked="OnlyProckedSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource DotSize}" FontSize="16"/>
+                            <Slider x:Name="WorldSizeSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="4" Maximum="16" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="WorldSizeSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=WorldSizeSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource MistWisps}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource PortalWisps}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="WispsSwitch" HorizontalAlignment="Right" Checked="WispsSwitch_Checked" Unchecked="WispsSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource WispsInGate}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="WispsInGateSwitch" HorizontalAlignment="Right" Checked="WispsInGateSwitch_Checked" Unchecked="WispsInGateSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource DotSize}" FontSize="16"/>
+                            <Slider x:Name="MistsSizeSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="4" Maximum="16" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="MistsSizeSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=MistsSizeSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource MistBosses}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource Enabled}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="MistBossSwitch" HorizontalAlignment="Right" Checked="MistBossSwitch_Checked" Unchecked="MistBossSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource DotSize}" FontSize="16"/>
+                            <Slider x:Name="MistsBossSizeSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="4" Maximum="16" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="MistsBossSizeSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=MistsBossSizeSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <StackPanel Width="290" Margin="10 0 0 0">
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource Drones}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource Enabled}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="DronesSwitch" HorizontalAlignment="Right" Checked="DronesSwitch_Checked" Unchecked="DronesSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource DotSize}" FontSize="16"/>
+                            <Slider x:Name="DronesSizeSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="4" Maximum="16" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="DronesSizeSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=DronesSizeSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource FishNodes}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource Enabled}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="FishSwitch" HorizontalAlignment="Right" Checked="FishSwitch_Checked" Unchecked="FishSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource DotSize}" FontSize="16"/>
+                            <Slider x:Name="FishSizeSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="4" Maximum="16" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="FishSizeSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=FishSizeSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource Treasures}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource TreasureToy}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="TreasureSwitch" HorizontalAlignment="Right" Checked="TreasureSwitch_Checked" Unchecked="TreasureSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource WorldChest}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="WorldChestSwitch" HorizontalAlignment="Right" Checked="WorldChestSwitch_Checked" Unchecked="WorldChestSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource DotSize}" FontSize="16"/>
+                            <Slider x:Name="TreasureSizeSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="4" Maximum="16" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="TreasureSizeSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=TreasureSizeSlider}" FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource EventMobs}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource Enabled}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="EventSwitch" HorizontalAlignment="Right" Checked="EventSwitch_Checked" Unchecked="EventSwitch_Checked"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource DotSize}" FontSize="16"/>
+                            <Slider x:Name="EventSizeSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="4" Maximum="16" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="EventSizeSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=EventSizeSlider}" FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </StackPanel>
+</Page>

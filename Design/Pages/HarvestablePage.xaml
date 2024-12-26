@@ -1,0 +1,177 @@
+﻿<Page x:Class="X975.Pages.HarvestablePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d" 
+      d:DesignHeight="591"
+      d:DesignWidth="590">
+
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Width="290">
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource ResLabel}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource Enabled}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="ResourcesSwitch" HorizontalAlignment="Right" Checked="ShowResources" Unchecked="ShowResources"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource StackCount}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="StackSwitch" HorizontalAlignment="Right" Checked="ShowStacks" Unchecked="ShowStacks"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource StackFilter}" FontSize="16"/>
+                            <Slider x:Name="StackFilterSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="0" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="StackFilterSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=StackFilterSlider}"  FontSize="16" Margin="5 0 5 0"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource ResMobsLabel}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource Enabled}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="ResMobsSwitch" HorizontalAlignment="Right" Checked="ShowResMobs" Unchecked="ShowResMobs"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource OnlyAspected}" FontSize="16"/>
+                            <ui:ToggleSwitch x:Name="OnlyAspectedSwitch" HorizontalAlignment="Right" Checked="OnlyAspectedMode" Unchecked="OnlyAspectedMode"/>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource DotDesignLabel}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource DotSize}" FontSize="16"/>
+                            <Slider x:Name="SizeSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="4" Maximum="16" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="SizeSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=SizeSlider}"  FontSize="16" Margin="5 0 5 0"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <StackPanel Width="290" Margin="10 0 0 0">
+
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="WoodBtn" Tag="WOOD" Width="54" Height="54" Background="{DynamicResource MainColor}" BorderThickness="2" BorderBrush="{DynamicResource ThirdColor}" Padding="7" Click="SwitchResource">
+                    <Image RenderOptions.BitmapScalingMode="HighQuality" Margin="0" HorizontalAlignment="Center" Stretch="Uniform" Source="/Design/Images/Resources/wood.png" />
+                </Button>
+
+                <Button x:Name="RockBtn" Tag="ROCK" Width="54" Height="54" Margin="5 0 0 0" Background="{DynamicResource MainColor}" BorderThickness="2" BorderBrush="{x:Null}" Padding="7" Click="SwitchResource">
+                    <Image RenderOptions.BitmapScalingMode="HighQuality" Margin="0" Stretch="Uniform" Source="/Design/Images/Resources/rock.png" />
+                </Button>
+
+                <Button x:Name="OreBtn" Tag="ORE" Width="54" Height="54" Margin="5 0 0 0" Background="{DynamicResource MainColor}" BorderThickness="2" BorderBrush="{x:Null}" Padding="7" Click="SwitchResource">
+                    <Image RenderOptions.BitmapScalingMode="HighQuality" Margin="0" Stretch="Uniform" Source="/Design/Images/Resources/ore.png" />
+                </Button>
+
+                <Button x:Name="FiberBtn" Tag="FIBER" Width="54" Height="54" Margin="5 0 0 0" Background="{DynamicResource MainColor}" BorderThickness="2" BorderBrush="{x:Null}" Padding="7" Click="SwitchResource">
+                    <Image RenderOptions.BitmapScalingMode="HighQuality" Margin="0" Stretch="Uniform" Source="/Design/Images/Resources/fiber.png" />
+                </Button>
+
+                <Button x:Name="HideBtn" Tag="HIDE" Width="54" Height="54" Margin="5 0 0 0" Background="{DynamicResource MainColor}" BorderThickness="2" BorderBrush="{x:Null}" Padding="7" Click="SwitchResource">
+                    <Image RenderOptions.BitmapScalingMode="HighQuality" Margin="0" Stretch="Uniform" Source="/Design/Images/Resources/hide.png" />
+                </Button>
+            </StackPanel>
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel Margin="10">
+                    <StackPanel Orientation="Horizontal">
+                        <Border CornerRadius="5" BorderThickness="0" Width="65" Height="38" BorderBrush="{x:Null}" Padding="0" HorizontalAlignment="Left" Background="#FF979491">
+                            <TextBlock Text="T1" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+                        </Border>
+                        <ui:ToggleSwitch x:Name="T1_0" Margin="10 0 0 0" Background="#FF909090" Tag="T1-0" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch Margin="10 0 0 0" IsEnabled="False"/>
+                        <ui:ToggleSwitch Margin="10 0 0 0" IsEnabled="False" Background="#FF1FB4C7"/>
+                        <ui:ToggleSwitch Margin="10 0 0 0" IsEnabled="False" Background="#FFB61FC7"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                        <Border CornerRadius="5" BorderThickness="0" Width="65" Height="38" BorderBrush="{x:Null}" Padding="0" HorizontalAlignment="Left" Background="#FFD18D5F">
+                            <TextBlock Text="T2" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ui:ToggleSwitch x:Name="T2_0" Margin="10 0 0 0" Background="#FF909090" Tag="T2-0" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch Margin="10 0 0 0" IsEnabled="False"/>
+                        <ui:ToggleSwitch Margin="10 0 0 0" IsEnabled="False" Background="#FF1FB4C7"/>
+                        <ui:ToggleSwitch Margin="10 0 0 0" IsEnabled="False" Background="#FFB61FC7"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                        <Border CornerRadius="5" BorderThickness="0" Width="65" Height="38" BorderBrush="{x:Null}" Padding="0" HorizontalAlignment="Left" Background="#FF058B05">
+                            <TextBlock Text="T3" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ui:ToggleSwitch x:Name="T3_0" Margin="10 0 0 0" Background="#FF909090" Tag="T3-0" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch Margin="10 0 0 0" IsEnabled="False"/>
+                        <ui:ToggleSwitch Margin="10 0 0 0" IsEnabled="False" Background="#FF1FB4C7"/>
+                        <ui:ToggleSwitch Margin="10 0 0 0" IsEnabled="False" Background="#FFB61FC7"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                        <Border CornerRadius="5" BorderThickness="0" Width="65" Height="38" BorderBrush="{x:Null}" Padding="0" HorizontalAlignment="Left" Background="#FF055CA9">
+                            <TextBlock Text="T4" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ui:ToggleSwitch x:Name="T4_0" Margin="10 0 0 0" Background="#FF909090" Tag="T4-0" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T4_1" Margin="10 0 0 0" Tag="T4-1" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T4_2" Margin="10 0 0 0" Background="#FF1FB4C7" Tag="T4-2" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T4_3" Margin="10 0 0 0" Background="#FFB61FC7" Tag="T4-3" Checked="AddResource" Unchecked="AddResource"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                        <Border CornerRadius="5" BorderThickness="0" Width="65" Height="38" BorderBrush="{x:Null}" Padding="0" HorizontalAlignment="Left" Background="#FFA30505">
+                            <TextBlock Text="T5" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ui:ToggleSwitch x:Name="T5_0" Margin="10 0 0 0" Background="#FF909090" Tag="T5-0" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T5_1" Margin="10 0 0 0" Tag="T5-1" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T5_2" Margin="10 0 0 0" Background="#FF1FB4C7" Tag="T5-2" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T5_3" Margin="10 0 0 0" Background="#FFB61FC7" Tag="T5-3" Checked="AddResource" Unchecked="AddResource"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                        <Border CornerRadius="5" BorderThickness="0" Width="65" Height="38" BorderBrush="{x:Null}" Padding="0" HorizontalAlignment="Left" Background="#FFD16D08">
+                            <TextBlock Text="T6" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF121212"/>
+                        </Border>
+                        <ui:ToggleSwitch x:Name="T6_0" Margin="10 0 0 0" Background="#FF909090" Tag="T6-0" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T6_1" Margin="10 0 0 0" Tag="T6-1" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T6_2" Margin="10 0 0 0" Background="#FF1FB4C7" Tag="T6-2" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T6_3" Margin="10 0 0 0" Background="#FFB61FC7" Tag="T6-3" Checked="AddResource" Unchecked="AddResource"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                        <Border CornerRadius="5" BorderThickness="0" Width="65" Height="38" BorderBrush="{x:Null}" Padding="0" HorizontalAlignment="Left" Background="#FFD0C200">
+                            <TextBlock Text="T7" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource MainColor}"/>
+                        </Border>
+                        <ui:ToggleSwitch x:Name="T7_0" Margin="10 0 0 0" Background="#FF909090" Tag="T7-0" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T7_1" Margin="10 0 0 0" Tag="T7-1" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T7_2" Margin="10 0 0 0" Background="#FF1FB4C7" Tag="T7-2" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T7_3" Margin="10 0 0 0" Background="#FFB61FC7" Tag="T7-3" Checked="AddResource" Unchecked="AddResource"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                        <Border CornerRadius="5" BorderThickness="0" Width="65" Height="38" BorderBrush="{x:Null}" Padding="0" HorizontalAlignment="Left" Background="White">
+                            <TextBlock Text="T8" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource MainColor}"/>
+                        </Border>
+                        <ui:ToggleSwitch x:Name="T8_0" Margin="10 0 0 0" Background="#FF909090" Tag="T8-0" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T8_1" Margin="10 0 0 0" Tag="T8-1" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T8_2" Margin="10 0 0 0" Background="#FF1FB4C7" Tag="T8-2" Checked="AddResource" Unchecked="AddResource"/>
+                        <ui:ToggleSwitch x:Name="T8_3" Margin="10 0 0 0" Background="#FFB61FC7" Tag="T8-3" Checked="AddResource" Unchecked="AddResource"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </StackPanel>
+</Page>

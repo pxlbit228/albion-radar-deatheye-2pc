@@ -1,0 +1,69 @@
+﻿<Page x:Class="X975.Pages.SupportPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d" 
+      d:DesignHeight="591"
+      d:DesignWidth="590">
+
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Width="290">
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource Links}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource Discord}" FontSize="16" VerticalAlignment="Center"/>
+                            <Button Height="28" Padding="0" Width="85" HorizontalAlignment="Right" Focusable="False" Tag="Discord" Click="Links">
+                                <TextBlock Text="{DynamicResource Open}" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{DynamicResource ThirdColor}"/>
+                            </Button>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource Github}" FontSize="16" VerticalAlignment="Center"/>
+                            <Button Height="28" Padding="0" Width="85" HorizontalAlignment="Right" Focusable="False" Tag="Github" Click="Links">
+                                <TextBlock Text="{DynamicResource Open}" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{DynamicResource ThirdColor}"/>
+                            </Button>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource YouTube}" FontSize="16" VerticalAlignment="Center"/>
+                            <Button Height="28" Padding="0" Width="85" HorizontalAlignment="Right" Focusable="False" Tag="Youtube" Click="Links">
+                                <TextBlock Text="{DynamicResource Open}" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{DynamicResource ThirdColor}"/>
+                            </Button>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+
+        <StackPanel Width="290" Margin="10 0 0 0">
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 0 0 0" Visibility="Collapsed">
+                <StackPanel>
+                    <Border BorderThickness="0 0 0 2" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="Bugreport" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <ui:TextBox MaxHeight="200" PlaceholderText="Will available soon" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" VerticalAlignment="Top" FontFamily="/X975;component/Design/Font/#Nokia Sans S60"/>
+                        </Grid>
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="Send report" FontSize="16" VerticalAlignment="Center"/>
+                            <Button Height="30" Padding="0" Width="80" HorizontalAlignment="Right" Focusable="False">
+                                <TextBlock Text="Dont work" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{DynamicResource ThirdColor}"/>
+                            </Button>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+    </StackPanel>
+</Page>

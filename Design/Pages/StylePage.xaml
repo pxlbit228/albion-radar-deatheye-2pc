@@ -1,0 +1,326 @@
+﻿<Page x:Class="X975.Pages.StylePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:cp="clr-namespace:X975.Design"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d" 
+      d:DesignHeight="591"
+      d:DesignWidth="590">
+
+    <StackPanel Orientation="Horizontal">
+
+        <StackPanel Width="290" Visibility="Visible">
+
+            <ui:CardExpander Margin="0 0 0 0" Icon="SubGrid24" IconForeground="{DynamicResource ThirdColor}" IconFilled="False"  Padding="15 10 15 10" Background="#FF0F0F0F" BorderBrush="#FF0F0F0F" Foreground="{DynamicResource ThirdColor}">
+                <ui:CardExpander.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                            <TextBlock
+                                FontSize="16"
+                                FontWeight="Medium"
+                                Text="{DynamicResource Centering}"/>
+                            <TextBlock
+                                FontSize="13"
+                                Foreground="White"
+                                Text="{DynamicResource CenteringUnder}"/>
+                        </StackPanel>
+                    </Grid>
+                </ui:CardExpander.Header>
+                <StackPanel>
+                    <Grid Margin="0 0 0 0">
+                        <TextBlock VerticalAlignment="Center" Text="{DynamicResource Style}" FontSize="16" />
+                        <ComboBox x:Name="CenterCB" MinWidth="120"
+                        HorizontalAlignment="Right"
+                        Padding="10 0 0 0"
+                        Margin="8 0 0 0"
+                        SelectedIndex="0"
+                        SelectionChanged="CenterCB_SelectionChanged">
+                            <ComboBoxItem Content="{DynamicResource CrossLines}"/>
+                            <ComboBoxItem Content="{DynamicResource Ralfigura}"/>
+                        </ComboBox>
+                    </Grid>
+                    <Grid Margin="0 10 0 0">
+                        <TextBlock Text="{DynamicResource Thikness}" FontSize="16"  VerticalAlignment="Center"/>
+                        <Slider x:Name="CenterThiknessSlider"  Margin="84 0 0 0" VerticalAlignment="Center" Width="140" HorizontalAlignment="Left" Minimum="0" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="CenterThiknessSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=CenterThiknessSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+
+                    <cp:ColorPicker x:Name="CenterColorPicker" Margin="0 10 0 0" ColorChanged="CenterColorPicker_ColorChanged"/>
+                </StackPanel>
+            </ui:CardExpander>
+
+            <ui:CardExpander Margin="0 5 0 0" Icon="Target24" IconForeground="{DynamicResource ThirdColor}" IconFilled="False"  Padding="15 10 15 10" Background="#FF0F0F0F" BorderBrush="#FF0F0F0F" Foreground="{DynamicResource ThirdColor}">
+                <ui:CardExpander.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                            <TextBlock
+                                FontSize="16"
+                                FontWeight="Medium"
+                                Text="{DynamicResource FOV}"/>
+                            <TextBlock
+                                FontSize="13"
+                                Foreground="White"
+                                Text="{DynamicResource FOVUnder}"/>
+                        </StackPanel>
+                    </Grid>
+                </ui:CardExpander.Header>
+                <StackPanel>
+                    <Grid Margin="0 0 0 0">
+                        <TextBlock VerticalAlignment="Center" Text="{DynamicResource Layer}" FontSize="16" />
+                        <ComboBox x:Name="LayerCB" MinWidth="120"
+                        HorizontalAlignment="Right"
+                        Padding="10 0 0 0"
+                        Margin="8 0 0 0"
+                        SelectedIndex="0"
+                        SelectionChanged="LayerCB_SelectionChanged">
+                            <ComboBoxItem Content="{DynamicResource First}"/>
+                            <ComboBoxItem Content="{DynamicResource Second}"/>
+                            <ComboBoxItem Content="{DynamicResource Third}"/>
+                        </ComboBox>
+                    </Grid>
+                    <Grid Margin="0 8 0 0">
+                        <TextBlock VerticalAlignment="Center" Text="{DynamicResource Figure}" FontSize="16" />
+                        <ComboBox x:Name="FigureCB" MinWidth="120"
+                        HorizontalAlignment="Right"
+                        Padding="10 0 0 0"
+                        Margin="8 0 0 0"
+                        SelectedIndex="0"
+                        SelectionChanged="FigureCB_SelectionChanged">
+                            <ComboBoxItem Content="{DynamicResource Circle}"/>
+                            <ComboBoxItem Content="{DynamicResource Rectangle}"/>
+                            <ComboBoxItem Content="{DynamicResource FillCircle}"/>
+                            <ComboBoxItem Content="{DynamicResource FillRectangle}"/>
+                        </ComboBox>
+                    </Grid>
+                    <Grid Margin="0 8 0 0">
+                        <TextBlock Text="{DynamicResource Scale}" FontSize="16"  VerticalAlignment="Center"/>
+                        <Slider x:Name="FovScaleSlider" Margin="84 0 0 0" VerticalAlignment="Center" Width="140" HorizontalAlignment="Left" Minimum="0" Maximum="100" TickFrequency="5" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="FovScaleSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=FovScaleSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+                    <Grid Margin="0 8 0 0" x:Name="ThiknessGrid">
+                        <TextBlock Text="{DynamicResource Thikness}" FontSize="16"  VerticalAlignment="Center"/>
+                        <Slider x:Name="FovThiknessSlider" Margin="84 0 0 0" VerticalAlignment="Center" Width="140" HorizontalAlignment="Left" Minimum="0" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="FovThiknessSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=FovThiknessSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+
+                    <cp:ColorPicker x:Name="FovColorPicker" Margin="0 10 0 0" ColorChanged="FovColorPicker_ColorChanged"/>
+                </StackPanel>
+            </ui:CardExpander>
+
+            <ui:CardExpander Margin="0 5 0 0" Icon="BorderNone24" IconForeground="{DynamicResource ThirdColor}" IconFilled="False"  Padding="15 10 15 10" Background="#FF0F0F0F" BorderBrush="#FF0F0F0F" Foreground="{DynamicResource ThirdColor}">
+                <ui:CardExpander.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                            <TextBlock
+                                FontSize="16"
+                                FontWeight="Medium"
+                                Text="{DynamicResource Outline}"/>
+                            <TextBlock
+                                FontSize="13"
+                                Foreground="White"
+                                Text="{DynamicResource OutlineUnder}"/>
+                        </StackPanel>
+                    </Grid>
+                </ui:CardExpander.Header>
+                <StackPanel>
+                    <Grid Margin="0 0 0 0">
+                        <TextBlock VerticalAlignment="Center" Text="{DynamicResource Thikness}" FontSize="16" />
+                        <Slider x:Name="OutThiknessSlider" VerticalAlignment="Center" Margin="84 0 0 0" Width="140" HorizontalAlignment="Left" Minimum="0" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="OutThkinessSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=OutThiknessSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+
+                    <cp:ColorPicker x:Name="OutColorPicker" Margin="0 10 0 0" ColorChanged="OutColorPicker_ColorChanged"/>
+                </StackPanel>
+            </ui:CardExpander>
+
+            <ui:CardExpander Margin="0 5 0 0" Icon="Table24" IconForeground="{DynamicResource ThirdColor}" IconFilled="False"  Padding="15 10 15 10" Background="#FF0F0F0F" BorderBrush="#FF0F0F0F" Foreground="{DynamicResource ThirdColor}">
+                <ui:CardExpander.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                            <TextBlock
+                                FontSize="16"
+                                FontWeight="Medium"
+                                Text="{DynamicResource Grid}"/>
+                            <TextBlock
+                                FontSize="13"
+                                Foreground="White"
+                                Text="{DynamicResource GridUnder}"/>
+                        </StackPanel>
+                    </Grid>
+                </ui:CardExpander.Header>
+                <StackPanel>
+                    <Grid Margin="0 0 0 0">
+                        <TextBlock Text="{DynamicResource Thikness}" FontSize="16"/>
+                        <Slider x:Name="MeshThiknessSlider" Margin="84 0 0 0" Width="140" HorizontalAlignment="Left" Minimum="0" Maximum="10" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="MeshThkinessSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=MeshThiknessSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+
+                    <cp:ColorPicker x:Name="MeshColorPicker" Margin="0 10 0 0" ColorChanged="MeshColorPicker_ColorChanged"/>
+                </StackPanel>
+            </ui:CardExpander>
+
+            <ui:CardExpander Margin="0 5 0 0" Icon="TabInPrivate24" IconForeground="{DynamicResource ThirdColor}" IconFilled="False"  Padding="15 10 15 10" Background="#FF0F0F0F" BorderBrush="#FF0F0F0F" Foreground="{DynamicResource ThirdColor}">
+                <ui:CardExpander.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                            <TextBlock
+                                FontSize="16"
+                                FontWeight="Medium"
+                                Text="{DynamicResource Background}"/>
+                            <TextBlock
+                                FontSize="13"
+                                Foreground="White"
+                                Text="{DynamicResource BackgroundUnder}"/>
+                        </StackPanel>
+                    </Grid>
+                </ui:CardExpander.Header>
+                <StackPanel>
+                    <cp:ColorPicker x:Name="BackgroundColorPicker" ColorChanged="BackgroundColorPicker_ColorChanged"/>
+                </StackPanel>
+            </ui:CardExpander>
+
+        </StackPanel>
+
+        <StackPanel Width="290" Margin="10 0 0 0">
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 0 0 0">
+                <StackPanel Margin="10">
+                    <Grid Margin="0 0 0 0">
+                        <TextBlock Text="{DynamicResource Scale}" FontSize="16"/>
+                        <Slider x:Name="ScaleSlider" Margin="70 0 0 0" Width="150" HorizontalAlignment="Left" Minimum="0" Maximum="10" TickFrequency="0.1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="ZoomSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=ScaleSlider}" FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+                    <Grid Margin="0 8 0 0">
+                        <TextBlock Text="{DynamicResource Height}" FontSize="16"/>
+                        <Slider x:Name="HeightSlider" Margin="70 0 0 0" Width="150" HorizontalAlignment="Left" Minimum="0" Maximum="4000" TickFrequency="50" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="HeightSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=HeightSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="0" Margin="0 8 0 0">
+                        <TextBlock Text="{DynamicResource Width}" FontSize="16"/>
+                        <Slider x:Name="WidthSlider" Margin="70 0 0 0" Width="150" HorizontalAlignment="Left" Minimum="0" Maximum="4000" TickFrequency="50" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="WidthSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=WidthSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="0" Margin="0 8 0 0">
+                        <TextBlock Text="{DynamicResource SyncHaW}" FontSize="16"/>
+                        <ui:ToggleSwitch x:Name="SyncHaWToogle" HorizontalAlignment="Right" Checked="SyncHaWToogle_Checked" Unchecked="SyncHaWToogle_Checked"/>
+                    </Grid>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel Margin="10">
+                    <Grid Grid.Row="0" Margin="0 0 0 0">
+                        <TextBlock Text="{DynamicResource X}" FontSize="16"  Foreground="White"/>
+                        <Slider x:Name="XSlider" Margin="70 0 0 0" Width="160" Value="0" HorizontalAlignment="Left" Minimum="-4000" Maximum="4000" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="XSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=XSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="0" Margin="0 8 0 0">
+                        <TextBlock Text="{DynamicResource Y}" FontSize="16"  Foreground="White"/>
+                        <Slider x:Name="YSlider" Margin="70 0 0 0" Width="160" Value="0" HorizontalAlignment="Left" Minimum="-4000" Maximum="4000" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="YSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=YSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+                </StackPanel>
+            </Border>
+
+            <StackPanel Orientation="Horizontal" Margin="0 10 0 0">
+                <Button Height="34" Padding="0" Focusable="False" Width="90" Click="TopLeft_Click">
+                    <ui:SymbolIcon Symbol="AlignLeft48" FontSize="18" Foreground="{DynamicResource ThirdColor}" Filled="False" HorizontalAlignment="Center"/>
+                </Button>
+
+                <Button Height="34" Padding="0" Focusable="False" Width="90" Margin="10 0 0 0" Click="Top_Click">
+                    <ui:SymbolIcon Symbol="AlignStartVertical20" FontSize="18" Foreground="{DynamicResource ThirdColor}" Filled="False" HorizontalAlignment="Center"/>
+                </Button>
+
+                <Button Height="34" Padding="0" Focusable="False"  Width="90" Margin="10 0 0 0" Click="TopRight_Click">
+                    <ui:SymbolIcon Symbol="AlignRight48" FontSize="18" Foreground="{DynamicResource ThirdColor}" Filled="False" HorizontalAlignment="Center"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                <Button Height="34" Padding="0" Focusable="False" Width="90" Click="MidLeft_Click">
+                    <ui:SymbolIcon Symbol="AlignStartHorizontal20" FontSize="18" Foreground="{DynamicResource ThirdColor}" Filled="False" HorizontalAlignment="Center"/>
+                </Button>
+
+                <Button Height="34" Padding="0" Focusable="False" Width="90" Margin="10 0 0 0" Click="Center_Click">
+                    <ui:SymbolIcon Symbol="AlignSpaceAroundVertical20" FontSize="18" Foreground="{DynamicResource ThirdColor}" Filled="False" HorizontalAlignment="Center"/>
+                </Button>
+
+                <Button Height="34" Padding="0" Focusable="False"  Width="90" Margin="10 0 0 0" Click="MidRight_Click">
+                    <ui:SymbolIcon Symbol="AlignEndHorizontal20" FontSize="18" Foreground="{DynamicResource ThirdColor}" Filled="False" HorizontalAlignment="Center"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                <Button Height="34" Padding="0" Focusable="False" Width="90" Click="BottomLeft_Click">
+                    <ui:SymbolIcon Symbol="AlignLeft48" FontSize="18" Foreground="{DynamicResource ThirdColor}" Filled="False" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                        <ui:SymbolIcon.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="-1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </ui:SymbolIcon.RenderTransform>
+                    </ui:SymbolIcon>
+                </Button>
+
+                <Button Height="34" Padding="0" Focusable="False" Width="90" Margin="10 0 0 0" Click="Bottom_Click">
+                    <ui:SymbolIcon Symbol="AlignEndVertical20" FontSize="18" Foreground="{DynamicResource ThirdColor}" Filled="False" HorizontalAlignment="Center"/>
+                </Button>
+
+                <Button Height="34" Padding="0" Focusable="False"  Width="90" Margin="10 0 0 0" Click="BottomRight_Click">
+                    <ui:SymbolIcon Symbol="AlignRight48" FontSize="18" Foreground="{DynamicResource ThirdColor}" Filled="False" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                        <ui:SymbolIcon.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="-1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </ui:SymbolIcon.RenderTransform>
+                    </ui:SymbolIcon>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Page>

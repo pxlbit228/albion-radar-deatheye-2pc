@@ -1,0 +1,144 @@
+﻿<Page x:Class="X975.Pages.ItemsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d" 
+      d:DesignHeight="591"
+      d:DesignWidth="590">
+
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Width="290">
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 0 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="Main" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource Enabled}" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="ItemsSwitch" HorizontalAlignment="Right" Checked="ItemsSwitch_Checked" Unchecked="ItemsSwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="Overlay Style" FontSize="16" />
+                            <ComboBox
+                                x:Name="OverlayStyleCB"
+                                MinWidth="73"
+                                HorizontalAlignment="Right"
+                                Padding="10 0 0 0"
+                                SelectedIndex="0"
+                                SelectionChanged="OverlayStyleCB_SelectionChanged">
+                                <ComboBoxItem Content="List" />
+                                <ComboBoxItem Content="Line" />
+                            </ComboBox>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="Show Health (no test)" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="HealthSwitch" HorizontalAlignment="Right" Checked="HealthSwitch_Checked" Unchecked="HealthSwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="Show minimal IP" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="IPSwitch" HorizontalAlignment="Right" Checked="ShowMinIPSwitch_Checked" Unchecked="ShowMinIPSwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="Show TRASH" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="TrashSwitch" HorizontalAlignment="Right" Checked="TrashSwitch_Checked" Unchecked="TrashSwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Grid.Row="0" Margin="0 8 0 0">
+                            <TextBlock Text="Lines" FontSize="16"  Foreground="White"/>
+                            <Slider x:Name="CountSlider" Margin="70 0 0 0" Width="160" Value="0" HorizontalAlignment="Left" Minimum="0" Maximum="15" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="CountSlider_ValueChanged"/>
+                            <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                                <TextBlock Text="{Binding Path=Value, ElementName=CountSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <StackPanel Width="290" Margin="10 0 0 0">
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 0 0 0">
+                <StackPanel Margin="10">
+                    <Grid Margin="0 0 0 0">
+                        <TextBlock Text="{DynamicResource Scale}" FontSize="16"/>
+                        <Slider x:Name="ScaleSlider" Margin="70 0 0 0" Width="160" HorizontalAlignment="Left" Minimum="1" Maximum="10" TickFrequency="0.1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="ScaleSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=ScaleSlider}" FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+                    
+                    <Grid Grid.Row="0" Margin="0 8 0 0">
+                        <TextBlock Text="{DynamicResource X}" FontSize="16"  Foreground="White"/>
+                        <Slider x:Name="XSlider" Margin="70 0 0 0" Width="160" Value="0" HorizontalAlignment="Left" Minimum="-4000" Maximum="4000" TickFrequency="50" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="XSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=XSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+
+                    <Grid Grid.Row="0" Margin="0 8 0 0">
+                        <TextBlock Text="{DynamicResource Y}" FontSize="16"  Foreground="White"/>
+                        <Slider x:Name="YSlider" Margin="70 0 0 0" Width="160" Value="0" HorizontalAlignment="Left" Minimum="-4000" Maximum="4000" TickFrequency="50" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="YSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock Text="{Binding Path=Value, ElementName=YSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="Equipment parts" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="Weapon 1H / 2H" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="WeaponSwitch" HorizontalAlignment="Right" Checked="WeaponSwitch_Checked" Unchecked="WeaponSwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="Head" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="HeadSwitch" HorizontalAlignment="Right" Checked="HeadSwitch_Checked" Unchecked="HeadSwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="Body" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="BodySwitch" HorizontalAlignment="Right" Checked="BodySwitch_Checked" Unchecked="BodySwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="Boots" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="BootsSwitch" HorizontalAlignment="Right" Checked="BootsSwitch_Checked" Unchecked="BootsSwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="Bag" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="BagSwitch" HorizontalAlignment="Right" Checked="BagSwitch_Checked" Unchecked="BagSwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="Cape" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="CapeSwitch" HorizontalAlignment="Right" Checked="CapeSwitch_Checked" Unchecked="CapeSwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="Mount" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="MountSwitch" HorizontalAlignment="Right" Checked="MountSwitch_Checked" Unchecked="MountSwitch_Checked"/>
+                        </Grid>
+
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </StackPanel>
+    
+    
+</Page>

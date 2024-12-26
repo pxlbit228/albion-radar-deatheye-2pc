@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9DFC997E-032B-4AF4-BCCC-BF512848FACE}") = "DEATHEYE", "DEATHEYE.csproj", "{003D3271-CC34-42E2-B28B-11A378433B16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003D3271-CC34-42E2-B28B-11A378433B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003D3271-CC34-42E2-B28B-11A378433B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003D3271-CC34-42E2-B28B-11A378433B16}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{003D3271-CC34-42E2-B28B-11A378433B16}.Debug|x64.Build.0 = Debug|Any CPU
+		{003D3271-CC34-42E2-B28B-11A378433B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003D3271-CC34-42E2-B28B-11A378433B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003D3271-CC34-42E2-B28B-11A378433B16}.Release|x64.ActiveCfg = Release|Any CPU
+		{003D3271-CC34-42E2-B28B-11A378433B16}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF052DA0-5865-4301-9539-FBB59954EB2F}
+	EndGlobalSection
+EndGlobal

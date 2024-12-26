@@ -1,0 +1,337 @@
+﻿<Page x:Class="X975.Pages.PlayersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:cp="clr-namespace:X975.Design"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      mc:Ignorable="d" 
+      d:DesignHeight="591"
+      d:DesignWidth="590">
+
+    <StackPanel Orientation="Horizontal" Margin="0 0 0 0">
+        <StackPanel Width="290">
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 0 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8" Text="{DynamicResource EspLabel}" FontSize="16"/>
+                    </Border>
+                    <StackPanel Margin="10">
+                        
+                        <Grid Margin="0 0 0 0">
+                            <TextBlock Text="{DynamicResource Enabled}" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="EspSwitch" HorizontalAlignment="Right" Checked="EspSwitch_Checked" Unchecked="EspSwitch_Checked"/>
+                        </Grid>
+                        
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource ExtendedESP}" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="EspExtndSwitch" HorizontalAlignment="Right" Checked="EspExtndSwitch_Checked" Unchecked="EspExtndSwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource FactionWar}" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="FactionWarSwitch" HorizontalAlignment="Right" Checked="FactionWarSwitch_Checked" Unchecked="FactionWarSwitch_Checked"/>
+                        </Grid>
+
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource FriendlyPGAList}" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="FriendlyPGASwitch" HorizontalAlignment="Right" Checked="FriendlyPGASwitch_Checked" Unchecked="FriendlyPGASwitch_Checked"/>
+                        </Grid>
+                        
+                        <Grid Margin="0 10 0 0">
+                            <TextBlock Text="{DynamicResource EnemyPGAList}" FontSize="16" />
+                            <ui:ToggleSwitch x:Name="EnemyPGASwitch" HorizontalAlignment="Right" Checked="EnemyPGASwitch_Checked" Unchecked="EnemyPGASwitch_Checked"/>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <Border x:Name="CustomListBorder" IsEnabled="False" CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel>
+                    <Border CornerRadius="5 5 0 0" BorderThickness="0 0 0 1" BorderBrush="{DynamicResource BorderColor}">
+                        <TextBlock Margin="10 8"  Text="{DynamicResource CutomListLb}" FontSize="16"/>
+                    </Border>
+                    <StackPanel>
+                        <Grid>
+                            <TextBlock
+                                x:Name="ListCounter"
+                                Text="{DynamicResource EmptyList}"
+                                Foreground="{DynamicResource ThirdColor}"
+                                FontSize="29"
+                                Margin="24 0 24 50"
+                                HorizontalAlignment="Center" 
+                                VerticalAlignment="Center" 
+                                Background="{x:Null}"
+                                Visibility="Visible"
+                                Panel.ZIndex="4"/>
+                            <StackPanel>
+                                <ListBox
+                                x:Name="CustomList"
+                                SelectedIndex="0"
+                                Padding="5"
+                                Height="255" 
+                                FontFamily="/DE;component/Font/#Nokia Sans S60" 
+                                FontSize="16" 
+                                Background="{DynamicResource MainColor}" 
+                                BorderBrush="{x:Null}"
+                                KeyDown="ManualList_KeyDown"
+                                Foreground="{DynamicResource MainColor}">
+                                </ListBox>
+                                <Border BorderThickness="0 1 0 0" BorderBrush="{DynamicResource BorderColor}">
+                                    <TextBox x:Name="ListTextBox" Margin="5 10 5 10" FontFamily="/X975;component/Design/Font/#Nokia Sans S60" BorderThickness="1" Text="{DynamicResource InputText}" Cursor="IBeam" KeyDown="ManualListTextBox_KeyDown" GotKeyboardFocus="ListTextBox_GotKeyboardFocus" LostKeyboardFocus="ListTextBox_LostKeyboardFocus"/>
+                                </Border>
+                            </StackPanel>
+                        </Grid>
+                        
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <StackPanel Width="290" Margin="10 0 0 0">
+            
+            <Border CornerRadius="5">
+                <StackPanel Margin="0">
+                    <StackPanel Orientation="Horizontal" Height="45" Margin="0 0 0 0" HorizontalAlignment="Center">
+                        <Border x:Name="NoPVPBorder" BorderThickness="0" Width="45" CornerRadius="5" Background="#FF1E86D8" Tag="NoPVP" MouseLeftButtonDown="SwitchPlyerType" ToolTip="{DynamicResource TTNoPVP}">
+                            <ui:SymbolIcon x:Name="NoPVPText" Symbol="Person48" Foreground="#FF121212" Filled="True" FontSize="24"/>
+                        </Border>
+                        <Border x:Name="PVPBorder" BorderThickness="0" Width="45" CornerRadius="5" Margin="4 0 0 0" Background="{DynamicResource MainColor}" Tag="PVP" MouseLeftButtonDown="SwitchPlyerType" ToolTip="{DynamicResource TTPVP}">
+                            <ui:SymbolIcon x:Name="PVPText" Symbol="InprivateAccount28" Foreground="Red" Filled="False" FontSize="24"/>
+                        </Border>
+                        <Border x:Name="FactionBorder" BorderThickness="0" Width="45" CornerRadius="5" Margin="4 0 0 0" Background="{DynamicResource MainColor}" Tag="Faction" MouseLeftButtonDown="SwitchPlyerType" ToolTip="{DynamicResource TTFaction}">
+                            <ui:SymbolIcon x:Name="FactionText" Symbol="BookmarkMultiple48" Foreground="White" Filled="True" FontSize="24"/>
+                        </Border>
+                        <Border x:Name="FactionFBorder" BorderThickness="0" Width="45" CornerRadius="5" Margin="4 0 0 0" Background="{DynamicResource MainColor}" Tag="FactionF" MouseLeftButtonDown="SwitchPlyerType" ToolTip="{DynamicResource TTFFaction}">
+                            <ui:SymbolIcon x:Name="FactionFText" Symbol="BookmarkAdd24" Foreground="#FFAFC71F" Filled="True" FontSize="24"/>
+                        </Border>
+                        <Border x:Name="FactionEBorder" BorderThickness="0" Width="45" CornerRadius="5" Margin="4 0 0 0" Background="{DynamicResource MainColor}" Tag="FactionE" MouseLeftButtonDown="SwitchPlyerType" ToolTip="{DynamicResource TTEFaction}">
+                            <ui:SymbolIcon x:Name="FactionEText" Symbol="BookmarkOff24" Foreground="#FFC7641F" Filled="True" FontSize="24"/>
+                        </Border>
+                        <Border x:Name="BountyBorder" BorderThickness="0" Width="45" CornerRadius="5" Margin="4 0 0 0" IsEnabled="False" Background="{DynamicResource MainColor}" Tag="Bounty" MouseLeftButtonDown="SwitchPlyerType">
+                            <ui:SymbolIcon x:Name="BountyText" Symbol="TargetArrow24" Foreground="#FF404040" Filled="False" FontSize="24"/>
+                        </Border>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Height="45" Margin="0 5 0 0" HorizontalAlignment="Center">
+                        <Border x:Name="MPlayerFBorder" BorderThickness="0" Width="45" CornerRadius="5" Background="{DynamicResource MainColor}" Tag="MPlayerF" MouseLeftButtonDown="SwitchPlyerType" ToolTip="{DynamicResource FriendlyMPList}">
+                            <ui:SymbolIcon x:Name="MPlayerFText" Symbol="Handshake32" Foreground="#FF74C71F" Filled="True" FontSize="24"/>
+                        </Border>
+                        <Border x:Name="MGuildFBorder" BorderThickness="0" Width="45" CornerRadius="5" Margin="4 0 0 0" Background="{DynamicResource MainColor}" Tag="MGuildF" MouseLeftButtonDown="SwitchPlyerType" ToolTip="{DynamicResource FriendlyMGList}">
+                            <ui:SymbolIcon x:Name="MGuildFText" Symbol="PeopleQueue24" Foreground="#FF0DAF86" Filled="True" FontSize="24"/>
+                        </Border>
+                        <Border x:Name="MAllianceFBorder" BorderThickness="0" Width="45" CornerRadius="5" Margin="4 0 0 0" Background="{DynamicResource MainColor}" Tag="MAllianceF" MouseLeftButtonDown="SwitchPlyerType" ToolTip="{DynamicResource FriendlyMAList}">
+                            <ui:SymbolIcon x:Name="MAllianceFText" Symbol="PeopleTeam24" Foreground="#FFA14DAB" Filled="True" FontSize="24"/>
+                        </Border>
+                        <Border x:Name="MPlayerEBorder" BorderThickness="0" Width="45" CornerRadius="5" Margin="4 0 0 0" Background="{DynamicResource MainColor}" Tag="MPlayerE" MouseLeftButtonDown="SwitchPlyerType" ToolTip="{DynamicResource EnemyMPList}">
+                            <ui:SymbolIcon x:Name="MPlayerEText" Symbol="PersonInfo20" Foreground="#FFC71F1F" Filled="True" FontSize="24"/>
+                        </Border>
+                        <Border x:Name="MGuildEBorder" BorderThickness="0" Width="45" CornerRadius="5" Margin="4 0 0 0" Background="{DynamicResource MainColor}" Tag="MGuildE" MouseLeftButtonDown="SwitchPlyerType" ToolTip="{DynamicResource EnemyMGList}">
+                            <ui:SymbolIcon x:Name="MGuildEText" Symbol="PeopleQueue24" Foreground="#FFC71F1F" Filled="True" FontSize="24"/>
+                        </Border>
+                        <Border x:Name="MAllianceEBorder" BorderThickness="0" Width="45" CornerRadius="5" Margin="4 0 0 0" Background="{DynamicResource MainColor}" Tag="MAllianceE" MouseLeftButtonDown="SwitchPlyerType" ToolTip="{DynamicResource EnemyMAList}">
+                            <ui:SymbolIcon x:Name="MAllianceEText" Symbol="PeopleTeamDelete32" Foreground="#FFC71F1F" Filled="True" FontSize="24"/>
+                        </Border>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel Margin="10">
+                    
+                    <Grid Margin="0 0 0 0">
+                        <TextBlock Text="{DynamicResource Enabled}" FontSize="16" />
+                        <ui:ToggleSwitch x:Name="DotEnabled" HorizontalAlignment="Right" Checked="DotEnabled_Checked" Unchecked="DotEnabled_Checked"/>
+                    </Grid>
+                    
+                    <Grid Margin="0 10 0 0">
+                        <TextBlock Text="{DynamicResource DotStyle}" FontSize="16" />
+                        <ComboBox
+                            x:Name="DotStyleComboBox"                        
+                            MinWidth="73"
+                            Height="23"
+                            HorizontalAlignment="Right"
+                            Padding="10 0 0 0"
+                            SelectedIndex="0"
+                            SelectionChanged="DotStyleComboBox_SelectionChanged">
+                            <ComboBoxItem Content="{DynamicResource Flat}" />
+                            <ComboBoxItem Content="{DynamicResource Star}"/>
+                            <ComboBoxItem Content="Shield"/>
+                            <ComboBoxItem Content="{DynamicResource Flag}"/>
+                            <ComboBoxItem Content="{DynamicResource Skull}"/>
+                            <ComboBoxItem Content="{DynamicResource Heart}"/>
+                            <ComboBoxItem Content="{DynamicResource XMark}"/>
+                        </ComboBox>
+                    </Grid>
+
+                    <Grid Margin="0 10 0 0">
+                        <TextBlock Text="{DynamicResource DotColors}" FontSize="16" />
+                        <Border x:Name="DotMainColor" Margin="0 0 30 0" Width="25" Height="25" HorizontalAlignment="Right" VerticalAlignment="Center" Background="White" CornerRadius="5" MouseLeftButtonUp="DotMainColor_MouseRightButtonUp">
+                            <TextBlock Text="M" FontSize="14" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                        <Popup x:Name="DotMainColorPP" AllowsTransparency="True" StaysOpen="False" PlacementTarget="{Binding ElementName=DotAccentColor}" Placement="Right" HorizontalOffset="20">
+                            <Border Background="{DynamicResource MainColor}" Padding="15" CornerRadius="5">
+                                <cp:ColorPicker x:Name="DotMainColorCP" Margin="7 5 5 5" ColorChanged="DotMainColorCP_ColorChanged"/>
+                            </Border>
+                        </Popup>
+
+                        <Border x:Name="DotAccentColor" Width="25" Height="25" HorizontalAlignment="Right" VerticalAlignment="Center" Background="White" CornerRadius="5" MouseLeftButtonUp="DotAccentColor_MouseLeftButtonUp">
+                            <TextBlock Text="A" FontSize="14" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                        <Popup x:Name="DotAccentColorPP" AllowsTransparency="True" StaysOpen="False" PlacementTarget="{Binding ElementName=DotAccentColor}" Placement="Right" HorizontalOffset="20">
+                            <Border Background="{DynamicResource MainColor}" Padding="15" CornerRadius="5">
+                                <cp:ColorPicker x:Name="DotAccentColorCP" Margin="7 5 5 5" ColorChanged="DotAccentColorCP_ColorChanged"/>
+                            </Border>
+                        </Popup>
+                    </Grid>
+                    <Grid Margin="0 10 0 0">
+                        <TextBlock Text="{DynamicResource DotSize}" FontSize="16" />
+                        <Slider x:Name="PDotSizeSlider" Margin="120 0 0 0" Width="110" HorizontalAlignment="Left" Minimum="4" Maximum="16" TickFrequency="1" IsSnapToTickEnabled="True" Foreground="{DynamicResource ThirdColor}" ValueChanged="PDotSizeSlider_ValueChanged"/>
+                        <Border BorderBrush="{DynamicResource BorderColor}" HorizontalAlignment="Right"  BorderThickness="1" CornerRadius="4" Background="{DynamicResource BorderColor}">
+                            <TextBlock x:Name="PDotSizeText" Text="{Binding Path=Value, ElementName=PDotSizeSlider}"  FontSize="16" Margin="5 0 5 0" Foreground="White"/>
+                        </Border>
+                    </Grid>
+                </StackPanel>
+            </Border>
+
+            <Border x:Name="ExESP" CornerRadius="5" Background="{DynamicResource MainColor}" Margin="0 10 0 0">
+                <StackPanel Margin="10">
+                    
+                    <Grid Margin="0 0 0 0">
+                        <TextBlock Text="{DynamicResource ShowItems}" FontSize="16" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <ui:ToggleSwitch x:Name="ItemsToggle" Margin="8 0 0 0" Checked="ItemsToggle_Checked" Unchecked="ItemsToggle_Checked"/>
+                        </StackPanel>
+                    </Grid>
+                    
+                    <Grid Margin="0 10 0 0">
+                        <TextBlock Text="{DynamicResource DetectionSound}" FontSize="16" />
+                        <ComboBox
+                        x:Name="DetectSoundCB"
+                        MinWidth="73"
+                        HorizontalAlignment="Right"
+                        Padding="10 0 0 0"
+                        SelectedIndex="0"
+                        SelectionChanged="DetectSoundCB_SelectionChanged">
+                            <ComboBoxItem Content="{DynamicResource Off}" />
+                            <ComboBoxItem Content="{DynamicResource Beep}" />
+                        </ComboBox>
+                    </Grid>
+                    
+                    <Grid Margin="0 10 0 0">
+                        <TextBlock Text="{DynamicResource ShowNick}" FontSize="16" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Border x:Name="NickColor" Width="25" Height="25" VerticalAlignment="Center" Background="White" CornerRadius="5" MouseLeftButtonUp="NickColor_MouseLeftButtonDown"/>
+                            <ui:ToggleSwitch x:Name="NickToggle" Margin="8 0 0 0" Checked="NickToggle_Checked" Unchecked="NickToggle_Checked"/>
+                            <Popup x:Name="NickColorPP" AllowsTransparency="True" StaysOpen="False" PlacementTarget="{Binding ElementName=NickToggle}" Placement="Right" HorizontalOffset="20">
+                                <Border Background="{DynamicResource MainColor}" Padding="15" CornerRadius="5">
+                                    <cp:ColorPicker x:Name="NickColorCP" Margin="7 5 5 5" ColorChanged="NickColorCP_ColorChanged"/>
+                                </Border>
+                            </Popup>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="0 10 0 0">
+                        <TextBlock Text="{DynamicResource ShowAlliance}" FontSize="16" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Border x:Name="AllianceColor" Width="25" Height="25" VerticalAlignment="Center" Background="White" CornerRadius="5" MouseLeftButtonUp="AllianceColor_MouseLeftButtonDown"/>
+                            <ui:ToggleSwitch x:Name="AllianceToggle" Margin="8 0 0 0" Checked="AllianceToggle_Checked" Unchecked="AllianceToggle_Checked"/>
+                            <Popup x:Name="AllianceColorPP" AllowsTransparency="True" StaysOpen="False" PlacementTarget="{Binding ElementName=AllianceToggle}" Placement="Right" HorizontalOffset="20">
+                                <Border Background="{DynamicResource MainColor}" Padding="15" CornerRadius="5">
+                                    <cp:ColorPicker x:Name="AllianceColorCP" Margin="7 5 5 5" ColorChanged="AllianceColorCP_ColorChanged"/>
+                                </Border>
+                            </Popup>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="0 10 0 0">
+                        <TextBlock Text="{DynamicResource ShowDistance}" FontSize="16" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Border x:Name="DistanceColor" Width="25" Height="25" VerticalAlignment="Center" Background="White" CornerRadius="5" MouseLeftButtonUp="DistanceColor_MouseLeftButtonDown"/>
+                            <ui:ToggleSwitch x:Name="DistanceToggle" Margin="8 0 0 0" Checked="DistanceToggle_Checked" Unchecked="DistanceToggle_Checked"/>
+                            <Popup x:Name="DistanceColorPP" AllowsTransparency="True" StaysOpen="False" PlacementTarget="{Binding ElementName=DistanceToggle}" Placement="Right" HorizontalOffset="20">
+                                <Border Background="{DynamicResource MainColor}" Padding="15" CornerRadius="5">
+                                    <cp:ColorPicker x:Name="DistanceColorCP" Margin="7 5 5 5" ColorChanged="DistanceColorCP_ColorChanged"/>
+                                </Border>
+                            </Popup>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="0 10 0 0">
+                        <TextBlock Text="{DynamicResource MountedStatus}" FontSize="16" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Border x:Name="MountedColor" Width="25" Height="25" VerticalAlignment="Center" Background="White" CornerRadius="5" MouseLeftButtonUp="MountedColor_MouseLeftButtonDown"/>
+                            <ui:ToggleSwitch x:Name="MountedToggle" Margin="8 0 0 0" Checked="MountedToggle_Checked" Unchecked="MountedToggle_Checked"/>
+                            <Popup x:Name="MountedColorPP" AllowsTransparency="True" StaysOpen="False" PlacementTarget="{Binding ElementName=MountedToggle}" Placement="Right" HorizontalOffset="20">
+                                <Border Background="{DynamicResource MainColor}" Padding="15" CornerRadius="5">
+                                    <cp:ColorPicker x:Name="MountedColorCP" Margin="7 5 5 5" ColorChanged="MountedColorCP_ColorChanged"/>
+                                </Border>
+                            </Popup>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="0 10 0 0">
+                        <TextBlock Text="{DynamicResource VisibleContact}" FontSize="16" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Border x:Name="VisibleContactColor" Width="25" Height="25" VerticalAlignment="Center" Background="White" CornerRadius="5" MouseLeftButtonUp="VisibleContactColor_MouseLeftButtonDown">
+                                <TextBlock Text="B" FontFamily="/X975;component/Design/Font/#DEATHEYE" FontSize="17" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                            <Border x:Name="VisibleContactColor2" Margin="8 0 0 0" Width="25" Height="25" VerticalAlignment="Center" Background="White" CornerRadius="5" MouseLeftButtonUp="VisibleContactColor2_MouseLeftButtonDown">
+                                <TextBlock Text="A" FontFamily="/X975;component/Design/Font/#DEATHEYE" FontSize="17" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                            
+                            <ui:ToggleSwitch x:Name="VisibleContactToggle" Margin="8 0 0 0" Checked="VisibleContactToggle_Checked" Unchecked="VisibleContactToggle_Checked"/>
+                            <Popup x:Name="VisibleContactColorPP" AllowsTransparency="True" StaysOpen="False" PlacementTarget="{Binding ElementName=VisibleContactToggle}" Placement="Right" HorizontalOffset="20">
+                                <Border Background="{DynamicResource MainColor}" Padding="15" CornerRadius="5">
+                                    <cp:ColorPicker x:Name="VisibleContactColorCP" Margin="7 5 5 5" ColorChanged="VisibleContactColorCP_ColorChanged"/>
+                                </Border>
+                            </Popup>
+                            <Popup x:Name="VisibleContactColorPP2" AllowsTransparency="True" StaysOpen="False" PlacementTarget="{Binding ElementName=VisibleContactToggle}" Placement="Right" HorizontalOffset="20">
+                                <Border Background="{DynamicResource MainColor}" Padding="15" CornerRadius="5">
+                                    <cp:ColorPicker x:Name="VisibleContactColorCP2" Margin="7 5 5 5" ColorChanged="VisibleContactColorCP2_ColorChanged"/>
+                                </Border>
+                            </Popup>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="0 10 0 0">
+                        <TextBlock Text="{DynamicResource HealthIndicator}" FontSize="16" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Border x:Name="HealthColor" Visibility="Collapsed" Width="25" Height="25" VerticalAlignment="Center" Background="White" CornerRadius="5" MouseLeftButtonUp="HealthColor_MouseLeftButtonDown"/>
+                            <ComboBox
+                                x:Name="HealthComboBox"
+                                MinWidth="73"
+                                HorizontalAlignment="Right"
+                                Padding="10 0 0 0"
+                                Margin="8 0 0 0"
+                                SelectedIndex="0"
+                                SelectionChanged="HealthComboBox_SelectionChanged">
+                                <ComboBoxItem Content="{DynamicResource Off}" />
+                                <ComboBoxItem Content="{DynamicResource Icon}" />
+                                <ComboBoxItem Content="{DynamicResource Percent}" />
+                                <ComboBoxItem Content="{DynamicResource Value}" />
+                            </ComboBox>
+                            <Popup x:Name="HealthColorPP" StaysOpen="False" PlacementTarget="{Binding ElementName=HealthComboBox}" Placement="Right" HorizontalOffset="20">
+                                <Border Background="{DynamicResource MainColor}">
+                                    <cp:ColorPicker x:Name="HealthColorCP" Margin="7 5 5 5" ColorChanged="HealthColorCP_ColorChanged"/>
+                                </Border>
+                            </Popup>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Margin="0 10 0 0">
+                        <TextBlock Text="{DynamicResource FocusLine}" FontSize="16" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Border x:Name="FocusLineColor" Width="25" Height="25" VerticalAlignment="Center" Background="White" CornerRadius="5" MouseLeftButtonUp="FocusLineColor_MouseLeftButtonDown"/>
+                            <ui:ToggleSwitch x:Name="FocusLineToggle" Margin="8 0 0 0" Checked="FocusLineToggle_Checked" Unchecked="FocusLineToggle_Checked"/>
+                            <Popup x:Name="FocusLineColorPP" AllowsTransparency="True" StaysOpen="False" PlacementTarget="{Binding ElementName=FocusLineToggle}" Placement="Right" HorizontalOffset="20">
+                                <Border Background="{DynamicResource MainColor}" Padding="15" CornerRadius="5">
+                                    <cp:ColorPicker x:Name="FocusLineColorCP" Margin="7 5 5 5" ColorChanged="FocusLineColorCP_ColorChanged"/>
+                                </Border>
+                            </Popup>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </StackPanel>
+</Page>

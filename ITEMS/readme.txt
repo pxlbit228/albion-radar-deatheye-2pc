@@ -1,0 +1,1 @@
+Copy item images into current directory.

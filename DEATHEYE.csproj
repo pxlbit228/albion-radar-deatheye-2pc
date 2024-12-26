@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{9DFC997E-032B-4AF4-BCCC-BF512848FACE}</ProjectGuid>
+        <OutputType>WinExe</OutputType>
+        <RootNamespace>X975</RootNamespace>
+        <AssemblyName>X975</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <WarningLevel>4</WarningLevel>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <Deterministic>true</Deterministic>
+        <LangVersion>8</LangVersion>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>none</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+        <DebugSymbols>true</DebugSymbols>
+        <OutputPath>bin\x64\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <DebugType>full</DebugType>
+        <PlatformTarget>x64</PlatformTarget>
+        <LangVersion>7.3</LangVersion>
+        <ErrorReport>prompt</ErrorReport>
+        <Prefer32Bit>true</Prefer32Bit>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+        <OutputPath>bin\x64\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <Optimize>false</Optimize>
+        <DebugType>none</DebugType>
+        <PlatformTarget>x64</PlatformTarget>
+        <LangVersion>7.3</LangVersion>
+        <ErrorReport>prompt</ErrorReport>
+        <Prefer32Bit>true</Prefer32Bit>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+    <PropertyGroup>
+        <ApplicationIcon>logo.ico</ApplicationIcon>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+        <DebugSymbols>true</DebugSymbols>
+        <OutputPath>bin\x86\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <DebugType>full</DebugType>
+        <PlatformTarget>x86</PlatformTarget>
+        <LangVersion>7.3</LangVersion>
+        <ErrorReport>prompt</ErrorReport>
+        <Prefer32Bit>true</Prefer32Bit>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+        <OutputPath>bin\x86\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Optimize>true</Optimize>
+        <DebugType>none</DebugType>
+        <PlatformTarget>x86</PlatformTarget>
+        <LangVersion>7.3</LangVersion>
+        <ErrorReport>prompt</ErrorReport>
+        <Prefer32Bit>true</Prefer32Bit>
+    </PropertyGroup>
+    <PropertyGroup/>
+    <PropertyGroup/>
+    <ItemGroup>
+        <Reference Include="Albion.Network, Version=5.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+            <HintPath>.\packages\Albion.Network.5.0.1\lib\netstandard2.0\Albion.Network.dll</HintPath>
+        </Reference>
+        <Reference Include="GameOverlay">
+            <HintPath>.\packages\GameOverlay.dll</HintPath>
+        </Reference>
+        <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+            <HintPath>.\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+        </Reference>
+        <Reference Include="PacketDotNet, Version=1.4.7.0, Culture=neutral, PublicKeyToken=451414c7667b2a58, processorArchitecture=MSIL">
+            <HintPath>.\packages\PacketDotNet.1.4.7\lib\net47\PacketDotNet.dll</HintPath>
+        </Reference>
+        <Reference Include="PhotonPackageParser, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+            <HintPath>.\packages\PhotonPackageParser.4.1.0\lib\netstandard2.0\PhotonPackageParser.dll</HintPath>
+        </Reference>
+        <Reference Include="PrecisionTimer.NET, Version=2.4.0.4, Culture=neutral, PublicKeyToken=4c843feb8daceeca, processorArchitecture=MSIL">
+            <HintPath>.\packages\PrecisionTimer.NET.2.4.0.4\lib\netstandard2.0\PrecisionTimer.NET.dll</HintPath>
+        </Reference>
+        <Reference Include="Protocol16, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+            <HintPath>.\packages\PhotonPackageParser.4.1.0\lib\netstandard2.0\Protocol16.dll</HintPath>
+        </Reference>
+        <Reference Include="SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+            <SpecificVersion>False</SpecificVersion>
+            <HintPath>.\packages\SharpDX.dll</HintPath>
+        </Reference>
+        <Reference Include="SharpDX.Direct2D1, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+            <SpecificVersion>False</SpecificVersion>
+            <HintPath>.\packages\SharpDX.Direct2D1.dll</HintPath>
+        </Reference>
+        <Reference Include="SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+            <SpecificVersion>False</SpecificVersion>
+            <HintPath>.\packages\SharpDX.DXGI.dll</HintPath>
+        </Reference>
+        <Reference Include="SharpPcap, Version=6.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+            <HintPath>.\packages\SharpPcap.6.3.0\lib\netstandard2.0\SharpPcap.dll</HintPath>
+        </Reference>
+        <Reference Include="System"/>
+        <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+            <HintPath>.\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Data"/>
+        <Reference Include="System.Drawing"/>
+        <Reference Include="System.Drawing.Common, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+            <SpecificVersion>False</SpecificVersion>
+            <HintPath>.\packages\System.Drawing.Common.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Management"/>
+        <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+            <HintPath>.\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Numerics"/>
+        <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+            <HintPath>.\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+            <HintPath>.\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+            <HintPath>.\packages\System.Text.Encoding.CodePages.6.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Windows.Forms"/>
+        <Reference Include="System.Xml"/>
+        <Reference Include="Microsoft.CSharp"/>
+        <Reference Include="System.Core"/>
+        <Reference Include="System.Xml.Linq"/>
+        <Reference Include="System.Data.DataSetExtensions"/>
+        <Reference Include="System.Net.Http"/>
+        <Reference Include="System.Xaml">
+            <RequiredTargetFramework>4.0</RequiredTargetFramework>
+        </Reference>
+        <Reference Include="WindowsBase"/>
+        <Reference Include="PresentationCore"/>
+        <Reference Include="PresentationFramework"/>
+        <Reference Include="Wpf.Ui">
+            <HintPath>.\packages\Wpf.Ui.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <ApplicationDefinition Include="App.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </ApplicationDefinition>
+        <Compile Include="Design\Pages\ItemsPage.xaml.cs">
+            <DependentUpon>ItemsPage.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Design\Pages\MistsPage.xaml.cs">
+            <DependentUpon>MistsPage.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Design\Pages\MapPage.xaml.cs">
+            <DependentUpon>MapPage.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Design\Pages\ConfigPage.xaml.cs">
+            <DependentUpon>ConfigPage.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Design\Pages\MainPage.xaml.cs">
+            <DependentUpon>MainPage.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Design\Pages\SupportPage.xaml.cs">
+            <DependentUpon>SupportPage.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Design\Pages\DungeonsPage.xaml.cs">
+            <DependentUpon>DungeonsPage.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Design\Pages\HarvestablePage.xaml.cs">
+            <DependentUpon>HarvestablePage.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Design\Pages\MobsPage.xaml.cs">
+            <DependentUpon>MobsPage.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Design\Pages\PlayersPage.xaml.cs">
+            <DependentUpon>PlayersPage.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Design\Pages\StylePage.xaml.cs">
+            <DependentUpon>StylePage.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="MainWindow.xaml.cs">
+            <DependentUpon>MainWindow.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Radar\Dependencies\Harvestable\HarvestableModel.cs" />
+        <Compile Include="Radar\Dependencies\Item\ItemModel.cs" />
+        <Compile Include="Radar\Dependencies\Mob\MobModel.cs" />
+        <Compile Include="Radar\Dependencies\Template\TemplateModel.cs" />
+        <Compile Include="Radar\Dependencies\XmlTools.cs" />
+        <Compile Include="Radar\Packets\Handlers\DebugHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\KeySyncEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\KeySyncEventHandler.cs" />
+        <Compile Include="ResponseObj\MobInfo.cs" />
+        <Compile Include="ResponseObj\PacketIndexes.cs" />
+        <Compile Include="ResponseObj\PacketOffsets.cs" />
+        <Compile Include="ResponseObj\PlayerItems.cs" />
+        <Compile Include="Radar\Drawing\Drawers\DungeonsDrawerer.cs" />
+        <Compile Include="Radar\Drawing\Drawers\FishNodesDrawerer.cs" />
+        <Compile Include="Radar\Drawing\Drawers\GatedWispsDrawerer.cs" />
+        <Compile Include="Radar\Drawing\Drawers\HarvestablesDrawerer.cs" />
+        <Compile Include="Radar\Drawing\Drawers\HudDrawerer.cs" />
+        <Compile Include="Radar\Drawing\Drawers\InfoDrawerer.cs" />
+        <Compile Include="Radar\Drawing\Drawers\ItemsDrawerer.cs" />
+        <Compile Include="Radar\Drawing\Drawers\LootChestsDrawerer.cs" />
+        <Compile Include="Radar\Drawing\Drawers\MobsDrawerer.cs" />
+        <Compile Include="Radar\Drawing\Drawers\PlayersDrawerer.cs" />
+        <Compile Include="Radar\Drawing\Overlays\InfoOverlay.cs" />
+        <Compile Include="Radar\Drawing\OverlaySettings\InfoOverlayBrushesDictionary.cs" />
+        <Compile Include="Radar\Drawing\OverlaySettings\ItemsOverlayBrushesDictionary.cs" />
+        <Compile Include="Radar\Drawing\OverlaySettings\ItemsOverlaySettings.cs" />
+        <Compile Include="Radar\Drawing\OverlaySettings\RadarOverlayBrushesDictionary.cs" />
+        <Compile Include="Radar\Drawing\OverlaySettings\RadarOverlaySettings.cs" />
+        <Compile Include="Radar\Drawing\Overlays\ItemsOverlay.cs" />
+        <Compile Include="Radar\Drawing\Overlays\RadarOverlay.cs" />
+        <Compile Include="Radar\GameObjects\Dungeons\Dungeon.cs" />
+        <Compile Include="Radar\GameObjects\Dungeons\DungeonsHandler.cs" />
+        <Compile Include="Radar\GameObjects\FishNodes\FishNode.cs" />
+        <Compile Include="Radar\GameObjects\FishNodes\FishNodesHandler.cs" />
+        <Compile Include="Radar\GameObjects\GatedWisps\GatedWisp.cs" />
+        <Compile Include="Radar\GameObjects\GatedWisps\GatedWispsHandler.cs" />
+        <Compile Include="Radar\GameObjects\Harvestables\Harvestable.cs" />
+        <Compile Include="Radar\GameObjects\Harvestables\HarvestablesHandler.cs" />
+        <Compile Include="Radar\GameObjects\LocalPlayer\LocalPlayer.cs" />
+        <Compile Include="Radar\GameObjects\LocalPlayer\LocalPlayerHandler.cs" />
+        <Compile Include="Radar\GameObjects\LootChests\LootChest.cs" />
+        <Compile Include="Radar\GameObjects\LootChests\LootChestsHandler.cs" />
+        <Compile Include="Radar\GameObjects\Mobs\Mob.cs" />
+        <Compile Include="Radar\GameObjects\Mobs\MobsHandler.cs" />
+        <Compile Include="Radar\GameObjects\Players\Health.cs" />
+        <Compile Include="Radar\GameObjects\Players\Player.cs" />
+        <Compile Include="Radar\GameObjects\Players\PlayersHandler.cs" />
+        <Compile Include="Radar\GlobalTimer.cs" />
+        <Compile Include="Radar\Init.cs" />
+        <Compile Include="Radar\Packets\Handlers\ChangeClusterEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\ChangeClusterEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\ChangeFlaggingFinishedEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\ChangeFlaggingFinishedEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\CharacterEquipmentChangedEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\CharacterEquipmentChangedEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\HarvestableChangeStateEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\HarvestableChangeStateEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\MistsPlayerJoinedInfoEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\HealthUpdateEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\MistsPlayerJoinedInfoEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\HealthUpdateEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\JoinResponseOperation.cs" />
+        <Compile Include="Radar\Packets\Handlers\JoinResponseOperationHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\LeaveEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\LeaveEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\LoadClusterObjectsEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\LoadClusterObjectsEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\MobChangeStateEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\MobChangeStateEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\MountedEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\MountedEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\MoveEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\MoveEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\MoveRequestOperation.cs" />
+        <Compile Include="Radar\Packets\Handlers\MoveRequestOperationHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewCharacterEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewCharacterEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewDungeonEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewDungeonEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewFishingZoneEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewFishingZoneEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewGatedWispEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewGatedWispEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewHarvestableEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewHarvestableEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewHarvestablesListEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewHarvestablesListEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewLootChestEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewLootChestEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewMobEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\NewMobEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\RegenerationChangedEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\RegenerationChangedEventHandler.cs" />
+        <Compile Include="Radar\Packets\Handlers\WispGateOpenedEvent.cs" />
+        <Compile Include="Radar\Packets\Handlers\WispGateOpenedEventHandler.cs" />
+        <Compile Include="Radar\Packets\Sniffer\PacketDeviceSelector.cs" />
+        <Compile Include="Radar\Utility\Additions.cs" />
+        <Compile Include="Radar\Utility\DictionaryExtensions.cs" />
+        <Compile Include="Radar\Utility\Enums.cs" />
+        <Compile Include="Radar\Utility\IDrawer.cs" />
+        <Compile Include="Radar\Utility\Overlay.cs" />
+        <Compile Include="Radar\Utility\OverlayGraphics.cs" />
+        <Compile Include="Radar\Utility\RadarImages.cs" />
+        <Compile Include="Settings\Config.cs" />
+        <Compile Include="Settings\ConfigHandler.cs" />
+        <Compile Include="Design\ColorPicker.xaml.cs">
+            <DependentUpon>ColorPicker.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Tools\Diagnostics.cs" />
+        <Compile Include="Tools\KeyboardHook.cs" />
+        <Compile Include="Tools\Pathfinder.cs" />
+        <Compile Include="Tools\Utility.cs" />
+        <Page Include="Design\Lang\lang.ru-RU.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\Lang\lang.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\Pages\ItemsPage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\Pages\MistsPage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\Pages\MapPage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\Pages\ConfigPage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\Pages\MainPage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\Pages\SupportPage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\Pages\DungeonsPage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\Pages\HarvestablePage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\Pages\MobsPage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\Pages\PlayersPage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\Pages\StylePage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Compile Include="App.xaml.cs">
+            <DependentUpon>App.xaml</DependentUpon>
+            <SubType>Code</SubType>
+        </Compile>
+        <Page Include="MainWindow.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Include="Design\ColorPicker.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+        </Page>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Properties\AssemblyInfo.cs">
+            <SubType>Code</SubType>
+        </Compile>
+        <Compile Include="Properties\Resources.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DesignTime>True</DesignTime>
+            <DependentUpon>Resources.resx</DependentUpon>
+        </Compile>
+        <Compile Include="Properties\Settings.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Settings.settings</DependentUpon>
+            <DesignTimeSharedInput>True</DesignTimeSharedInput>
+        </Compile>
+        <EmbeddedResource Include="Properties\Resources.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <Resource Include="Design\Font\DEATHEYE.ttf" />
+        <Resource Include="Design\Font\MainFont.ttf" />
+        <Resource Include="Design\Font\MenuTbFont.ttf" />
+        <Resource Include="Design\Font\Rust.ttf" />
+        <None Include="packages.config" />
+        <None Include="Properties\Settings.settings">
+            <Generator>SettingsSingleFileGenerator</Generator>
+            <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="App.config" />
+    </ItemGroup>
+    <ItemGroup>
+        <Resource Include="Design\death.png" />
+        <Resource Include="Design\Images\Resources\fiber.png" />
+        <Resource Include="Design\Images\Resources\hide.png" />
+        <Resource Include="Design\Images\Resources\ore.png" />
+        <Resource Include="Design\Images\Resources\rock.png" />
+        <Resource Include="Design\Images\Resources\wood.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Resource Include="Design\Images\Mobs\Other\EVENT.png" />
+        <Resource Include="Design\Images\Mobs\Other\TREASURE.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Resource Include="Design\Images\Mobs\Corrupt\GLUE.png" />
+        <Resource Include="Design\Images\Mobs\Corrupt\HOOK.png" />
+        <Resource Include="Design\Images\Mobs\Corrupt\KNOCKBACK.png" />
+        <Resource Include="Design\Images\Mobs\Corrupt\LAVA.png" />
+        <Resource Include="Design\Images\Mobs\Corrupt\SILENCE.png" />
+        <Resource Include="Design\Images\Mobs\Mist\CRYSTALSPIDER.png" />
+        <Resource Include="Design\Images\Mobs\Mist\DRAGON.png" />
+        <Resource Include="Design\Images\Mobs\Mist\GRIFFIN.png" />
+        <Resource Include="Design\Images\Mobs\Mist\SPIDER.png" />
+        <Resource Include="Design\Images\Mobs\Other\DRONE.png" />
+        <Resource Include="Design\Images\Mobs\Mist\WISP.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Design\beep.wav" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Design\Images\Mobs\Other\CHEST.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Resource Include="Design\Images\Mobs\Mist\MIST_PORTAL.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Resource Include="logo.ico" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\announce.wav" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\CHEST.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\CRYSTALSPIDER.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\DRAGON.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\DRONE.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\EVENT.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\GLUE.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\green_mist.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\GRIFFIN.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\HOOK.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\KNOCKBACK.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\LAVA.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\legend_mist.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\mist_chest.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\MIST_PORTAL.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\purple_mist.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\SILENCE.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\SPIDER.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\TREASURE.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\WISP.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\abbey.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\blue_mist.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\beep.wav" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include=".gitignore" />
+        <Content Include="ao-bin-dumps\harvestables.xml">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="ao-bin-dumps\items.xml">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="ao-bin-dumps\mobs.xml">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="ao-bin-dumps\readme.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="ITEMS\readme.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="jsons\clusters.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="jsons\indexes.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="jsons\offsets.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
+
+    <Target Name="AfterBuild">
+        <ItemGroup>
+            <Items Include="$(ProjectDir)ITEMS\**\*" />
+            <BinDumps Include="$(ProjectDir)ao-bin-dumps\**\*" />
+        </ItemGroup>
+        <Copy SourceFiles="@(Items)"
+              DestinationFolder="$(OutputPath)ITEMS\%(RecursiveDir)"
+              SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(BinDumps)"
+              DestinationFolder="$(OutputPath)ao-bin-dumps\%(RecursiveDir)"
+              SkipUnchangedFiles="true" />
+    </Target>
+</Project>

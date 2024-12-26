@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PrecisionTimer.NET</name>
+    </assembly>
+    <members>
+        <member name="T:PrecisionTiming.TimerCapabilities">
+            <summary>
+            The Min/Max supported period for the Mutlimedia Timer in milliseconds
+            </summary>
+        </member>
+        <member name="F:PrecisionTiming.TimerCapabilities.PeriodMinimum">
+            <summary>Minimum supported period in milliseconds.</summary>
+        </member>
+        <member name="F:PrecisionTiming.TimerCapabilities.PeriodMaximum">
+            <summary>Maximum supported period in milliseconds.</summary>
+        </member>
+        <member name="T:PrecisionTiming.TimerMode">
+            <summary>
+            The Mode for the <see cref="T:PrecisionTiming.PrecisionTimer"/>
+            </summary>
+        </member>
+        <member name="F:PrecisionTiming.TimerMode.OneShot">
+            <summary> Timer event occurs once.</summary>
+        </member>
+        <member name="F:PrecisionTiming.TimerMode.Periodic">
+            <summary>Timer event occurs periodically and uses a Semaphore to ensure execution only happens once</summary>
+        </member>
+        <member name="F:PrecisionTiming.TimerMode.PeriodicSemaphore">
+            <summary>Timer event occurs periodically and uses a Semaphore to ensure execution only happens once</summary>
+        </member>
+        <member name="T:PrecisionTiming.LongRunningTimerException">
+            <summary>
+            Occurs when a <see cref="T:PrecisionTiming.PrecisionTimerEvent"/> is already running and the user attempts to configure something that requires stopping it first
+            </summary>
+        </member>
+        <member name="M:PrecisionTiming.LongRunningTimerException.#ctor(System.String)">
+            <summary>
+            Occurs when a <see cref="T:PrecisionTiming.PrecisionTimerEvent"/> is already running and the user attempts to configure something that requires stopping it first
+            </summary>
+            <param name="message">User friendly error message</param>
+        </member>
+        <member name="T:PrecisionTiming.PeriodicTimerRunningException">
+            <summary>
+            Occurs when a periodic <see cref="T:PrecisionTiming.PrecisionTimer"/> is already running and the user attempts to configure something that requires stopping it first
+            </summary>
+        </member>
+        <member name="M:PrecisionTiming.PeriodicTimerRunningException.#ctor(System.String)">
+            <summary>
+            Occurs when a periodic <see cref="T:PrecisionTiming.PrecisionTimer"/> is already running and the user attempts to configure something that requires stopping it first
+            </summary>
+            <param name="message">User friendly error message</param>
+        </member>
+        <member name="T:PrecisionTiming.TimerNotConfigured">
+            <summary>
+            Occurs when there is an attempt to modify a <see cref="T:PrecisionTiming.PrecisionTimer"/> without using SetInterval first
+            </summary>
+        </member>
+        <member name="M:PrecisionTiming.TimerNotConfigured.#ctor(System.String)">
+            <summary>
+            Occurs when there is an attempt to modify a <see cref="T:PrecisionTiming.PrecisionTimer"/> without using SetInterval first
+            </summary>
+            <param name="message">User friendly error message</param>
+        </member>
+        <member name="T:PrecisionTiming.TimerRunningException">
+            <summary>
+            Occurs when a <see cref="T:PrecisionTiming.PrecisionTimer"/> is already running and the user attempts to configure something that requires stopping it first
+            </summary>
+        </member>
+        <member name="M:PrecisionTiming.TimerRunningException.#ctor(System.String)">
+            <summary>
+            Occurs when a <see cref="T:PrecisionTiming.PrecisionTimer"/> is already running and the user attempts to configure something that requires stopping it first
+            </summary>
+            <param name="message">User friendly error message</param>
+        </member>
+        <member name="T:PrecisionTiming.TimerStartException">
+            <summary>
+            Occurs when the <see cref="T:PrecisionTiming.PrecisionTimer"/> fails to Start
+            </summary>
+        </member>
+        <member name="M:PrecisionTiming.TimerStartException.#ctor(System.String)">
+            <summary>
+            Occurs when the <see cref="T:PrecisionTiming.PrecisionTimer"/> fails to Start
+            </summary>
+            <param name="message">User friendly error message</param>
+        </member>
+        <member name="T:PrecisionTiming.PrecisionTimer">
+            <summary>
+            High Resolution Multimedia Timer Wrapper
+            <para>The default timer will Fire the Tick event every 1 Millisecond forever</para>
+            <para>Subscribe to <see cref="T:System.EventHandler"/> <see cref="F:PrecisionTiming.PrecisionTimer.Tick"/></para>
+            <para>You can also provide an Action using <see cref="M:PrecisionTiming.PrecisionTimer.SetAction(System.Action)"/> or <see cref="M:PrecisionTiming.PrecisionTimer.SetInterval(System.Action,System.Int32,System.Boolean,System.Int32,PrecisionTiming.TimerMode,System.Boolean)"/></para>
+            </summary>
+        </member>
+        <member name="F:PrecisionTiming.PrecisionTimer.Started">
+            <summary>
+            Occurs when the <see cref="T:PrecisionTiming.PrecisionTimer"/> has started.
+            </summary>
+        </member>
+        <member name="F:PrecisionTiming.PrecisionTimer.Stopped">
+            <summary>
+            Occurs when the <see cref="T:PrecisionTiming.PrecisionTimer"/> has stopped.
+            </summary>
+        </member>
+        <member name="F:PrecisionTiming.PrecisionTimer.Tick">
+            <summary>
+            Occurs when the <see cref="T:PrecisionTiming.PrecisionTimer"/> Ticks at the Interval.
+            </summary>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.#ctor">
+            <summary>
+            Create a PrecisionTimer and tell the Garbage Collector to leave it alone
+            </summary>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.Finalize">
+            <summary>
+            Deconstruct
+            </summary>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.IsRunning">
+            <summary>
+            True if the Timer is running
+            Will also be false if no <see cref="T:PrecisionTiming.PrecisionTimer"/> is configured
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.GetNoTick">
+            <summary>
+            Get whether a Tick Event should be used
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.SetNoTick(System.Boolean)">
+            <summary>
+            Set whether a Tick Event should be used
+            </summary>
+            <param name="value"></param>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+            <exception cref="T:PrecisionTiming.TimerRunningException">Attempted to configure a timer that was running</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.GetPeriod">
+            <summary>
+            Get the Current Interval (Period)
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.SetPeriod(System.Int32)">
+            <summary>
+            Set the Current Interval (Period)
+            </summary>
+            <param name="value"></param>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+            <exception cref="T:PrecisionTiming.TimerRunningException">Attempted to configure a timer that was running</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.GetEventArgs">
+            <summary>
+            Get the Current User supplied EventArgs
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.SetEventArgs(System.EventArgs)">
+            <summary>
+            Set the User supplied EventArgs
+            </summary>
+            <param name="value"></param>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+            <exception cref="T:PrecisionTiming.PeriodicTimerRunningException">Attempted to configure a pediodic timer that was running</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.GetAutoResetMode">
+            <summary>
+            Get the Current Timer Auto Reset Mode (Periodic/Oneshot)
+            <para>True for periodic</para>
+            <para>False for one-shot</para>
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.SetAutoResetMode(System.Boolean)">
+            <summary>
+            Set the Current Timer Auto Reset Mode (Periodic/Oneshot)
+            <para>True for periodic</para>
+            <para>False for one-shot</para>
+            </summary>
+            <param name="value"></param>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+            <exception cref="T:PrecisionTiming.TimerRunningException">Attempted to configure a timer that was running</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.SetAction(System.Action)">
+            <summary>
+            Set the Action of the <see cref="T:PrecisionTiming.PrecisionTimer"/> before you Start the Timer
+            <para>You could also subscribe to the Event <see cref="F:PrecisionTiming.PrecisionTimer.Tick"/></para>
+            </summary>
+            <param name="TimerTask">The Action</param>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+            <exception cref="T:PrecisionTiming.PeriodicTimerRunningException">Attempted to configure a pediodic timer that was running</exception>
+            <exception cref="T:System.NullReferenceException">TimerTask is null</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.SetInterval(System.Action,System.Int32,System.Boolean,System.Int32,PrecisionTiming.TimerMode,System.Boolean)">
+            <summary>
+            Set the Interval and Tick Event of the <see cref="T:PrecisionTiming.PrecisionTimer"/> and decide if it should start automatically
+            <para>Configures the timer with the default settings unless you change them</para>
+            <para>If you call this with <see href="start = true"/> on a timer that is already running then it will restart, you can check <see cref="M:PrecisionTiming.PrecisionTimer.IsRunning"/> to be sure if you don't want this to happen</para>
+            </summary>
+            <param name="timerTask">The Action</param>
+            <param name="interval">The Interval for the TimerTask in Milliseconds</param>
+            <param name="mode">Timer Mode</param>
+            <param name="resolution">Resolution for Events in milliseconds - 0 is best available on platform - 1 uses less CPU - 2 uses even less CPU etc</param>
+            <param name="start">True if the timer should start automatically with the default settings, false if you are going to configure/start it later</param>
+            <param name="noTick">true if the Tick event should be removed from the Timer Callback</param>
+            <exception cref="T:PrecisionTiming.TimerStartException">Timer failed to start</exception>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+            <exception cref="T:System.NullReferenceException">Timer callback action was not set and start was true</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.Start(System.Int32)">
+            <summary>
+            Start the <see cref="T:PrecisionTiming.PrecisionTimer"/>
+            </summary>
+            <param name="resolutionMs">Resolution for Events in milliseconds - 0 is best available on platform - 1 uses less CPU - 2 uses even less CPU etc</param>
+            <returns></returns>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+            <exception cref="T:PrecisionTiming.TimerStartException">Timer failed to start</exception>
+            <exception cref="T:System.NullReferenceException">Timer callback action was not set</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.Stop">
+            <summary>
+            Stop the <see cref="T:PrecisionTiming.PrecisionTimer"/>
+            </summary>
+            <exception cref="T:System.ObjectDisposedException">Timer was already Disposed</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.Dispose">
+            <summary>
+            <para>DESTROY</para>
+            Release all resources for this <see cref="T:PrecisionTiming.PrecisionTimer"/>
+            </summary>
+            <exception cref="T:System.ObjectDisposedException">Timer was already Diposed</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.Configure(System.Action,System.Int32,System.Boolean,System.Int32,PrecisionTiming.TimerMode)">
+            <inheritdoc cref="M:PrecisionTiming.PrecisionTimer.SetInterval(System.Action,System.Int32,System.Boolean,System.Int32,PrecisionTiming.TimerMode,System.Boolean)"/>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.GetInterval">
+            <inheritdoc cref="M:PrecisionTiming.PrecisionTimer.GetPeriod"/>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimer.SetInterval(System.Int32)">
+            <inheritdoc cref="M:PrecisionTiming.PrecisionTimer.SetPeriod(System.Int32)"/>
+        </member>
+        <member name="T:PrecisionTiming.PrecisionTimerEvent">
+            <summary>
+            Long Running <see cref="T:PrecisionTiming.PrecisionTimerEvent"/> that procs every 1ms forever and can be subscribed to with <see cref="F:PrecisionTiming.PrecisionTimerEvent.Tick"/> += Method();
+            <para>Callback contains only an <see cref="T:System.EventHandler"/></para>
+            <para>See <see cref="M:PrecisionTiming.PrecisionTimerEvent.Stop"/> when you want to stop the long running event</para>
+            </summary>
+        </member>
+        <member name="F:PrecisionTiming.PrecisionTimerEvent.Started">
+            <summary>
+            Occurs when the <see cref="T:PrecisionTiming.PrecisionTimerEvent"/> has started.
+            </summary>
+        </member>
+        <member name="F:PrecisionTiming.PrecisionTimerEvent.Stopped">
+            <summary>
+            Occurs when the <see cref="T:PrecisionTiming.PrecisionTimerEvent"/> has stopped.
+            </summary>
+        </member>
+        <member name="F:PrecisionTiming.PrecisionTimerEvent.Tick">
+            <summary>
+            Occurs when the <see cref="T:PrecisionTiming.PrecisionTimerEvent"/> Ticks, this occurs once every millisecond
+            </summary>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimerEvent.#ctor">
+            <summary>
+            Create a PrecisionTimerEvent and tell the Garbage Collector to leave it alone
+            </summary>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimerEvent.Finalize">
+            <summary>
+            Deconstruct
+            </summary>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimerEvent.IsRunning">
+            <summary>
+            True if the Timer is running
+            Will also be false if no <see cref="T:PrecisionTiming.PrecisionTimerEvent"/> is configured
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimerEvent.GetEventArgs">
+            <summary>
+            Get the Current User supplied EventArgs
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimerEvent.SetEventArgs(System.EventArgs)">
+            <summary>
+            Set the User supplied EventArgs
+            </summary>
+            <param name="value"></param>
+            <exception cref="T:System.ObjectDisposedException">Timer was already disposed</exception>
+            <exception cref="T:PrecisionTiming.LongRunningTimerException">Attempted to configure a <see cref="T:PrecisionTiming.PrecisionTimerEvent"/> that was running</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimerEvent.Start">
+            <summary>
+            Creates a Long Running <see cref="T:PrecisionTiming.PrecisionTimerEvent"/> that procs every 1ms forever and can be subscribed to with <see cref="F:PrecisionTiming.PrecisionTimerEvent.Tick"/> += Method();
+            <para>Callback contains only an <see cref="T:System.EventHandler"/></para>
+            <para>See <see cref="M:PrecisionTiming.PrecisionTimerEvent.Stop"/> when you want to stop the long running event</para>
+            </summary>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimerEvent.Stop">
+            <summary>
+            Stop the Long Running <see cref="T:PrecisionTiming.PrecisionTimerEvent"/>
+            </summary>
+            <exception cref="T:System.ObjectDisposedException">Timer was already Disposed</exception>
+        </member>
+        <member name="M:PrecisionTiming.PrecisionTimerEvent.Dispose">
+            <summary>
+            <para>DESTROY</para>
+            Release all resources for this <see cref="T:PrecisionTiming.PrecisionTimerEvent"/>
+            <para>If you call Dispose when you intend to create a new Timer you will have a bad time..r</para>
+            </summary>
+            <exception cref="T:System.ObjectDisposedException">Timer was already Diposed</exception>
+        </member>
+    </members>
+</doc>
