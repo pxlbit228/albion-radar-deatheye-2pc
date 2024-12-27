@@ -33,7 +33,7 @@ Next guide is for pair of Windows PC (or VM with Windows) and another PC.
 
 1. Install npcap: https://npcap.com/dist/npcap-1.80.exe
 2. Install .NET Framework 4.8 Runtime: https://dotnet.microsoft.com/download/dotnet-framework/net48
-3. Download the latest build from Releases and extract it to any directory
+3. Download the latest build from [Releases](https://github.com/pxlbit228/albion-radar-deatheye-2pc/releases) and extract it to any directory
 4. Download items images from https://drive.google.com/file/d/1Egji6ceOt3eBh6yE9-zxB4OPtoWMYSby/view?usp=sharing and
    extract directory ITEMS (it contains only images) to root directory of the radar.
    Replace all previous files if asked.
@@ -43,7 +43,7 @@ Next guide is for pair of Windows PC (or VM with Windows) and another PC.
    Replace all previous files if asked.
 6. Download the latest version of traffic decryption tool Cryptonite from our Discord server (channel `#cryptonite`) and
    extract all files to any directory.
-7. Find your local IP address ([Video Tutorial](https://youtu.be/goTdaCFog3U))
+7. Find local IP address of this PC (or VM) ([Video Tutorial](https://youtu.be/goTdaCFog3U))
 8. You should see the following files:
     - `Cryptonite.CLI.exe` - main executable, don't run it directly because it need options, see eu.bat for example.
     - `eu.bat` - for Europe
