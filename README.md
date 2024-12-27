@@ -44,12 +44,15 @@ Next guide is for pair of Windows PC (or VM with Windows) and another PC.
 6. Download the latest version of traffic decryption tool Cryptonite from our Discord server (channel `#cryptonite`) and
    extract all files to any directory.
 7. Find local IP address of this PC (or VM) ([Video Tutorial](https://youtu.be/goTdaCFog3U))
+   
+   ⚠️ Will be used in the next steps as `my_local_ip`. This is the IP address of **the 1st PC (or VM)**.
 8. You should see the following files:
     - `Cryptonite.CLI.exe` - main executable, don't run it directly because it need options, see eu.bat for example.
     - `eu.bat` - for Europe
     - `am.bat` - for America
     - `as.bat` - for Asia
-      :warning: Only one can be used at a time.
+    
+   ⚠️ Only one can be used at a time.
 9. Choose file for your server and open it in Notepad, replace `my_local_ip` with your local IP address and save the
    file.
 
