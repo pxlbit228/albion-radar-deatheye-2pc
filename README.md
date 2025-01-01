@@ -34,6 +34,8 @@ Next guide is for pair of Windows PC (or VM with Windows) and another PC.
 1. Install npcap: https://npcap.com/dist/npcap-1.80.exe
 2. Install .NET Framework 4.8 Runtime: https://dotnet.microsoft.com/download/dotnet-framework/net48
 3. Download the latest build from [Releases](https://github.com/pxlbit228/albion-radar-deatheye-2pc/releases) and extract it to any directory
+
+   ⚠️ Download and install [font from current repository](https://github.com/pxlbit228/albion-radar-deatheye-2pc/raw/refs/heads/master/Design/Font/DEATHEYE.ttf) to show icons on the overlay correctly.
 4. Download items images from https://drive.google.com/file/d/1Egji6ceOt3eBh6yE9-zxB4OPtoWMYSby/view?usp=sharing and
    extract directory ITEMS (it contains only images) to root directory of the radar.
    Replace all previous files if asked.
