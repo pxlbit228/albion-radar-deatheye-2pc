@@ -27,6 +27,8 @@ You need two devices:
 
 Next guide is for pair of Windows PC (or VM with Windows) and another PC.
 
+PCs should be in the same network, and if you are going to use VM, make sure that it uses NAT or Bridged network adapter
+
 #### Install some required components (only first time) on 1st PC (or VM)
 
 ### 1st PC (or VM) for radar
@@ -71,9 +73,12 @@ Your PCs should be in the same network.
    ```
    my_local_ip live03-loginserver.ams.albion.zone # for Europe
    my_local_ip live02-loginserver.sg.albion.zone # for Asia
-   my_local_ip loginserver.live.albion.zone # for America (use live01-win-01.dc02.albion.zone if it doesn't work)
+   my_local_ip loginserver.live.albion.zone # for America
    ```
 4. Save the file.
+5. [Optional] Sometimes you need to [flush DNS cache](https://serverfault.com/questions/452268/hosts-file-ignored-how-to-troubleshoot) to make changes work:
+   - Open Command Prompt as Administrator
+   - Run the command `ipconfig /flushdns`
 
 #### Linux
 
