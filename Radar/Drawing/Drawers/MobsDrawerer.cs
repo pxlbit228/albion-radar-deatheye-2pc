@@ -139,15 +139,15 @@ namespace X975.Radar.Drawers
 
                                 if (Convert.ToBoolean(configHandler.config.MistWisps[0]))
                                 {
-                                    if (m.Charge == 0)
+                                    if (m.MobInfo.Rarity != 0)
                                     {
-                                        gfx.DrawIconDot(brushesDictionary._brushes["Black"],
+                                        gfx.DrawIconDot(brushesDictionary._chargesColors[m.MobInfo.Rarity],
                                             brushesDictionary._mobsImages["MIST_PORTAL"], pos,
                                             Convert.ToSingle(configHandler.config.MistWisps[1]));
                                     }
                                     else
                                     {
-                                        gfx.DrawIconDot(brushesDictionary._chargesColors[m.MobInfo.Rarity],
+                                        gfx.DrawIconDot(brushesDictionary._brushes["Black"],
                                             brushesDictionary._mobsImages["MIST_PORTAL"], pos,
                                             Convert.ToSingle(configHandler.config.MistWisps[1]));
                                     }

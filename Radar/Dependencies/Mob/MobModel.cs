@@ -101,7 +101,7 @@ namespace X975.Radar.Dependencies.Mob
                     Tier = e.Tier,
                     Type = ConvertMobType(e),
                     HarvestableType = ConvertHarvestableType(e),
-                    Rarity = 0, // idk what it means
+                    Rarity = ConvertRarity(e),
                     Queue = e.UniqueName.Contains("PORTAL_WISP_DUO") ? "Duo" :
                         e.UniqueName.Contains("PORTAL_WISP") ? "Solo" : null,
                     MobName = ConvertMobName(e)
@@ -176,6 +176,20 @@ namespace X975.Radar.Dependencies.Mob
             // I: ??
 
             return null;
+        }
+        
+        public static int ConvertRarity(MobMetaData e)
+        {
+            if (e.UniqueName.EndsWith("_STANDARD"))
+                return 1;
+            if (e.UniqueName.EndsWith("_UNCOMMON"))
+                return 2;
+            if (e.UniqueName.EndsWith("_RARE"))
+                return 3;
+            if (e.UniqueName.EndsWith("_LEGENDARY"))
+                return 4;
+
+            return 0;
         }
     }
 }
