@@ -20,6 +20,7 @@
         public byte[] NewLootChest { get; set; }
         public byte[] NewMobEvent { get; set; }
         public byte[] NewWispGate { get; set; }
+        public byte[] WispGateOpened { get; set; }
         public byte[] RegenerationHealthChangedEvent { get; set; }
         public byte[] KeySync { get; set; }
     }

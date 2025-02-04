@@ -15,7 +15,10 @@ namespace X975.Radar.Packets.Handlers
 
         protected override Task OnActionAsync(WispGateOpenedEvent value)
         {
-            wispInGateHandler.Remove(value.Id);
+            if (value.isCollected)
+            {
+                wispInGateHandler.Remove(value.Id);
+            }
 
             return Task.CompletedTask;
         }

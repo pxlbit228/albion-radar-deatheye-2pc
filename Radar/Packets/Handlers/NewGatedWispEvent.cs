@@ -14,7 +14,7 @@ namespace X975.Radar.Packets.Handlers
         {
             Id = Convert.ToInt32(parameters[offsets[0]]);
             Position = Additions.fromFArray((float[])parameters[offsets[1]]);
-            isCollected = parameters.ContainsKey(offsets[2]);
+            isCollected = parameters.ContainsKey(offsets[2]) && parameters[offsets[2]].ToString() == "2";
         }
 
         public int Id { get; }

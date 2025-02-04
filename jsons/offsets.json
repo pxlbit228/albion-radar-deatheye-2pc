@@ -16,7 +16,8 @@
 	"NewHarvestableObject": [0, 5, 7, 8, 10, 11],
 	"NewLootChest": [0, 1, 3, 17],
 	"NewMobEvent": [0, 1, 8, 13, 14, 33],
-	"NewWispGate": [0, 1, 4],
+	"NewWispGate": [0, 2, 5],
+	"WispGateOpened": [0, 1],
 	"RegenerationHealthChangedEvent": [0, 4, 2, 3, 4],
 	"KeySync": [0]
 }
