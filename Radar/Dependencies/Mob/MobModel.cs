@@ -133,6 +133,9 @@ namespace X975.Radar.Dependencies.Mob
             if (e.UniqueName.Contains("EVENT"))
                 return "EVENT";
 
+            if (e.UniqueName.Contains("_MOB_MISTS_"))
+                return "MIST_BOSS";
+
             if (e.UniqueName.Contains("_CHAMPION") || e.UniqueName.Contains("_MINIBOSS") || e.UniqueName.Contains("_BOSS"))
                 return "WORLD_PROCKED";
 
