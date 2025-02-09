@@ -136,6 +136,9 @@ namespace X975.Radar.Dependencies.Mob
             if (e.UniqueName.Contains("_MOB_MISTS_"))
                 return "MIST_BOSS";
 
+            if (e.UniqueName.Contains("AVALON_TREASURE_MINION"))
+                return "DRONE";
+
             if (e.UniqueName.Contains("_CHAMPION") || e.UniqueName.Contains("_MINIBOSS") || e.UniqueName.Contains("_BOSS"))
                 return "WORLD_PROCKED";
 
