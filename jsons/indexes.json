@@ -18,9 +18,9 @@
 	"NewDungeonExit": 319,
 	"NewFishingZoneObject": 355,
 	"ChangeFlaggingFinished": 359,
-	"NewLootChest": 388,
-	"MistsPlayerJoinedInfo": 515,
-	"NewWispGate": 526,
-	"WispGateOpened": 527,
-	"KeySync": 594
+	"NewLootChest": 387,
+	"MistsPlayerJoinedInfo": 514,
+	"NewWispGate": 525,
+	"WispGateOpened": 526,
+	"KeySync": 593
 }
