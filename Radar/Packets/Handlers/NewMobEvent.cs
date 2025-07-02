@@ -15,7 +15,7 @@ namespace X975.Radar.Packets.Handlers
         public NewMobEvent(Dictionary<byte, object> parameters) : base(parameters)
         {
             Id = Convert.ToInt32(parameters[offsets[0]]);
-            TypeId = Convert.ToInt32(parameters[offsets[1]]) - 14;
+            TypeId = Convert.ToInt32(parameters[offsets[1]]) - 15;
             Position = Additions.fromFArray((float[])parameters[offsets[2]]);
 
             Health = parameters.ContainsKey(offsets[3]) ? 

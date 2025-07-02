@@ -151,7 +151,7 @@
                                 <TextBlock x:Name="TimerText" Text="00:00:00" Background="#00000000" Cursor="Hand" Foreground="White" VerticalAlignment="Center" Margin="5 0 0 0" FontSize="14" Visibility="Collapsed" MouseLeftButtonDown="ShowTimer"/>
 
                                 <ui:SymbolIcon x:Name="VersionIcon" Symbol="Code24" Cursor="Hand" FontSize="20" Foreground="White" Background="#00000000" Filled="True" Margin="15 0 0 0" MouseLeftButtonDown="ShowVersion"/>
-                                <TextBlock x:Name="VersionText" Text="1.2.20250328" Background="#00000000" Cursor="Hand" Foreground="White" VerticalAlignment="Center" Margin="5 0 0 0" FontSize="14" Visibility="Visible" MouseLeftButtonDown="ShowVersion"/>
+                                <TextBlock x:Name="VersionText" Text="1.3.20250702" Background="#00000000" Cursor="Hand" Foreground="White" VerticalAlignment="Center" Margin="5 0 0 0" FontSize="14" Visibility="Visible" MouseLeftButtonDown="ShowVersion"/>
                             </StackPanel>
                         </StackPanel>
                     </Grid>
